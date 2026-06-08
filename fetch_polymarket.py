@@ -66,9 +66,11 @@ def _parse_market(m, league):
         return None
     if not outcomes or not prices or len(outcomes) != 2 or len(prices) != 2:
         return None
-    # Skip Yes/No style markets — we only want team-vs-team moneylines.
+    # Skip Yes/No style and spread/total markets — only team-vs-team moneylines.
     lo = {str(o).strip().lower() for o in outcomes}
     if lo & {"yes", "no", "over", "under", "draw", "tie"}:
+        return None
+    if any(any(ch.isdigit() for ch in str(o)) for o in outcomes):
         return None
     if m.get("closed") or not m.get("active", True):
         return None

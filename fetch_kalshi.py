@@ -9,13 +9,30 @@ Uses the public (read-only) trade-api v2 endpoints — no API key required.
 Pages through open events and keeps the ones in the "Sports" category that
 look like two-team games.
 """
-import json, sys, time
+import json, re, sys, time
 import urllib.request
 import urllib.parse
 
 BASE = "https://api.elections.kalshi.com/trade-api/v2"
 UA = {"User-Agent": "kalshi-poly-arb-scanner/1.0"}
 SPORTS_CATEGORIES = {"sports"}
+
+# Words that mark a market as a derivative (spread / total / prop / futures),
+# NOT a straight "which team wins this game" moneyline. We only want moneylines.
+NON_MONEYLINE = re.compile(
+    r"\d|over|under|spread|total|inning|run line|runline|margin|"
+    r"series|first 5|f5|\+|-|\bo/u\b|points|goals|assists|mvp|"
+    r"champion|division|pennant|world series|win total|to make|odd|even",
+    re.IGNORECASE,
+)
+
+
+def is_moneyline_side(subtitle: str) -> bool:
+    """True only for a clean team-name subtitle (no numbers/qualifiers)."""
+    s = (subtitle or "").strip()
+    if not s:
+        return False
+    return not NON_MONEYLINE.search(s)
 
 
 def _get(path, params=None, tries=3):
@@ -55,6 +72,9 @@ def _event_to_game(ev):
             continue
         yt = (m.get("yes_sub_title") or "").strip()
         nt = (m.get("no_sub_title") or "").strip()
+        # Only straight game-winner markets — skip spreads, totals, props, futures.
+        if not (is_moneyline_side(yt) and is_moneyline_side(nt)):
+            continue
         ya = _ask(m, "yes")
         na = _ask(m, "no")
         if yt and ya is not None:
@@ -62,7 +82,9 @@ def _event_to_game(ev):
         if nt and na is not None:
             sides.setdefault(nt, {"buy": na})
         game_time = game_time or m.get("close_time") or m.get("expected_expiration_time")
-    if len(sides) < 2:
+    # A real head-to-head game has exactly two outcomes; >2 means a futures/prop
+    # event (e.g. "who wins the division"), which we don't arb here.
+    if len(sides) != 2:
         return None
     return {
         "game_time": game_time,
