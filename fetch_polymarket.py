@@ -35,22 +35,10 @@ def _get(path, params=None, tries=3):
     return None
 
 
-def discover_sports_tag_ids():
-    """Page through /tags and return {tag_id: slug} for sports leagues."""
-    found = {}
-    offset = 0
-    for _ in range(20):  # up to ~10k tags
-        tags = _get("/tags", {"limit": 500, "offset": offset})
-        if not tags:
-            break
-        for t in tags:
-            slug = (t.get("slug") or "").lower()
-            if slug in LEAGUE_SLUGS and t.get("id"):
-                found[str(t["id"])] = slug
-        if len(tags) < 500:
-            break
-        offset += 500
-    return found
+# Per-league slugs queried directly via ?tag_slug=. Daily game moneylines live
+# under these tags alongside season futures (which get filtered out below).
+LEAGUE_QUERY_SLUGS = ["mlb", "nba", "nhl", "nfl", "epl", "soccer", "mls",
+                      "wnba", "ncaaf", "ncaab"]
 
 
 def _parse_market(m, league):
@@ -94,24 +82,19 @@ def _parse_market(m, league):
 
 
 def fetch():
-    tag_ids = discover_sports_tag_ids()
-    if not tag_ids:
-        # Fallback: pull recent open events without tag filtering.
-        tag_ids = {None: "sports"}
     games, seen = [], set()
-    for tag_id, league in tag_ids.items():
+    for league in LEAGUE_QUERY_SLUGS:
         offset = 0
-        for _ in range(10):  # up to ~2000 events per league
+        for _ in range(8):  # up to ~1600 events per league
             params = {"closed": "false", "active": "true", "limit": 200,
-                      "offset": offset, "order": "startDate", "ascending": "true"}
-            if tag_id is not None:
-                params["tag_id"] = tag_id
+                      "offset": offset, "tag_slug": league,
+                      "order": "startDate", "ascending": "false"}
             events = _get("/events", params)
             if not events:
                 break
             for ev in events:
                 for m in ev.get("markets", []) or []:
-                    g = _parse_market(m, league if league != "sports" else None)
+                    g = _parse_market(m, league)
                     if not g:
                         continue
                     if g["ref"] in seen:
