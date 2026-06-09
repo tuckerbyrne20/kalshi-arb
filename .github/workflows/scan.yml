@@ -41,7 +41,7 @@ jobs:
           fi
 
       - name: Email on executable arb
-        if: steps.scan.outputs.has_arb == 'true' && secrets.MAIL_TO != ''
+        if: steps.scan.outputs.has_arb == 'true'
         continue-on-error: true
         uses: dawidd6/action-send-mail@v3
         with:
