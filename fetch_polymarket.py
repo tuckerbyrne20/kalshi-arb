@@ -43,6 +43,17 @@ LEAGUE_QUERY_SLUGS = ["mlb", "nba", "nhl", "nfl", "epl", "soccer", "mls",
 
 def _parse_market(m, league):
     """Turn one gamma market into a game dict, or None if not a 2-way moneyline."""
+    # Polymarket tags each sports market: moneyline / spread / total / nrfi / ...
+    # We only arb the straight game-winner (moneyline) market.
+    smt = m.get("sportsMarketType")
+    if smt and str(smt).lower() != "moneyline":
+        return None
+    # Slug/question as a backstop when the type field is missing.
+    blob = f"{m.get('slug','')} {m.get('question','')}".lower()
+    if any(w in blob for w in ("spread", "total", "over", "under", "handicap",
+                                "runline", "run-line", "innings", "nrfi",
+                                "first-5", "margin", "alt-", "alternate")):
+        return None
     try:
         outcomes = m.get("outcomes")
         prices = m.get("outcomePrices")
