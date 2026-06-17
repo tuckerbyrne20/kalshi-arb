@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-17 13:03 UTC",
-  "generated_ts": "2026-06-17T13:03:09.644865+00:00",
+  "generated_at": "2026-06-17 21:20 UTC",
+  "generated_ts": "2026-06-17T21:20:37.821286+00:00",
   "kpis": {
     "kalshi": 662,
-    "poly": 108,
-    "matches": 75,
+    "poly": 117,
+    "matches": 66,
     "executable": 0
   },
   "matches": [
@@ -49,6 +49,40 @@
       ],
       "league": "sports",
       "k_time": "2026-09-15T20:25:00Z",
+      "p_time": "2026-06-23 22:45:00+00",
+      "same_game_date": false,
+      "k_ref": "KXNFLGAME-26SEP13WASPHI",
+      "p_ref": "mlb-phi-wsh-2026-06-23",
+      "legs": {
+        "PHI": {
+          "buy_on": "poly",
+          "price": 0.5,
+          "k": 0.68,
+          "p": 0.5,
+          "k_team": "Philadelphia",
+          "p_team": "Philadelphia Phillies"
+        },
+        "WSH": {
+          "buy_on": "kalshi",
+          "price": 0.35,
+          "k": 0.35,
+          "p": 0.5,
+          "k_team": "Washington",
+          "p_team": "Washington Nationals"
+        }
+      },
+      "gross_cost": 0.85,
+      "gross_edge": 0.15,
+      "net_cost": 0.885,
+      "net_edge": 0.115
+    },
+    {
+      "teams": [
+        "PHI",
+        "WSH"
+      ],
+      "league": "sports",
+      "k_time": "2026-09-15T20:25:00Z",
       "p_time": "2026-06-22 22:45:00+00",
       "same_game_date": false,
       "k_ref": "KXNFLGAME-26SEP13WASPHI",
@@ -75,40 +109,6 @@
       "gross_edge": 0.15,
       "net_cost": 0.885,
       "net_edge": 0.115
-    },
-    {
-      "teams": [
-        "CHC",
-        "TOR"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-22T18:20:00Z",
-      "p_time": "2026-06-20 18:20:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN191420TORCHC",
-      "p_ref": "mlb-tor-chc-2026-06-20",
-      "legs": {
-        "CHC": {
-          "buy_on": "poly",
-          "price": 0.375,
-          "k": 0.57,
-          "p": 0.375,
-          "k_team": "Chicago C",
-          "p_team": "Chicago Cubs"
-        },
-        "TOR": {
-          "buy_on": "kalshi",
-          "price": 0.5,
-          "k": 0.5,
-          "p": 0.625,
-          "k_team": "Toronto",
-          "p_team": "Toronto Blue Jays"
-        }
-      },
-      "gross_cost": 0.875,
-      "gross_edge": 0.125,
-      "net_cost": 0.9062,
-      "net_edge": 0.0938
     },
     {
       "teams": [
@@ -146,37 +146,71 @@
     },
     {
       "teams": [
-        "ATL",
-        "MIL"
+        "CIN",
+        "NYY"
       ],
       "league": "sports",
-      "k_time": "2026-06-22T23:15:00Z",
-      "p_time": "2026-06-20 20:10:00+00",
+      "k_time": "2026-06-22T23:05:00Z",
+      "p_time": "2026-06-20 17:35:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN191915MILATL",
-      "p_ref": "mlb-mil-atl-2026-06-20",
+      "k_ref": "KXMLBGAME-26JUN191905CINNYY",
+      "p_ref": "mlb-cin-nyy-2026-06-20",
       "legs": {
-        "ATL": {
-          "buy_on": "poly",
-          "price": 0.395,
-          "k": 0.55,
-          "p": 0.395,
-          "k_team": "Atlanta",
-          "p_team": "Atlanta Braves"
-        },
-        "MIL": {
+        "CIN": {
           "buy_on": "kalshi",
-          "price": 0.51,
-          "k": 0.51,
-          "p": 0.605,
-          "k_team": "Milwaukee",
-          "p_team": "Milwaukee Brewers"
+          "price": 0.36,
+          "k": 0.36,
+          "p": 0.465,
+          "k_team": "Cincinnati",
+          "p_team": "Cincinnati Reds"
+        },
+        "NYY": {
+          "buy_on": "poly",
+          "price": 0.535,
+          "k": 0.67,
+          "p": 0.535,
+          "k_team": "New York Y",
+          "p_team": "New York Yankees"
         }
       },
-      "gross_cost": 0.905,
-      "gross_edge": 0.095,
-      "net_cost": 0.9368,
-      "net_edge": 0.0632
+      "gross_cost": 0.895,
+      "gross_edge": 0.105,
+      "net_cost": 0.9311,
+      "net_edge": 0.0689
+    },
+    {
+      "teams": [
+        "CLE",
+        "HOU"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-23T00:10:00Z",
+      "p_time": "2026-06-20 23:15:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN192010CLEHOU",
+      "p_ref": "mlb-cle-hou-2026-06-20",
+      "legs": {
+        "CLE": {
+          "buy_on": "kalshi",
+          "price": 0.48,
+          "k": 0.48,
+          "p": 0.56,
+          "k_team": "Cleveland",
+          "p_team": "Cleveland Guardians"
+        },
+        "HOU": {
+          "buy_on": "poly",
+          "price": 0.44,
+          "k": 0.54,
+          "p": 0.44,
+          "k_team": "Houston",
+          "p_team": "Houston Astros"
+        }
+      },
+      "gross_cost": 0.92,
+      "gross_edge": 0.08,
+      "net_cost": 0.9532,
+      "net_edge": 0.0468
     },
     {
       "teams": [
@@ -248,37 +282,37 @@
     },
     {
       "teams": [
-        "CLE",
-        "HOU"
+        "TB",
+        "WSH"
       ],
       "league": "sports",
-      "k_time": "2026-06-23T00:10:00Z",
-      "p_time": "2026-06-20 23:15:00+00",
+      "k_time": "2026-06-22T23:10:00Z",
+      "p_time": "2026-06-20 20:10:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN192010CLEHOU",
-      "p_ref": "mlb-cle-hou-2026-06-20",
+      "k_ref": "KXMLBGAME-26JUN191910WSHTB",
+      "p_ref": "mlb-wsh-tb-2026-06-20",
       "legs": {
-        "CLE": {
+        "TB": {
           "buy_on": "kalshi",
-          "price": 0.48,
-          "k": 0.48,
-          "p": 0.555,
-          "k_team": "Cleveland",
-          "p_team": "Cleveland Guardians"
+          "price": 0.53,
+          "k": 0.53,
+          "p": 0.605,
+          "k_team": "Tampa Bay",
+          "p_team": "Tampa Bay Rays"
         },
-        "HOU": {
+        "WSH": {
           "buy_on": "poly",
-          "price": 0.445,
-          "k": 0.54,
-          "p": 0.445,
-          "k_team": "Houston",
-          "p_team": "Houston Astros"
+          "price": 0.395,
+          "k": 0.47,
+          "p": 0.395,
+          "k_team": "Washington",
+          "p_team": "Washington Nationals"
         }
       },
       "gross_cost": 0.925,
       "gross_edge": 0.075,
-      "net_cost": 0.9583,
-      "net_edge": 0.0417
+      "net_cost": 0.9568,
+      "net_edge": 0.0432
     },
     {
       "teams": [
@@ -313,40 +347,6 @@
       "gross_edge": 0.075,
       "net_cost": 0.9565,
       "net_edge": 0.0435
-    },
-    {
-      "teams": [
-        "TB",
-        "WSH"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-22T23:10:00Z",
-      "p_time": "2026-06-20 20:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN191910WSHTB",
-      "p_ref": "mlb-wsh-tb-2026-06-20",
-      "legs": {
-        "TB": {
-          "buy_on": "kalshi",
-          "price": 0.53,
-          "k": 0.53,
-          "p": 0.6,
-          "k_team": "Tampa Bay",
-          "p_team": "Tampa Bay Rays"
-        },
-        "WSH": {
-          "buy_on": "poly",
-          "price": 0.4,
-          "k": 0.47,
-          "p": 0.4,
-          "k_team": "Washington",
-          "p_team": "Washington Nationals"
-        }
-      },
-      "gross_cost": 0.93,
-      "gross_edge": 0.07,
-      "net_cost": 0.962,
-      "net_edge": 0.038
     },
     {
       "teams": [
@@ -418,6 +418,40 @@
     },
     {
       "teams": [
+        "MIA",
+        "SF"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-22T23:10:00Z",
+      "p_time": "2026-06-20 20:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN191910SFMIA",
+      "p_ref": "mlb-sf-mia-2026-06-20",
+      "legs": {
+        "MIA": {
+          "buy_on": "poly",
+          "price": 0.47,
+          "k": 0.6,
+          "p": 0.47,
+          "k_team": "Miami",
+          "p_team": "Miami Marlins"
+        },
+        "SF": {
+          "buy_on": "kalshi",
+          "price": 0.47,
+          "k": 0.47,
+          "p": 0.53,
+          "k_team": "San Francisco",
+          "p_team": "San Francisco Giants"
+        }
+      },
+      "gross_cost": 0.94,
+      "gross_edge": 0.06,
+      "net_cost": 0.9741,
+      "net_edge": 0.0259
+    },
+    {
+      "teams": [
         "ATH",
         "LAA"
       ],
@@ -452,37 +486,37 @@
     },
     {
       "teams": [
-        "AZ",
-        "MIN"
+        "CWS",
+        "DET"
       ],
       "league": "sports",
-      "k_time": "2026-06-23T01:45:00Z",
-      "p_time": "2026-06-20 01:45:00+00",
+      "k_time": "2026-06-22T22:40:00Z",
+      "p_time": "2026-06-19 22:40:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN192145MINAZ",
-      "p_ref": "mlb-min-ari-2026-06-19",
+      "k_ref": "KXMLBGAME-26JUN191840CWSDET",
+      "p_ref": "mlb-cws-det-2026-06-19",
       "legs": {
-        "AZ": {
+        "CWS": {
           "buy_on": "poly",
-          "price": 0.515,
-          "k": 0.55,
-          "p": 0.515,
-          "k_team": "Arizona",
-          "p_team": "Arizona Diamondbacks"
+          "price": 0.335,
+          "k": 0.39,
+          "p": 0.335,
+          "k_team": "Chicago WS",
+          "p_team": "Chicago White Sox"
         },
-        "MIN": {
+        "DET": {
           "buy_on": "kalshi",
-          "price": 0.44,
-          "k": 0.44,
-          "p": 0.485,
-          "k_team": "Minnesota",
-          "p_team": "Minnesota Twins"
+          "price": 0.62,
+          "k": 0.62,
+          "p": 0.665,
+          "k_team": "Detroit",
+          "p_team": "Detroit Tigers"
         }
       },
       "gross_cost": 0.955,
       "gross_edge": 0.045,
-      "net_cost": 0.9905,
-      "net_edge": 0.0095
+      "net_cost": 0.985,
+      "net_edge": 0.015
     },
     {
       "teams": [
@@ -495,40 +529,6 @@
       "same_game_date": false,
       "k_ref": "KXMLBGAME-26JUN182140LAAATH",
       "p_ref": "mlb-laa-oak-2026-06-20",
-      "legs": {
-        "ATH": {
-          "buy_on": "poly",
-          "price": 0.505,
-          "k": 0.58,
-          "p": 0.505,
-          "k_team": "A's",
-          "p_team": "Athletics"
-        },
-        "LAA": {
-          "buy_on": "kalshi",
-          "price": 0.45,
-          "k": 0.45,
-          "p": 0.495,
-          "k_team": "Los Angeles A",
-          "p_team": "Los Angeles Angels"
-        }
-      },
-      "gross_cost": 0.955,
-      "gross_edge": 0.045,
-      "net_cost": 0.9902,
-      "net_edge": 0.0098
-    },
-    {
-      "teams": [
-        "ATH",
-        "LAA"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-22T01:40:00Z",
-      "p_time": "2026-06-20 01:40:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN182140LAAATH",
-      "p_ref": "mlb-laa-oak-2026-06-19",
       "legs": {
         "ATH": {
           "buy_on": "poly",
@@ -588,6 +588,74 @@
     },
     {
       "teams": [
+        "MIN",
+        "TEX"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-21T18:35:00Z",
+      "p_time": "2026-06-18 18:35:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN181435MINTEX",
+      "p_ref": "mlb-min-tex-2026-06-18",
+      "legs": {
+        "MIN": {
+          "buy_on": "kalshi",
+          "price": 0.48,
+          "k": 0.48,
+          "p": 0.52,
+          "k_team": "Minnesota",
+          "p_team": "Minnesota Twins"
+        },
+        "TEX": {
+          "buy_on": "poly",
+          "price": 0.48,
+          "k": 0.54,
+          "p": 0.48,
+          "k_team": "Texas",
+          "p_team": "Texas Rangers"
+        }
+      },
+      "gross_cost": 0.96,
+      "gross_edge": 0.04,
+      "net_cost": 0.9944,
+      "net_edge": 0.0056
+    },
+    {
+      "teams": [
+        "CWS",
+        "NYY"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-20T23:05:00Z",
+      "p_time": "2026-06-18 23:05:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN171905CWSNYY",
+      "p_ref": "mlb-cws-nyy-2026-06-18",
+      "legs": {
+        "CWS": {
+          "buy_on": "kalshi",
+          "price": 0.38,
+          "k": 0.38,
+          "p": 0.415,
+          "k_team": "Chicago WS",
+          "p_team": "Chicago White Sox"
+        },
+        "NYY": {
+          "buy_on": "poly",
+          "price": 0.585,
+          "k": 0.63,
+          "p": 0.585,
+          "k_team": "New York Y",
+          "p_team": "New York Yankees"
+        }
+      },
+      "gross_cost": 0.965,
+      "gross_edge": 0.035,
+      "net_cost": 1.0025,
+      "net_edge": -0.0025
+    },
+    {
+      "teams": [
         "ATL",
         "SF"
       ],
@@ -597,74 +665,6 @@
       "same_game_date": false,
       "k_ref": "KXMLBGAME-26JUN161915SFATL",
       "p_ref": "mlb-sf-atl-2026-06-18",
-      "legs": {
-        "ATL": {
-          "buy_on": "kalshi",
-          "price": 0.53,
-          "k": 0.53,
-          "p": 0.57,
-          "k_team": "Atlanta",
-          "p_team": "Atlanta Braves"
-        },
-        "SF": {
-          "buy_on": "poly",
-          "price": 0.43,
-          "k": 0.49,
-          "p": 0.43,
-          "k_team": "San Francisco",
-          "p_team": "San Francisco Giants"
-        }
-      },
-      "gross_cost": 0.96,
-      "gross_edge": 0.04,
-      "net_cost": 0.9929,
-      "net_edge": 0.0071
-    },
-    {
-      "teams": [
-        "TB",
-        "WSH"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-22T23:10:00Z",
-      "p_time": "2026-06-19 23:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN191910WSHTB",
-      "p_ref": "mlb-wsh-tb-2026-06-19",
-      "legs": {
-        "TB": {
-          "buy_on": "kalshi",
-          "price": 0.53,
-          "k": 0.53,
-          "p": 0.565,
-          "k_team": "Tampa Bay",
-          "p_team": "Tampa Bay Rays"
-        },
-        "WSH": {
-          "buy_on": "poly",
-          "price": 0.435,
-          "k": 0.47,
-          "p": 0.435,
-          "k_team": "Washington",
-          "p_team": "Washington Nationals"
-        }
-      },
-      "gross_cost": 0.965,
-      "gross_edge": 0.035,
-      "net_cost": 0.998,
-      "net_edge": 0.002
-    },
-    {
-      "teams": [
-        "ATL",
-        "SF"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-19T23:15:00Z",
-      "p_time": "2026-06-17 23:15:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN161915SFATL",
-      "p_ref": "mlb-sf-atl-2026-06-17",
       "legs": {
         "ATL": {
           "buy_on": "kalshi",
@@ -724,108 +724,6 @@
     },
     {
       "teams": [
-        "CLE",
-        "HOU"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-23T00:10:00Z",
-      "p_time": "2026-06-20 00:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN192010CLEHOU",
-      "p_ref": "mlb-cle-hou-2026-06-19",
-      "legs": {
-        "CLE": {
-          "buy_on": "kalshi",
-          "price": 0.48,
-          "k": 0.48,
-          "p": 0.505,
-          "k_team": "Cleveland",
-          "p_team": "Cleveland Guardians"
-        },
-        "HOU": {
-          "buy_on": "poly",
-          "price": 0.495,
-          "k": 0.54,
-          "p": 0.495,
-          "k_team": "Houston",
-          "p_team": "Houston Astros"
-        }
-      },
-      "gross_cost": 0.975,
-      "gross_edge": 0.025,
-      "net_cost": 1.0098,
-      "net_edge": -0.0098
-    },
-    {
-      "teams": [
-        "BAL",
-        "SEA"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-21T20:10:00Z",
-      "p_time": "2026-06-18 01:40:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN181610BALSEA",
-      "p_ref": "mlb-bal-sea-2026-06-17",
-      "legs": {
-        "BAL": {
-          "buy_on": "kalshi",
-          "price": 0.41,
-          "k": 0.41,
-          "p": 0.435,
-          "k_team": "Baltimore",
-          "p_team": "Baltimore Orioles"
-        },
-        "SEA": {
-          "buy_on": "poly",
-          "price": 0.565,
-          "k": 0.6,
-          "p": 0.565,
-          "k_team": "Seattle",
-          "p_team": "Seattle Mariners"
-        }
-      },
-      "gross_cost": 0.975,
-      "gross_edge": 0.025,
-      "net_cost": 1.0119,
-      "net_edge": -0.0119
-    },
-    {
-      "teams": [
-        "CLE",
-        "MIL"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-20T23:40:00Z",
-      "p_time": "2026-06-18 18:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN171940CLEMIL",
-      "p_ref": "mlb-cle-mil-2026-06-18",
-      "legs": {
-        "CLE": {
-          "buy_on": "poly",
-          "price": 0.435,
-          "k": 0.47,
-          "p": 0.435,
-          "k_team": "Cleveland",
-          "p_team": "Cleveland Guardians"
-        },
-        "MIL": {
-          "buy_on": "kalshi",
-          "price": 0.54,
-          "k": 0.54,
-          "p": 0.565,
-          "k_team": "Milwaukee",
-          "p_team": "Milwaukee Brewers"
-        }
-      },
-      "gross_cost": 0.975,
-      "gross_edge": 0.025,
-      "net_cost": 1.008,
-      "net_edge": -0.008
-    },
-    {
-      "teams": [
         "KC",
         "STL"
       ],
@@ -840,57 +738,23 @@
           "buy_on": "kalshi",
           "price": 0.49,
           "k": 0.49,
-          "p": 0.51,
+          "p": 0.515,
           "k_team": "Kansas City",
           "p_team": "Kansas City Royals"
         },
         "STL": {
           "buy_on": "poly",
-          "price": 0.49,
+          "price": 0.485,
           "k": 0.54,
-          "p": 0.49,
+          "p": 0.485,
           "k_team": "St. Louis",
           "p_team": "St. Louis Cardinals"
         }
       },
-      "gross_cost": 0.98,
-      "gross_edge": 0.02,
-      "net_cost": 1.0147,
-      "net_edge": -0.0147
-    },
-    {
-      "teams": [
-        "SD",
-        "TEX"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-23T00:05:00Z",
-      "p_time": "2026-06-20 20:05:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN192005SDTEX",
-      "p_ref": "mlb-sd-tex-2026-06-20",
-      "legs": {
-        "SD": {
-          "buy_on": "kalshi",
-          "price": 0.44,
-          "k": 0.44,
-          "p": 0.46,
-          "k_team": "San Diego",
-          "p_team": "San Diego Padres"
-        },
-        "TEX": {
-          "buy_on": "poly",
-          "price": 0.54,
-          "k": 0.61,
-          "p": 0.54,
-          "k_team": "Texas",
-          "p_team": "Texas Rangers"
-        }
-      },
-      "gross_cost": 0.98,
-      "gross_edge": 0.02,
-      "net_cost": 1.0162,
-      "net_edge": -0.0162
+      "gross_cost": 0.975,
+      "gross_edge": 0.025,
+      "net_cost": 1.0095,
+      "net_edge": -0.0095
     },
     {
       "teams": [
@@ -908,23 +772,159 @@
           "buy_on": "kalshi",
           "price": 0.39,
           "k": 0.39,
-          "p": 0.41,
+          "p": 0.415,
           "k_team": "Chicago WS",
           "p_team": "Chicago White Sox"
         },
         "DET": {
           "buy_on": "poly",
-          "price": 0.59,
+          "price": 0.585,
           "k": 0.62,
-          "p": 0.59,
+          "p": 0.585,
           "k_team": "Detroit",
           "p_team": "Detroit Tigers"
         }
       },
+      "gross_cost": 0.975,
+      "gross_edge": 0.025,
+      "net_cost": 1.0125,
+      "net_edge": -0.0125
+    },
+    {
+      "teams": [
+        "ATH",
+        "LAA"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-22T01:40:00Z",
+      "p_time": "2026-06-20 01:40:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN182140LAAATH",
+      "p_ref": "mlb-laa-oak-2026-06-19",
+      "legs": {
+        "ATH": {
+          "buy_on": "poly",
+          "price": 0.525,
+          "k": 0.58,
+          "p": 0.525,
+          "k_team": "A's",
+          "p_team": "Athletics"
+        },
+        "LAA": {
+          "buy_on": "kalshi",
+          "price": 0.45,
+          "k": 0.45,
+          "p": 0.475,
+          "k_team": "Los Angeles A",
+          "p_team": "Los Angeles Angels"
+        }
+      },
+      "gross_cost": 0.975,
+      "gross_edge": 0.025,
+      "net_cost": 1.0108,
+      "net_edge": -0.0108
+    },
+    {
+      "teams": [
+        "CWS",
+        "NYY"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-21T23:05:00Z",
+      "p_time": "2026-06-18 23:05:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN181905CWSNYY",
+      "p_ref": "mlb-cws-nyy-2026-06-18",
+      "legs": {
+        "CWS": {
+          "buy_on": "kalshi",
+          "price": 0.39,
+          "k": 0.39,
+          "p": 0.415,
+          "k_team": "Chicago WS",
+          "p_team": "Chicago White Sox"
+        },
+        "NYY": {
+          "buy_on": "poly",
+          "price": 0.585,
+          "k": 0.62,
+          "p": 0.585,
+          "k_team": "New York Y",
+          "p_team": "New York Yankees"
+        }
+      },
+      "gross_cost": 0.975,
+      "gross_edge": 0.025,
+      "net_cost": 1.0125,
+      "net_edge": -0.0125
+    },
+    {
+      "teams": [
+        "BAL",
+        "LAD"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-23T02:10:00Z",
+      "p_time": "2026-06-21 02:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN192210BALLAD",
+      "p_ref": "mlb-bal-lad-2026-06-20",
+      "legs": {
+        "BAL": {
+          "buy_on": "poly",
+          "price": 0.34,
+          "k": 0.41,
+          "p": 0.34,
+          "k_team": "Baltimore",
+          "p_team": "Baltimore Orioles"
+        },
+        "LAD": {
+          "buy_on": "kalshi",
+          "price": 0.64,
+          "k": 0.64,
+          "p": 0.66,
+          "k_team": "Los Angeles D",
+          "p_team": "Los Angeles Dodgers"
+        }
+      },
       "gross_cost": 0.98,
       "gross_edge": 0.02,
-      "net_cost": 1.0177,
-      "net_edge": -0.0177
+      "net_cost": 1.0102,
+      "net_edge": -0.0102
+    },
+    {
+      "teams": [
+        "CLE",
+        "HOU"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-23T00:10:00Z",
+      "p_time": "2026-06-20 00:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN192010CLEHOU",
+      "p_ref": "mlb-cle-hou-2026-06-19",
+      "legs": {
+        "CLE": {
+          "buy_on": "kalshi",
+          "price": 0.48,
+          "k": 0.48,
+          "p": 0.5,
+          "k_team": "Cleveland",
+          "p_team": "Cleveland Guardians"
+        },
+        "HOU": {
+          "buy_on": "poly",
+          "price": 0.5,
+          "k": 0.54,
+          "p": 0.5,
+          "k_team": "Houston",
+          "p_team": "Houston Astros"
+        }
+      },
+      "gross_cost": 0.98,
+      "gross_edge": 0.02,
+      "net_cost": 1.015,
+      "net_edge": -0.015
     },
     {
       "teams": [
@@ -962,6 +962,74 @@
     },
     {
       "teams": [
+        "AZ",
+        "MIN"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-23T01:45:00Z",
+      "p_time": "2026-06-20 01:45:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN192145MINAZ",
+      "p_ref": "mlb-min-ari-2026-06-19",
+      "legs": {
+        "AZ": {
+          "buy_on": "poly",
+          "price": 0.545,
+          "k": 0.55,
+          "p": 0.545,
+          "k_team": "Arizona",
+          "p_team": "Arizona Diamondbacks"
+        },
+        "MIN": {
+          "buy_on": "kalshi",
+          "price": 0.44,
+          "k": 0.44,
+          "p": 0.455,
+          "k_team": "Minnesota",
+          "p_team": "Minnesota Twins"
+        }
+      },
+      "gross_cost": 0.985,
+      "gross_edge": 0.015,
+      "net_cost": 1.0213,
+      "net_edge": -0.0213
+    },
+    {
+      "teams": [
+        "TB",
+        "WSH"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-22T23:10:00Z",
+      "p_time": "2026-06-19 23:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN191910WSHTB",
+      "p_ref": "mlb-wsh-tb-2026-06-19",
+      "legs": {
+        "TB": {
+          "buy_on": "kalshi",
+          "price": 0.53,
+          "k": 0.53,
+          "p": 0.545,
+          "k_team": "Tampa Bay",
+          "p_team": "Tampa Bay Rays"
+        },
+        "WSH": {
+          "buy_on": "poly",
+          "price": 0.455,
+          "k": 0.47,
+          "p": 0.455,
+          "k_team": "Washington",
+          "p_team": "Washington Nationals"
+        }
+      },
+      "gross_cost": 0.985,
+      "gross_edge": 0.015,
+      "net_cost": 1.0187,
+      "net_edge": -0.0187
+    },
+    {
+      "teams": [
         "KC",
         "STL"
       ],
@@ -996,69 +1064,103 @@
     },
     {
       "teams": [
+        "PORTL",
+        "SEA"
+      ],
+      "league": "sports",
+      "k_time": "2026-07-02T02:00:00Z",
+      "p_time": "2026-06-18 02:00:00+00",
+      "same_game_date": false,
+      "k_ref": "KXWNBAGAME-26JUN17SEAPDX",
+      "p_ref": "wnba-sea-por-2026-06-17",
+      "legs": {
+        "PORTL": {
+          "buy_on": "kalshi",
+          "price": 0.6,
+          "k": 0.6,
+          "p": 0.615,
+          "k_team": "Portland",
+          "p_team": "PortlandFire"
+        },
+        "SEA": {
+          "buy_on": "poly",
+          "price": 0.385,
+          "k": 0.41,
+          "p": 0.385,
+          "k_team": "Seattle",
+          "p_team": "Seattle Storm"
+        }
+      },
+      "gross_cost": 0.985,
+      "gross_edge": 0.015,
+      "net_cost": 1.0165,
+      "net_edge": -0.0165
+    },
+    {
+      "teams": [
+        "CLE",
+        "MIL"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-20T23:40:00Z",
+      "p_time": "2026-06-18 18:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN171940CLEMIL",
+      "p_ref": "mlb-cle-mil-2026-06-18",
+      "legs": {
+        "CLE": {
+          "buy_on": "poly",
+          "price": 0.445,
+          "k": 0.47,
+          "p": 0.445,
+          "k_team": "Cleveland",
+          "p_team": "Cleveland Guardians"
+        },
+        "MIL": {
+          "buy_on": "kalshi",
+          "price": 0.54,
+          "k": 0.54,
+          "p": 0.555,
+          "k_team": "Milwaukee",
+          "p_team": "Milwaukee Brewers"
+        }
+      },
+      "gross_cost": 0.985,
+      "gross_edge": 0.015,
+      "net_cost": 1.0183,
+      "net_edge": -0.0183
+    },
+    {
+      "teams": [
         "BOS",
         "TOR"
       ],
       "league": "sports",
-      "k_time": "2026-06-21T17:35:00Z",
+      "k_time": "2026-06-20T22:45:00Z",
       "p_time": "2026-06-18 17:35:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN181335TORBOS",
+      "k_ref": "KXMLBGAME-26JUN171845TORBOS",
       "p_ref": "mlb-tor-bos-2026-06-18",
       "legs": {
         "BOS": {
-          "buy_on": "kalshi",
-          "price": 0.51,
-          "k": 0.51,
-          "p": 0.525,
+          "buy_on": "poly",
+          "price": 0.515,
+          "k": 0.55,
+          "p": 0.515,
           "k_team": "Boston",
           "p_team": "Boston Red Sox"
         },
         "TOR": {
-          "buy_on": "poly",
-          "price": 0.475,
-          "k": 0.48,
-          "p": 0.475,
+          "buy_on": "kalshi",
+          "price": 0.47,
+          "k": 0.47,
+          "p": 0.485,
           "k_team": "Toronto",
           "p_team": "Toronto Blue Jays"
         }
       },
       "gross_cost": 0.985,
       "gross_edge": 0.015,
-      "net_cost": 1.0192,
-      "net_edge": -0.0192
-    },
-    {
-      "teams": [
-        "BAL",
-        "LAD"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-23T02:10:00Z",
-      "p_time": "2026-06-21 02:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN192210BALLAD",
-      "p_ref": "mlb-bal-lad-2026-06-20",
-      "legs": {
-        "BAL": {
-          "buy_on": "poly",
-          "price": 0.35,
-          "k": 0.41,
-          "p": 0.35,
-          "k_team": "Baltimore",
-          "p_team": "Baltimore Orioles"
-        },
-        "LAD": {
-          "buy_on": "kalshi",
-          "price": 0.64,
-          "k": 0.64,
-          "p": 0.65,
-          "k_team": "Los Angeles D",
-          "p_team": "Los Angeles Dodgers"
-        }
-      },
-      "gross_cost": 0.99,
-      "gross_edge": 0.01,
       "net_cost": 1.0205,
       "net_edge": -0.0205
     },
@@ -1095,74 +1197,6 @@
       "gross_edge": 0.01,
       "net_cost": 1.0229,
       "net_edge": -0.0229
-    },
-    {
-      "teams": [
-        "COL",
-        "PIT"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-23T00:40:00Z",
-      "p_time": "2026-06-21 01:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN192040PITCOL",
-      "p_ref": "mlb-pit-col-2026-06-20",
-      "legs": {
-        "COL": {
-          "buy_on": "kalshi",
-          "price": 0.43,
-          "k": 0.43,
-          "p": 0.44,
-          "k_team": "Colorado",
-          "p_team": "Colorado Rockies"
-        },
-        "PIT": {
-          "buy_on": "poly",
-          "price": 0.56,
-          "k": 0.57,
-          "p": 0.56,
-          "k_team": "Pittsburgh",
-          "p_team": "Pittsburgh Pirates"
-        }
-      },
-      "gross_cost": 0.99,
-      "gross_edge": 0.01,
-      "net_cost": 1.0268,
-      "net_edge": -0.0268
-    },
-    {
-      "teams": [
-        "MIA",
-        "SF"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-22T23:10:00Z",
-      "p_time": "2026-06-20 20:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN191910SFMIA",
-      "p_ref": "mlb-sf-mia-2026-06-20",
-      "legs": {
-        "MIA": {
-          "buy_on": "kalshi",
-          "price": 0.6,
-          "k": 0.6,
-          "p": 0.61,
-          "k_team": "Miami",
-          "p_team": "Miami Marlins"
-        },
-        "SF": {
-          "buy_on": "poly",
-          "price": 0.39,
-          "k": 0.47,
-          "p": 0.39,
-          "k_team": "San Francisco",
-          "p_team": "San Francisco Giants"
-        }
-      },
-      "gross_cost": 0.99,
-      "gross_edge": 0.01,
-      "net_cost": 1.0217,
-      "net_edge": -0.0217
     },
     {
       "teams": [
@@ -1268,71 +1302,71 @@
     },
     {
       "teams": [
-        "CWS",
-        "DET"
+        "BOS",
+        "TOR"
       ],
       "league": "sports",
-      "k_time": "2026-06-22T22:40:00Z",
-      "p_time": "2026-06-19 22:40:00+00",
+      "k_time": "2026-06-21T17:35:00Z",
+      "p_time": "2026-06-18 17:35:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN191840CWSDET",
-      "p_ref": "mlb-cws-det-2026-06-19",
+      "k_ref": "KXMLBGAME-26JUN181335TORBOS",
+      "p_ref": "mlb-tor-bos-2026-06-18",
       "legs": {
-        "CWS": {
-          "buy_on": "poly",
-          "price": 0.375,
-          "k": 0.39,
-          "p": 0.375,
-          "k_team": "Chicago WS",
-          "p_team": "Chicago White Sox"
-        },
-        "DET": {
+        "BOS": {
           "buy_on": "kalshi",
-          "price": 0.62,
-          "k": 0.62,
-          "p": 0.625,
-          "k_team": "Detroit",
-          "p_team": "Detroit Tigers"
+          "price": 0.51,
+          "k": 0.51,
+          "p": 0.515,
+          "k_team": "Boston",
+          "p_team": "Boston Red Sox"
+        },
+        "TOR": {
+          "buy_on": "kalshi",
+          "price": 0.48,
+          "k": 0.48,
+          "p": 0.485,
+          "k_team": "Toronto",
+          "p_team": "Toronto Blue Jays"
         }
       },
-      "gross_cost": 0.995,
-      "gross_edge": 0.005,
-      "net_cost": 1.0262,
-      "net_edge": -0.0262
+      "gross_cost": 0.99,
+      "gross_edge": 0.01,
+      "net_cost": 1.0295,
+      "net_edge": -0.0295
     },
     {
       "teams": [
-        "CWS",
-        "NYY"
+        "SD",
+        "TEX"
       ],
       "league": "sports",
-      "k_time": "2026-06-21T23:05:00Z",
-      "p_time": "2026-06-18 23:05:00+00",
+      "k_time": "2026-06-23T00:05:00Z",
+      "p_time": "2026-06-20 20:05:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN181905CWSNYY",
-      "p_ref": "mlb-cws-nyy-2026-06-18",
+      "k_ref": "KXMLBGAME-26JUN192005SDTEX",
+      "p_ref": "mlb-sd-tex-2026-06-20",
       "legs": {
-        "CWS": {
-          "buy_on": "poly",
-          "price": 0.375,
-          "k": 0.39,
-          "p": 0.375,
-          "k_team": "Chicago WS",
-          "p_team": "Chicago White Sox"
-        },
-        "NYY": {
+        "SD": {
           "buy_on": "kalshi",
-          "price": 0.62,
-          "k": 0.62,
-          "p": 0.625,
-          "k_team": "New York Y",
-          "p_team": "New York Yankees"
+          "price": 0.44,
+          "k": 0.44,
+          "p": 0.445,
+          "k_team": "San Diego",
+          "p_team": "San Diego Padres"
+        },
+        "TEX": {
+          "buy_on": "poly",
+          "price": 0.555,
+          "k": 0.61,
+          "p": 0.555,
+          "k_team": "Texas",
+          "p_team": "Texas Rangers"
         }
       },
       "gross_cost": 0.995,
       "gross_edge": 0.005,
-      "net_cost": 1.0262,
-      "net_edge": -0.0262
+      "net_cost": 1.03,
+      "net_edge": -0.03
     },
     {
       "teams": [
@@ -1370,105 +1404,37 @@
     },
     {
       "teams": [
-        "BAL",
-        "SEA"
+        "CLE",
+        "MIL"
       ],
       "league": "sports",
-      "k_time": "2026-06-21T20:10:00Z",
-      "p_time": "2026-06-18 20:10:00+00",
+      "k_time": "2026-06-21T18:10:00Z",
+      "p_time": "2026-06-18 18:10:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN181610BALSEA",
-      "p_ref": "mlb-bal-sea-2026-06-18",
+      "k_ref": "KXMLBGAME-26JUN181410CLEMIL",
+      "p_ref": "mlb-cle-mil-2026-06-18",
       "legs": {
-        "BAL": {
+        "CLE": {
           "buy_on": "kalshi",
-          "price": 0.41,
-          "k": 0.41,
-          "p": 0.415,
-          "k_team": "Baltimore",
-          "p_team": "Baltimore Orioles"
-        },
-        "SEA": {
-          "buy_on": "poly",
-          "price": 0.585,
-          "k": 0.6,
-          "p": 0.585,
-          "k_team": "Seattle",
-          "p_team": "Seattle Mariners"
-        }
-      },
-      "gross_cost": 0.995,
-      "gross_edge": 0.005,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "PORTL",
-        "SEA"
-      ],
-      "league": "sports",
-      "k_time": "2026-07-02T02:00:00Z",
-      "p_time": "2026-06-18 02:00:00+00",
-      "same_game_date": false,
-      "k_ref": "KXWNBAGAME-26JUN17SEAPDX",
-      "p_ref": "wnba-sea-por-2026-06-17",
-      "legs": {
-        "PORTL": {
-          "buy_on": "kalshi",
-          "price": 0.6,
-          "k": 0.6,
-          "p": 0.605,
-          "k_team": "Portland",
-          "p_team": "PortlandFire"
-        },
-        "SEA": {
-          "buy_on": "poly",
-          "price": 0.395,
-          "k": 0.41,
-          "p": 0.395,
-          "k_team": "Seattle",
-          "p_team": "Seattle Storm"
-        }
-      },
-      "gross_cost": 0.995,
-      "gross_edge": 0.005,
-      "net_cost": 1.0268,
-      "net_edge": -0.0268
-    },
-    {
-      "teams": [
-        "BAL",
-        "SEA"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-21T01:40:00Z",
-      "p_time": "2026-06-18 20:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN172140BALSEA",
-      "p_ref": "mlb-bal-sea-2026-06-18",
-      "legs": {
-        "BAL": {
-          "buy_on": "poly",
-          "price": 0.415,
+          "price": 0.44,
           "k": 0.44,
-          "p": 0.415,
-          "k_team": "Baltimore",
-          "p_team": "Baltimore Orioles"
+          "p": 0.445,
+          "k_team": "Cleveland",
+          "p_team": "Cleveland Guardians"
         },
-        "SEA": {
-          "buy_on": "kalshi",
-          "price": 0.58,
+        "MIL": {
+          "buy_on": "poly",
+          "price": 0.555,
           "k": 0.58,
-          "p": 0.585,
-          "k_team": "Seattle",
-          "p_team": "Seattle Mariners"
+          "p": 0.555,
+          "k_team": "Milwaukee",
+          "p_team": "Milwaukee Brewers"
         }
       },
       "gross_cost": 0.995,
       "gross_edge": 0.005,
-      "net_cost": 1.0274,
-      "net_edge": -0.0274
+      "net_cost": 1.03,
+      "net_edge": -0.03
     },
     {
       "teams": [
@@ -1477,10 +1443,10 @@
       ],
       "league": "sports",
       "k_time": "2026-06-20T23:15:00Z",
-      "p_time": "2026-06-17 23:15:00+00",
+      "p_time": "2026-06-18 23:15:00+00",
       "same_game_date": false,
       "k_ref": "KXMLBGAME-26JUN171915SFATL",
-      "p_ref": "mlb-sf-atl-2026-06-17",
+      "p_ref": "mlb-sf-atl-2026-06-18",
       "legs": {
         "ATL": {
           "buy_on": "poly",
@@ -1503,40 +1469,6 @@
       "gross_edge": 0.005,
       "net_cost": 1.0299,
       "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "BOS",
-        "TOR"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-20T22:45:00Z",
-      "p_time": "2026-06-18 17:35:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN171845TORBOS",
-      "p_ref": "mlb-tor-bos-2026-06-18",
-      "legs": {
-        "BOS": {
-          "buy_on": "poly",
-          "price": 0.525,
-          "k": 0.55,
-          "p": 0.525,
-          "k_team": "Boston",
-          "p_team": "Boston Red Sox"
-        },
-        "TOR": {
-          "buy_on": "kalshi",
-          "price": 0.47,
-          "k": 0.47,
-          "p": 0.475,
-          "k_team": "Toronto",
-          "p_team": "Toronto Blue Jays"
-        }
-      },
-      "gross_cost": 0.995,
-      "gross_edge": 0.005,
-      "net_cost": 1.03,
-      "net_edge": -0.03
     },
     {
       "teams": [
@@ -1654,25 +1586,25 @@
       "legs": {
         "BAL": {
           "buy_on": "poly",
-          "price": 0.39,
+          "price": 0.385,
           "k": 0.41,
-          "p": 0.39,
+          "p": 0.385,
           "k_team": "Baltimore",
           "p_team": "Baltimore Orioles"
         },
         "LAD": {
           "buy_on": "poly",
-          "price": 0.61,
+          "price": 0.615,
           "k": 0.64,
-          "p": 0.61,
+          "p": 0.615,
           "k_team": "Los Angeles D",
           "p_team": "Los Angeles Dodgers"
         }
       },
       "gross_cost": 1.0,
       "gross_edge": 0.0,
-      "net_cost": 1.03,
-      "net_edge": -0.03
+      "net_cost": 1.0299,
+      "net_edge": -0.0299
     },
     {
       "teams": [
@@ -1756,17 +1688,17 @@
       "legs": {
         "ATH": {
           "buy_on": "poly",
-          "price": 0.505,
+          "price": 0.525,
           "k": 0.56,
-          "p": 0.505,
+          "p": 0.525,
           "k_team": "A's",
           "p_team": "Athletics"
         },
         "LAA": {
           "buy_on": "poly",
-          "price": 0.495,
+          "price": 0.475,
           "k": 0.5,
-          "p": 0.495,
+          "p": 0.475,
           "k_team": "Los Angeles A",
           "p_team": "Los Angeles Angels"
         }
@@ -1787,6 +1719,40 @@
       "same_game_date": false,
       "k_ref": "KXMLBGAME-26JUN192040PITCOL",
       "p_ref": "mlb-pit-col-2026-06-21",
+      "legs": {
+        "COL": {
+          "buy_on": "kalshi",
+          "price": 0.43,
+          "k": 0.43,
+          "p": 0.43,
+          "k_team": "Colorado",
+          "p_team": "Colorado Rockies"
+        },
+        "PIT": {
+          "buy_on": "kalshi",
+          "price": 0.57,
+          "k": 0.57,
+          "p": 0.57,
+          "k_team": "Pittsburgh",
+          "p_team": "Pittsburgh Pirates"
+        }
+      },
+      "gross_cost": 1.0,
+      "gross_edge": 0.0,
+      "net_cost": 1.03,
+      "net_edge": -0.03
+    },
+    {
+      "teams": [
+        "COL",
+        "PIT"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-23T00:40:00Z",
+      "p_time": "2026-06-21 01:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN192040PITCOL",
+      "p_ref": "mlb-pit-col-2026-06-20",
       "legs": {
         "COL": {
           "buy_on": "kalshi",
@@ -1960,19 +1926,53 @@
       "legs": {
         "SD": {
           "buy_on": "poly",
-          "price": 0.42,
+          "price": 0.425,
           "k": 0.44,
-          "p": 0.42,
+          "p": 0.425,
           "k_team": "San Diego",
           "p_team": "San Diego Padres"
         },
         "TEX": {
           "buy_on": "poly",
-          "price": 0.58,
+          "price": 0.575,
           "k": 0.61,
-          "p": 0.58,
+          "p": 0.575,
           "k_team": "Texas",
           "p_team": "Texas Rangers"
+        }
+      },
+      "gross_cost": 1.0,
+      "gross_edge": 0.0,
+      "net_cost": 1.0299,
+      "net_edge": -0.0299
+    },
+    {
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-22T23:15:00Z",
+      "p_time": "2026-06-20 20:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN191915MILATL",
+      "p_ref": "mlb-mil-atl-2026-06-20",
+      "legs": {
+        "ATL": {
+          "buy_on": "poly",
+          "price": 0.49,
+          "k": 0.55,
+          "p": 0.49,
+          "k_team": "Atlanta",
+          "p_team": "Atlanta Braves"
+        },
+        "MIL": {
+          "buy_on": "kalshi",
+          "price": 0.51,
+          "k": 0.51,
+          "p": 0.51,
+          "k_team": "Milwaukee",
+          "p_team": "Milwaukee Brewers"
         }
       },
       "gross_cost": 1.0,
@@ -2028,17 +2028,17 @@
       "legs": {
         "MIA": {
           "buy_on": "poly",
-          "price": 0.57,
+          "price": 0.555,
           "k": 0.6,
-          "p": 0.57,
+          "p": 0.555,
           "k_team": "Miami",
           "p_team": "Miami Marlins"
         },
         "SF": {
           "buy_on": "poly",
-          "price": 0.43,
+          "price": 0.445,
           "k": 0.47,
-          "p": 0.43,
+          "p": 0.445,
           "k_team": "San Francisco",
           "p_team": "San Francisco Giants"
         }
@@ -2055,40 +2055,6 @@
       ],
       "league": "sports",
       "k_time": "2026-06-22T23:05:00Z",
-      "p_time": "2026-06-20 17:35:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN191905CINNYY",
-      "p_ref": "mlb-cin-nyy-2026-06-20",
-      "legs": {
-        "CIN": {
-          "buy_on": "poly",
-          "price": 0.33,
-          "k": 0.36,
-          "p": 0.33,
-          "k_team": "Cincinnati",
-          "p_team": "Cincinnati Reds"
-        },
-        "NYY": {
-          "buy_on": "kalshi",
-          "price": 0.67,
-          "k": 0.67,
-          "p": 0.67,
-          "k_team": "New York Y",
-          "p_team": "New York Yankees"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "CIN",
-        "NYY"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-22T23:05:00Z",
       "p_time": "2026-06-19 23:05:00+00",
       "same_game_date": false,
       "k_ref": "KXMLBGAME-26JUN191905CINNYY",
@@ -2096,17 +2062,17 @@
       "legs": {
         "CIN": {
           "buy_on": "poly",
-          "price": 0.35,
+          "price": 0.34,
           "k": 0.36,
-          "p": 0.35,
+          "p": 0.34,
           "k_team": "Cincinnati",
           "p_team": "Cincinnati Reds"
         },
         "NYY": {
           "buy_on": "poly",
-          "price": 0.65,
+          "price": 0.66,
           "k": 0.67,
-          "p": 0.65,
+          "p": 0.66,
           "k_team": "New York Y",
           "p_team": "New York Yankees"
         }
@@ -2123,6 +2089,40 @@
       ],
       "league": "sports",
       "k_time": "2026-06-22T18:20:00Z",
+      "p_time": "2026-06-20 18:20:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26JUN191420TORCHC",
+      "p_ref": "mlb-tor-chc-2026-06-20",
+      "legs": {
+        "CHC": {
+          "buy_on": "poly",
+          "price": 0.535,
+          "k": 0.57,
+          "p": 0.535,
+          "k_team": "Chicago C",
+          "p_team": "Chicago Cubs"
+        },
+        "TOR": {
+          "buy_on": "poly",
+          "price": 0.465,
+          "k": 0.5,
+          "p": 0.465,
+          "k_team": "Toronto",
+          "p_team": "Toronto Blue Jays"
+        }
+      },
+      "gross_cost": 1.0,
+      "gross_edge": 0.0,
+      "net_cost": 1.0301,
+      "net_edge": -0.0301
+    },
+    {
+      "teams": [
+        "CHC",
+        "TOR"
+      ],
+      "league": "sports",
+      "k_time": "2026-06-22T18:20:00Z",
       "p_time": "2026-06-19 18:20:00+00",
       "same_game_date": false,
       "k_ref": "KXMLBGAME-26JUN191420TORCHC",
@@ -2130,25 +2130,25 @@
       "legs": {
         "CHC": {
           "buy_on": "poly",
-          "price": 0.565,
+          "price": 0.55,
           "k": 0.57,
-          "p": 0.565,
+          "p": 0.55,
           "k_team": "Chicago C",
           "p_team": "Chicago Cubs"
         },
         "TOR": {
           "buy_on": "poly",
-          "price": 0.435,
+          "price": 0.45,
           "k": 0.5,
-          "p": 0.435,
+          "p": 0.45,
           "k_team": "Toronto",
           "p_team": "Toronto Blue Jays"
         }
       },
       "gross_cost": 1.0,
       "gross_edge": 0.0,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
+      "net_cost": 1.03,
+      "net_edge": -0.03
     },
     {
       "teams": [
@@ -2198,17 +2198,17 @@
       "legs": {
         "KC": {
           "buy_on": "poly",
-          "price": 0.51,
+          "price": 0.515,
           "k": 0.52,
-          "p": 0.51,
+          "p": 0.515,
           "k_team": "Kansas City",
           "p_team": "Kansas City Royals"
         },
         "STL": {
           "buy_on": "poly",
-          "price": 0.49,
+          "price": 0.485,
           "k": 0.5,
-          "p": 0.49,
+          "p": 0.485,
           "k_team": "St. Louis",
           "p_team": "St. Louis Cardinals"
         }
@@ -2231,40 +2231,6 @@
       "p_ref": "mlb-sf-atl-2026-06-18",
       "legs": {
         "ATL": {
-          "buy_on": "kalshi",
-          "price": 0.57,
-          "k": 0.57,
-          "p": 0.57,
-          "k_team": "Atlanta",
-          "p_team": "Atlanta Braves"
-        },
-        "SF": {
-          "buy_on": "poly",
-          "price": 0.43,
-          "k": 0.44,
-          "p": 0.43,
-          "k_team": "San Francisco",
-          "p_team": "San Francisco Giants"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.03,
-      "net_edge": -0.03
-    },
-    {
-      "teams": [
-        "ATL",
-        "SF"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-21T23:15:00Z",
-      "p_time": "2026-06-17 23:15:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN181915SFATL",
-      "p_ref": "mlb-sf-atl-2026-06-17",
-      "legs": {
-        "ATL": {
           "buy_on": "poly",
           "price": 0.565,
           "k": 0.57,
@@ -2285,282 +2251,12 @@
       "gross_edge": 0.0,
       "net_cost": 1.0299,
       "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "MIN",
-        "TEX"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-21T18:35:00Z",
-      "p_time": "2026-06-18 18:35:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN181435MINTEX",
-      "p_ref": "mlb-min-tex-2026-06-18",
-      "legs": {
-        "MIN": {
-          "buy_on": "poly",
-          "price": 0.475,
-          "k": 0.48,
-          "p": 0.475,
-          "k_team": "Minnesota",
-          "p_team": "Minnesota Twins"
-        },
-        "TEX": {
-          "buy_on": "poly",
-          "price": 0.525,
-          "k": 0.54,
-          "p": 0.525,
-          "k_team": "Texas",
-          "p_team": "Texas Rangers"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.03,
-      "net_edge": -0.03
-    },
-    {
-      "teams": [
-        "CLE",
-        "MIL"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-21T18:10:00Z",
-      "p_time": "2026-06-18 18:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN181410CLEMIL",
-      "p_ref": "mlb-cle-mil-2026-06-18",
-      "legs": {
-        "CLE": {
-          "buy_on": "poly",
-          "price": 0.435,
-          "k": 0.44,
-          "p": 0.435,
-          "k_team": "Cleveland",
-          "p_team": "Cleveland Guardians"
-        },
-        "MIL": {
-          "buy_on": "poly",
-          "price": 0.565,
-          "k": 0.58,
-          "p": 0.565,
-          "k_team": "Milwaukee",
-          "p_team": "Milwaukee Brewers"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "BAL",
-        "SEA"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-21T01:40:00Z",
-      "p_time": "2026-06-18 01:40:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN172140BALSEA",
-      "p_ref": "mlb-bal-sea-2026-06-17",
-      "legs": {
-        "BAL": {
-          "buy_on": "poly",
-          "price": 0.435,
-          "k": 0.44,
-          "p": 0.435,
-          "k_team": "Baltimore",
-          "p_team": "Baltimore Orioles"
-        },
-        "SEA": {
-          "buy_on": "poly",
-          "price": 0.565,
-          "k": 0.58,
-          "p": 0.565,
-          "k_team": "Seattle",
-          "p_team": "Seattle Mariners"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "ATL",
-        "SF"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-20T23:15:00Z",
-      "p_time": "2026-06-18 23:15:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN171915SFATL",
-      "p_ref": "mlb-sf-atl-2026-06-18",
-      "legs": {
-        "ATL": {
-          "buy_on": "poly",
-          "price": 0.57,
-          "k": 0.58,
-          "p": 0.57,
-          "k_team": "Atlanta",
-          "p_team": "Atlanta Braves"
-        },
-        "SF": {
-          "buy_on": "kalshi",
-          "price": 0.43,
-          "k": 0.43,
-          "p": 0.43,
-          "k_team": "San Francisco",
-          "p_team": "San Francisco Giants"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.03,
-      "net_edge": -0.03
-    },
-    {
-      "teams": [
-        "CWS",
-        "NYY"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-20T23:05:00Z",
-      "p_time": "2026-06-18 23:05:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN171905CWSNYY",
-      "p_ref": "mlb-cws-nyy-2026-06-18",
-      "legs": {
-        "CWS": {
-          "buy_on": "poly",
-          "price": 0.375,
-          "k": 0.38,
-          "p": 0.375,
-          "k_team": "Chicago WS",
-          "p_team": "Chicago White Sox"
-        },
-        "NYY": {
-          "buy_on": "poly",
-          "price": 0.625,
-          "k": 0.63,
-          "p": 0.625,
-          "k_team": "New York Y",
-          "p_team": "New York Yankees"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "AZ",
-        "LAA"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-20T19:40:00Z",
-      "p_time": "2026-06-17 19:40:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN171540LAAAZ",
-      "p_ref": "mlb-laa-ari-2026-06-17",
-      "legs": {
-        "AZ": {
-          "buy_on": "poly",
-          "price": 0.605,
-          "k": 0.62,
-          "p": 0.605,
-          "k_team": "Arizona",
-          "p_team": "Arizona Diamondbacks"
-        },
-        "LAA": {
-          "buy_on": "poly",
-          "price": 0.395,
-          "k": 0.4,
-          "p": 0.395,
-          "k_team": "Los Angeles A",
-          "p_team": "Los Angeles Angels"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
-    },
-    {
-      "teams": [
-        "KC",
-        "WSH"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-20T17:05:00Z",
-      "p_time": "2026-06-17 17:05:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN171305KCWSH",
-      "p_ref": "mlb-kc-wsh-2026-06-17",
-      "legs": {
-        "KC": {
-          "buy_on": "poly",
-          "price": 0.445,
-          "k": 0.45,
-          "p": 0.445,
-          "k_team": "Kansas City",
-          "p_team": "Kansas City Royals"
-        },
-        "WSH": {
-          "buy_on": "poly",
-          "price": 0.555,
-          "k": 0.56,
-          "p": 0.555,
-          "k_team": "Washington",
-          "p_team": "Washington Nationals"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.03,
-      "net_edge": -0.03
-    },
-    {
-      "teams": [
-        "CIN",
-        "NYM"
-      ],
-      "league": "sports",
-      "k_time": "2026-06-20T16:40:00Z",
-      "p_time": "2026-06-17 16:40:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26JUN171240NYMCIN",
-      "p_ref": "mlb-nym-cin-2026-06-17",
-      "legs": {
-        "CIN": {
-          "buy_on": "poly",
-          "price": 0.455,
-          "k": 0.46,
-          "p": 0.455,
-          "k_team": "Cincinnati",
-          "p_team": "Cincinnati Reds"
-        },
-        "NYM": {
-          "buy_on": "poly",
-          "price": 0.545,
-          "k": 0.55,
-          "p": 0.545,
-          "k_team": "New York M",
-          "p_team": "New York Mets"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.03,
-      "net_edge": -0.03
     }
   ],
   "executable": [],
-  "errors": [],
+  "errors": [
+    "kalshi: used cached/sample data"
+  ],
   "raw_kalshi": [
     {
       "game_time": "2028-01-01T04:59:00Z",
@@ -11314,6 +11010,201 @@
   ],
   "raw_poly": [
     {
+      "game_time": "2026-06-23 23:10:00+00",
+      "league": "mlb",
+      "ref": "mlb-mil-cin-2026-06-23",
+      "sides": {
+        "Milwaukee Brewers": {
+          "buy": 0.5
+        },
+        "Cincinnati Reds": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 23:45:00+00",
+      "league": "mlb",
+      "ref": "mlb-ari-stl-2026-06-23",
+      "sides": {
+        "Arizona Diamondbacks": {
+          "buy": 0.5
+        },
+        "St. Louis Cardinals": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 22:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-sea-pit-2026-06-23",
+      "sides": {
+        "Seattle Mariners": {
+          "buy": 0.5
+        },
+        "Pittsburgh Pirates": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 23:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-lad-min-2026-06-23",
+      "sides": {
+        "Los Angeles Dodgers": {
+          "buy": 0.5
+        },
+        "Minnesota Twins": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-24 01:38:00+00",
+      "league": "mlb",
+      "ref": "mlb-bal-laa-2026-06-23",
+      "sides": {
+        "Baltimore Orioles": {
+          "buy": 0.47
+        },
+        "Los Angeles Angels": {
+          "buy": 0.53
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 22:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-nyy-det-2026-06-23",
+      "sides": {
+        "New York Yankees": {
+          "buy": 0.5
+        },
+        "Detroit Tigers": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 23:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-cle-cws-2026-06-23",
+      "sides": {
+        "Cleveland Guardians": {
+          "buy": 0.5
+        },
+        "Chicago White Sox": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 22:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-kc-tb-2026-06-23",
+      "sides": {
+        "Kansas City Royals": {
+          "buy": 0.485
+        },
+        "Tampa Bay Rays": {
+          "buy": 0.515
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 22:45:00+00",
+      "league": "mlb",
+      "ref": "mlb-phi-wsh-2026-06-23",
+      "sides": {
+        "Philadelphia Phillies": {
+          "buy": 0.5
+        },
+        "Washington Nationals": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 22:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-tex-mia-2026-06-23",
+      "sides": {
+        "Texas Rangers": {
+          "buy": 0.5
+        },
+        "Miami Marlins": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 23:10:00+00",
+      "league": "mlb",
+      "ref": "mlb-chc-nym-2026-06-23",
+      "sides": {
+        "Chicago Cubs": {
+          "buy": 0.485
+        },
+        "New York Mets": {
+          "buy": 0.515
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-23 20:07:00+00",
+      "league": "mlb",
+      "ref": "mlb-hou-tor-2026-06-23",
+      "sides": {
+        "Houston Astros": {
+          "buy": 0.5
+        },
+        "Toronto Blue Jays": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-24 01:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-atl-sd-2026-06-23",
+      "sides": {
+        "Atlanta Braves": {
+          "buy": 0.5
+        },
+        "San Diego Padres": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-24 01:45:00+00",
+      "league": "mlb",
+      "ref": "mlb-oak-sf-2026-06-23",
+      "sides": {
+        "Athletics": {
+          "buy": 0.5
+        },
+        "San Francisco Giants": {
+          "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-06-24 00:40:00+00",
+      "league": "mlb",
+      "ref": "mlb-bos-col-2026-06-23",
+      "sides": {
+        "Boston Red Sox": {
+          "buy": 0.485
+        },
+        "Colorado Rockies": {
+          "buy": 0.515
+        }
+      }
+    },
+    {
       "game_time": "2026-06-22 23:10:00+00",
       "league": "mlb",
       "ref": "mlb-mil-cin-2026-06-22",
@@ -11683,10 +11574,10 @@
       "ref": "mlb-wsh-tb-2026-06-20",
       "sides": {
         "Washington Nationals": {
-          "buy": 0.4
+          "buy": 0.395
         },
         "Tampa Bay Rays": {
-          "buy": 0.6
+          "buy": 0.605
         }
       }
     },
@@ -11696,10 +11587,10 @@
       "ref": "mlb-pit-col-2026-06-20",
       "sides": {
         "Pittsburgh Pirates": {
-          "buy": 0.56
+          "buy": 0.57
         },
         "Colorado Rockies": {
-          "buy": 0.44
+          "buy": 0.43
         }
       }
     },
@@ -11709,10 +11600,10 @@
       "ref": "mlb-cin-nyy-2026-06-20",
       "sides": {
         "Cincinnati Reds": {
-          "buy": 0.33
+          "buy": 0.465
         },
         "New York Yankees": {
-          "buy": 0.67
+          "buy": 0.535
         }
       }
     },
@@ -11748,10 +11639,10 @@
       "ref": "mlb-cle-hou-2026-06-20",
       "sides": {
         "Cleveland Guardians": {
-          "buy": 0.555
+          "buy": 0.56
         },
         "Houston Astros": {
-          "buy": 0.445
+          "buy": 0.44
         }
       }
     },
@@ -11761,10 +11652,10 @@
       "ref": "mlb-cws-det-2026-06-20",
       "sides": {
         "Chicago White Sox": {
-          "buy": 0.41
+          "buy": 0.415
         },
         "Detroit Tigers": {
-          "buy": 0.59
+          "buy": 0.585
         }
       }
     },
@@ -11774,10 +11665,10 @@
       "ref": "mlb-bal-lad-2026-06-20",
       "sides": {
         "Baltimore Orioles": {
-          "buy": 0.35
+          "buy": 0.34
         },
         "Los Angeles Dodgers": {
-          "buy": 0.65
+          "buy": 0.66
         }
       }
     },
@@ -11813,10 +11704,10 @@
       "ref": "mlb-sf-mia-2026-06-20",
       "sides": {
         "San Francisco Giants": {
-          "buy": 0.39
+          "buy": 0.53
         },
         "Miami Marlins": {
-          "buy": 0.61
+          "buy": 0.47
         }
       }
     },
@@ -11826,10 +11717,10 @@
       "ref": "mlb-mil-atl-2026-06-20",
       "sides": {
         "Milwaukee Brewers": {
-          "buy": 0.605
+          "buy": 0.51
         },
         "Atlanta Braves": {
-          "buy": 0.395
+          "buy": 0.49
         }
       }
     },
@@ -11839,10 +11730,10 @@
       "ref": "mlb-sd-tex-2026-06-20",
       "sides": {
         "San Diego Padres": {
-          "buy": 0.46
+          "buy": 0.445
         },
         "Texas Rangers": {
-          "buy": 0.54
+          "buy": 0.555
         }
       }
     },
@@ -11852,10 +11743,10 @@
       "ref": "mlb-tor-chc-2026-06-20",
       "sides": {
         "Toronto Blue Jays": {
-          "buy": 0.625
+          "buy": 0.465
         },
         "Chicago Cubs": {
-          "buy": 0.375
+          "buy": 0.535
         }
       }
     },
@@ -11878,10 +11769,10 @@
       "ref": "mlb-laa-oak-2026-06-19",
       "sides": {
         "Los Angeles Angels": {
-          "buy": 0.495
+          "buy": 0.475
         },
         "Athletics": {
-          "buy": 0.505
+          "buy": 0.525
         }
       }
     },
@@ -11904,10 +11795,10 @@
       "ref": "mlb-sf-mia-2026-06-19",
       "sides": {
         "San Francisco Giants": {
-          "buy": 0.43
+          "buy": 0.445
         },
         "Miami Marlins": {
-          "buy": 0.57
+          "buy": 0.555
         }
       }
     },
@@ -11930,10 +11821,10 @@
       "ref": "mlb-min-ari-2026-06-19",
       "sides": {
         "Minnesota Twins": {
-          "buy": 0.485
+          "buy": 0.455
         },
         "Arizona Diamondbacks": {
-          "buy": 0.515
+          "buy": 0.545
         }
       }
     },
@@ -11956,10 +11847,10 @@
       "ref": "mlb-sd-tex-2026-06-19",
       "sides": {
         "San Diego Padres": {
-          "buy": 0.42
+          "buy": 0.425
         },
         "Texas Rangers": {
-          "buy": 0.58
+          "buy": 0.575
         }
       }
     },
@@ -11969,10 +11860,10 @@
       "ref": "mlb-cle-hou-2026-06-19",
       "sides": {
         "Cleveland Guardians": {
-          "buy": 0.505
+          "buy": 0.5
         },
         "Houston Astros": {
-          "buy": 0.495
+          "buy": 0.5
         }
       }
     },
@@ -11982,10 +11873,10 @@
       "ref": "mlb-cin-nyy-2026-06-19",
       "sides": {
         "Cincinnati Reds": {
-          "buy": 0.35
+          "buy": 0.34
         },
         "New York Yankees": {
-          "buy": 0.65
+          "buy": 0.66
         }
       }
     },
@@ -11995,10 +11886,10 @@
       "ref": "mlb-cws-det-2026-06-19",
       "sides": {
         "Chicago White Sox": {
-          "buy": 0.375
+          "buy": 0.335
         },
         "Detroit Tigers": {
-          "buy": 0.625
+          "buy": 0.665
         }
       }
     },
@@ -12008,10 +11899,10 @@
       "ref": "mlb-tor-chc-2026-06-19",
       "sides": {
         "Toronto Blue Jays": {
-          "buy": 0.435
+          "buy": 0.45
         },
         "Chicago Cubs": {
-          "buy": 0.565
+          "buy": 0.55
         }
       }
     },
@@ -12021,10 +11912,10 @@
       "ref": "mlb-wsh-tb-2026-06-19",
       "sides": {
         "Washington Nationals": {
-          "buy": 0.435
+          "buy": 0.455
         },
         "Tampa Bay Rays": {
-          "buy": 0.565
+          "buy": 0.545
         }
       }
     },
@@ -12034,10 +11925,10 @@
       "ref": "mlb-bal-lad-2026-06-19",
       "sides": {
         "Baltimore Orioles": {
-          "buy": 0.39
+          "buy": 0.385
         },
         "Los Angeles Dodgers": {
-          "buy": 0.61
+          "buy": 0.615
         }
       }
     },
@@ -12047,10 +11938,10 @@
       "ref": "mlb-min-tex-2026-06-18",
       "sides": {
         "Minnesota Twins": {
-          "buy": 0.475
+          "buy": 0.52
         },
         "Texas Rangers": {
-          "buy": 0.525
+          "buy": 0.48
         }
       }
     },
@@ -12060,10 +11951,10 @@
       "ref": "mlb-tor-bos-2026-06-18",
       "sides": {
         "Toronto Blue Jays": {
-          "buy": 0.475
+          "buy": 0.485
         },
         "Boston Red Sox": {
-          "buy": 0.525
+          "buy": 0.515
         }
       }
     },
@@ -12073,10 +11964,10 @@
       "ref": "mlb-cle-mil-2026-06-18",
       "sides": {
         "Cleveland Guardians": {
-          "buy": 0.435
+          "buy": 0.445
         },
         "Milwaukee Brewers": {
-          "buy": 0.565
+          "buy": 0.555
         }
       }
     },
@@ -12099,10 +11990,10 @@
       "ref": "mlb-stl-kc-2026-06-18",
       "sides": {
         "St. Louis Cardinals": {
-          "buy": 0.49
+          "buy": 0.485
         },
         "Kansas City Royals": {
-          "buy": 0.51
+          "buy": 0.515
         }
       }
     },
@@ -12112,10 +12003,10 @@
       "ref": "mlb-sf-atl-2026-06-18",
       "sides": {
         "San Francisco Giants": {
-          "buy": 0.43
+          "buy": 0.435
         },
         "Atlanta Braves": {
-          "buy": 0.57
+          "buy": 0.565
         }
       }
     },
@@ -12138,88 +12029,10 @@
       "ref": "mlb-cws-nyy-2026-06-18",
       "sides": {
         "Chicago White Sox": {
-          "buy": 0.375
-        },
-        "New York Yankees": {
-          "buy": 0.625
-        }
-      }
-    },
-    {
-      "game_time": "2026-06-18 20:10:00+00",
-      "league": "mlb",
-      "ref": "mlb-bal-sea-2026-06-18",
-      "sides": {
-        "Baltimore Orioles": {
           "buy": 0.415
         },
-        "Seattle Mariners": {
+        "New York Yankees": {
           "buy": 0.585
-        }
-      }
-    },
-    {
-      "game_time": "2026-06-17 16:40:00+00",
-      "league": "mlb",
-      "ref": "mlb-nym-cin-2026-06-17",
-      "sides": {
-        "New York Mets": {
-          "buy": 0.545
-        },
-        "Cincinnati Reds": {
-          "buy": 0.455
-        }
-      }
-    },
-    {
-      "game_time": "2026-06-17 23:15:00+00",
-      "league": "mlb",
-      "ref": "mlb-sf-atl-2026-06-17",
-      "sides": {
-        "San Francisco Giants": {
-          "buy": 0.435
-        },
-        "Atlanta Braves": {
-          "buy": 0.565
-        }
-      }
-    },
-    {
-      "game_time": "2026-06-17 17:05:00+00",
-      "league": "mlb",
-      "ref": "mlb-kc-wsh-2026-06-17",
-      "sides": {
-        "Kansas City Royals": {
-          "buy": 0.445
-        },
-        "Washington Nationals": {
-          "buy": 0.555
-        }
-      }
-    },
-    {
-      "game_time": "2026-06-17 19:40:00+00",
-      "league": "mlb",
-      "ref": "mlb-laa-ari-2026-06-17",
-      "sides": {
-        "Los Angeles Angels": {
-          "buy": 0.395
-        },
-        "Arizona Diamondbacks": {
-          "buy": 0.605
-        }
-      }
-    },
-    {
-      "game_time": "2026-06-18 01:40:00+00",
-      "league": "mlb",
-      "ref": "mlb-bal-sea-2026-06-17",
-      "sides": {
-        "Baltimore Orioles": {
-          "buy": 0.435
-        },
-        "Seattle Mariners": {
-          "buy": 0.565
         }
       }
     },
@@ -12229,10 +12042,10 @@
       "ref": "wnba-nyl-gsv-2026-06-28",
       "sides": {
         "New York Liberty": {
-          "buy": 0.515
+          "buy": 0.495
         },
         "Golden State Valkyries": {
-          "buy": 0.485
+          "buy": 0.505
         }
       }
     },
@@ -12255,10 +12068,10 @@
       "ref": "wnba-por-wsh-2026-06-28",
       "sides": {
         "PortlandFire": {
-          "buy": 0.52
+          "buy": 0.5
         },
         "Washington Mystics": {
-          "buy": 0.48
+          "buy": 0.5
         }
       }
     },
@@ -12320,10 +12133,10 @@
       "ref": "wnba-atl-gsv-2026-06-26",
       "sides": {
         "Atlanta Dream": {
-          "buy": 0.51
+          "buy": 0.5
         },
         "Golden State Valkyries": {
-          "buy": 0.49
+          "buy": 0.5
         }
       }
     },
@@ -12346,10 +12159,10 @@
       "ref": "wnba-wsh-conn-2026-06-26",
       "sides": {
         "Washington Mystics": {
-          "buy": 0.5
+          "buy": 0.51
         },
         "Connecticut Sun": {
-          "buy": 0.5
+          "buy": 0.49
         }
       }
     },
@@ -12359,10 +12172,10 @@
       "ref": "wnba-la-tor-2026-06-25",
       "sides": {
         "Los Angeles Sparks": {
-          "buy": 0.51
+          "buy": 0.5
         },
         "Toronto Tempo": {
-          "buy": 0.49
+          "buy": 0.5
         }
       }
     },
@@ -12372,10 +12185,10 @@
       "ref": "wnba-nyl-sea-2026-06-25",
       "sides": {
         "New York Liberty": {
-          "buy": 0.49
+          "buy": 0.495
         },
         "Seattle Storm": {
-          "buy": 0.51
+          "buy": 0.505
         }
       }
     },
@@ -12385,10 +12198,10 @@
       "ref": "wnba-dal-las-2026-06-25",
       "sides": {
         "Dallas Wings": {
-          "buy": 0.5
+          "buy": 0.495
         },
         "Las Vegas Aces": {
-          "buy": 0.5
+          "buy": 0.505
         }
       }
     },
@@ -12398,10 +12211,10 @@
       "ref": "wnba-por-chi-2026-06-24",
       "sides": {
         "PortlandFire": {
-          "buy": 0.495
+          "buy": 0.48
         },
         "Chicago Sky": {
-          "buy": 0.505
+          "buy": 0.52
         }
       }
     },
@@ -12450,10 +12263,10 @@
       "ref": "wnba-nyl-las-2026-06-23",
       "sides": {
         "New York Liberty": {
-          "buy": 0.475
+          "buy": 0.51
         },
         "Las Vegas Aces": {
-          "buy": 0.525
+          "buy": 0.49
         }
       }
     },
@@ -12463,10 +12276,10 @@
       "ref": "wnba-chi-conn-2026-06-22",
       "sides": {
         "Chicago Sky": {
-          "buy": 0.485
+          "buy": 0.48
         },
         "Connecticut Sun": {
-          "buy": 0.515
+          "buy": 0.52
         }
       }
     },
@@ -12489,10 +12302,10 @@
       "ref": "wnba-tor-atl-2026-06-22",
       "sides": {
         "Toronto Tempo": {
-          "buy": 0.305
+          "buy": 0.31
         },
         "Atlanta Dream": {
-          "buy": 0.695
+          "buy": 0.69
         }
       }
     },
@@ -12502,10 +12315,10 @@
       "ref": "wnba-phx-ind-2026-06-22",
       "sides": {
         "Phoenix Mercury": {
-          "buy": 0.5
+          "buy": 0.51
         },
         "Indiana Fever": {
-          "buy": 0.5
+          "buy": 0.49
         }
       }
     },
@@ -12541,10 +12354,10 @@
       "ref": "wnba-gsv-las-2026-06-21",
       "sides": {
         "Golden State Valkyries": {
-          "buy": 0.285
+          "buy": 0.28
         },
         "Las Vegas Aces": {
-          "buy": 0.715
+          "buy": 0.72
         }
       }
     },
@@ -12593,10 +12406,10 @@
       "ref": "wnba-tor-conn-2026-06-19",
       "sides": {
         "Toronto Tempo": {
-          "buy": 0.5
+          "buy": 0.755
         },
         "Connecticut Sun": {
-          "buy": 0.5
+          "buy": 0.245
         }
       }
     },
@@ -12606,10 +12419,10 @@
       "ref": "wnba-min-gsv-2026-06-19",
       "sides": {
         "Minnesota Lynx": {
-          "buy": 0.625
+          "buy": 0.62
         },
         "Golden State Valkyries": {
-          "buy": 0.375
+          "buy": 0.38
         }
       }
     },
@@ -12645,10 +12458,10 @@
       "ref": "wnba-wsh-conn-2026-06-17",
       "sides": {
         "Washington Mystics": {
-          "buy": 0.545
+          "buy": 0.515
         },
         "Connecticut Sun": {
-          "buy": 0.455
+          "buy": 0.485
         }
       }
     },
@@ -12658,10 +12471,10 @@
       "ref": "wnba-sea-por-2026-06-17",
       "sides": {
         "Seattle Storm": {
-          "buy": 0.395
+          "buy": 0.385
         },
         "PortlandFire": {
-          "buy": 0.605
+          "buy": 0.615
         }
       }
     },
@@ -12684,10 +12497,10 @@
       "ref": "wnba-dal-gsv-2026-06-17",
       "sides": {
         "Dallas Wings": {
-          "buy": 0.415
+          "buy": 0.425
         },
         "Golden State Valkyries": {
-          "buy": 0.585
+          "buy": 0.575
         }
       }
     },
@@ -12710,10 +12523,10 @@
       "ref": "wnba-min-la-2026-06-17",
       "sides": {
         "Minnesota Lynx": {
-          "buy": 0.785
+          "buy": 0.795
         },
         "Los Angeles Sparks": {
-          "buy": 0.215
+          "buy": 0.205
         }
       }
     }
