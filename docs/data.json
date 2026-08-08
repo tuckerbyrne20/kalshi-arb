@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08 19:02 UTC",
-  "generated_ts": "2026-08-08T19:02:16.967794+00:00",
+  "generated_at": "2026-08-08 19:40 UTC",
+  "generated_ts": "2026-08-08T19:40:33.422638+00:00",
   "kpis": {
-    "kalshi": 613,
+    "kalshi": 646,
     "poly": 119,
     "matches": 29,
     "executable": 2
@@ -91,24 +91,24 @@
         "LAA": {
           "buy_on": "poly",
           "price": 0.28,
-          "k": 0.48,
+          "k": 0.47,
           "p": 0.28,
           "k_team": "Los Angeles A",
           "p_team": "Los Angeles Angels"
         },
         "TEX": {
           "buy_on": "kalshi",
-          "price": 0.53,
-          "k": 0.53,
+          "price": 0.55,
+          "k": 0.55,
           "p": 0.72,
           "k_team": "Texas",
           "p_team": "Texas Rangers"
         }
       },
-      "gross_cost": 0.81,
-      "gross_edge": 0.19,
-      "net_cost": 0.8384,
-      "net_edge": 0.1616
+      "gross_cost": 0.83,
+      "gross_edge": 0.17,
+      "net_cost": 0.8584,
+      "net_edge": 0.1416
     },
     {
       "teams": [
@@ -498,9 +498,9 @@
       "legs": {
         "MIL": {
           "buy_on": "poly",
-          "price": 0.5,
+          "price": 0.495,
           "k": 0.52,
-          "p": 0.5,
+          "p": 0.495,
           "k_team": "Milwaukee",
           "p_team": "Milwaukee Brewers"
         },
@@ -508,15 +508,49 @@
           "buy_on": "kalshi",
           "price": 0.48,
           "k": 0.48,
-          "p": 0.5,
+          "p": 0.505,
           "k_team": "San Diego",
           "p_team": "San Diego Padres"
         }
       },
-      "gross_cost": 0.98,
-      "gross_edge": 0.02,
-      "net_cost": 1.015,
-      "net_edge": -0.015
+      "gross_cost": 0.975,
+      "gross_edge": 0.025,
+      "net_cost": 1.0098,
+      "net_edge": -0.0098
+    },
+    {
+      "teams": [
+        "LAA",
+        "TEX"
+      ],
+      "league": "sports",
+      "k_time": "2026-08-14T01:38:00Z",
+      "p_time": "2026-08-13 02:10:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26AUG102138TEXLAA",
+      "p_ref": "mlb-tex-laa-2026-08-12",
+      "legs": {
+        "LAA": {
+          "buy_on": "kalshi",
+          "price": 0.47,
+          "k": 0.47,
+          "p": 0.495,
+          "k_team": "Los Angeles A",
+          "p_team": "Los Angeles Angels"
+        },
+        "TEX": {
+          "buy_on": "poly",
+          "price": 0.505,
+          "k": 0.55,
+          "p": 0.505,
+          "k_team": "Texas",
+          "p_team": "Texas Rangers"
+        }
+      },
+      "gross_cost": 0.975,
+      "gross_edge": 0.025,
+      "net_cost": 1.0102,
+      "net_edge": -0.0102
     },
     {
       "teams": [
@@ -554,40 +588,6 @@
     },
     {
       "teams": [
-        "MIL",
-        "SD"
-      ],
-      "league": "sports",
-      "k_time": "2026-08-14T01:40:00Z",
-      "p_time": "2026-08-11 01:40:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26AUG102140MILSD",
-      "p_ref": "mlb-mil-sd-2026-08-10",
-      "legs": {
-        "MIL": {
-          "buy_on": "poly",
-          "price": 0.505,
-          "k": 0.52,
-          "p": 0.505,
-          "k_team": "Milwaukee",
-          "p_team": "Milwaukee Brewers"
-        },
-        "SD": {
-          "buy_on": "kalshi",
-          "price": 0.48,
-          "k": 0.48,
-          "p": 0.495,
-          "k_team": "San Diego",
-          "p_team": "San Diego Padres"
-        }
-      },
-      "gross_cost": 0.985,
-      "gross_edge": 0.015,
-      "net_cost": 1.0202,
-      "net_edge": -0.0202
-    },
-    {
-      "teams": [
         "AZ",
         "COL"
       ],
@@ -619,40 +619,6 @@
       "gross_edge": 0.015,
       "net_cost": 1.0228,
       "net_edge": -0.0228
-    },
-    {
-      "teams": [
-        "LAA",
-        "TEX"
-      ],
-      "league": "sports",
-      "k_time": "2026-08-14T01:38:00Z",
-      "p_time": "2026-08-13 02:10:00+00",
-      "same_game_date": false,
-      "k_ref": "KXMLBGAME-26AUG102138TEXLAA",
-      "p_ref": "mlb-tex-laa-2026-08-12",
-      "legs": {
-        "LAA": {
-          "buy_on": "kalshi",
-          "price": 0.48,
-          "k": 0.48,
-          "p": 0.495,
-          "k_team": "Los Angeles A",
-          "p_team": "Los Angeles Angels"
-        },
-        "TEX": {
-          "buy_on": "poly",
-          "price": 0.505,
-          "k": 0.53,
-          "p": 0.505,
-          "k_team": "Texas",
-          "p_team": "Texas Rangers"
-        }
-      },
-      "gross_cost": 0.985,
-      "gross_edge": 0.015,
-      "net_cost": 1.0202,
-      "net_edge": -0.0202
     },
     {
       "teams": [
@@ -690,37 +656,37 @@
     },
     {
       "teams": [
-        "LAA",
-        "TEX"
+        "MIL",
+        "SD"
       ],
       "league": "sports",
-      "k_time": "2026-08-14T01:38:00Z",
-      "p_time": "2026-08-12 01:38:00+00",
+      "k_time": "2026-08-14T01:40:00Z",
+      "p_time": "2026-08-11 01:40:00+00",
       "same_game_date": false,
-      "k_ref": "KXMLBGAME-26AUG102138TEXLAA",
-      "p_ref": "mlb-tex-laa-2026-08-11",
+      "k_ref": "KXMLBGAME-26AUG102140MILSD",
+      "p_ref": "mlb-mil-sd-2026-08-10",
       "legs": {
-        "LAA": {
+        "MIL": {
           "buy_on": "poly",
-          "price": 0.46,
-          "k": 0.48,
-          "p": 0.46,
-          "k_team": "Los Angeles A",
-          "p_team": "Los Angeles Angels"
+          "price": 0.51,
+          "k": 0.52,
+          "p": 0.51,
+          "k_team": "Milwaukee",
+          "p_team": "Milwaukee Brewers"
         },
-        "TEX": {
+        "SD": {
           "buy_on": "kalshi",
-          "price": 0.53,
-          "k": 0.53,
-          "p": 0.54,
-          "k_team": "Texas",
-          "p_team": "Texas Rangers"
+          "price": 0.48,
+          "k": 0.48,
+          "p": 0.49,
+          "k_team": "San Diego",
+          "p_team": "San Diego Padres"
         }
       },
       "gross_cost": 0.99,
       "gross_edge": 0.01,
-      "net_cost": 1.0238,
-      "net_edge": -0.0238
+      "net_cost": 1.0253,
+      "net_edge": -0.0253
     },
     {
       "teams": [
@@ -826,6 +792,40 @@
     },
     {
       "teams": [
+        "PORTL",
+        "SEA"
+      ],
+      "league": "sports",
+      "k_time": "2026-08-11T00:30:00Z",
+      "p_time": "2026-08-09 00:30:00+00",
+      "same_game_date": false,
+      "k_ref": "KXWNBAGAME-26AUG08SEAPDX",
+      "p_ref": "wnba-sea-por-2026-08-08",
+      "legs": {
+        "PORTL": {
+          "buy_on": "poly",
+          "price": 0.485,
+          "k": 0.5,
+          "p": 0.485,
+          "k_team": "Portland",
+          "p_team": "PortlandFire"
+        },
+        "SEA": {
+          "buy_on": "kalshi",
+          "price": 0.51,
+          "k": 0.51,
+          "p": 0.515,
+          "k_team": "Seattle",
+          "p_team": "Seattle Storm"
+        }
+      },
+      "gross_cost": 0.995,
+      "gross_edge": 0.005,
+      "net_cost": 1.0295,
+      "net_edge": -0.0295
+    },
+    {
+      "teams": [
         "KC",
         "LAD"
       ],
@@ -860,6 +860,40 @@
     },
     {
       "teams": [
+        "LAA",
+        "TEX"
+      ],
+      "league": "sports",
+      "k_time": "2026-08-14T01:38:00Z",
+      "p_time": "2026-08-12 01:38:00+00",
+      "same_game_date": false,
+      "k_ref": "KXMLBGAME-26AUG102138TEXLAA",
+      "p_ref": "mlb-tex-laa-2026-08-11",
+      "legs": {
+        "LAA": {
+          "buy_on": "poly",
+          "price": 0.46,
+          "k": 0.47,
+          "p": 0.46,
+          "k_team": "Los Angeles A",
+          "p_team": "Los Angeles Angels"
+        },
+        "TEX": {
+          "buy_on": "poly",
+          "price": 0.54,
+          "k": 0.55,
+          "p": 0.54,
+          "k_team": "Texas",
+          "p_team": "Texas Rangers"
+        }
+      },
+      "gross_cost": 1.0,
+      "gross_edge": 0.0,
+      "net_cost": 1.03,
+      "net_edge": -0.03
+    },
+    {
+      "teams": [
         "ATL",
         "TOR"
       ],
@@ -872,25 +906,25 @@
       "legs": {
         "ATL": {
           "buy_on": "poly",
-          "price": 0.765,
-          "k": 0.8,
-          "p": 0.765,
+          "price": 0.76,
+          "k": 0.81,
+          "p": 0.76,
           "k_team": "Atlanta",
           "p_team": "Atlanta Dream"
         },
         "TOR": {
-          "buy_on": "poly",
-          "price": 0.235,
+          "buy_on": "kalshi",
+          "price": 0.24,
           "k": 0.24,
-          "p": 0.235,
+          "p": 0.24,
           "k_team": "Toronto",
           "p_team": "Toronto Tempo"
         }
       },
       "gross_cost": 1.0,
       "gross_edge": 0.0,
-      "net_cost": 1.0299,
-      "net_edge": -0.0299
+      "net_cost": 1.03,
+      "net_edge": -0.03
     },
     {
       "teams": [
@@ -959,40 +993,6 @@
       "gross_edge": 0.0,
       "net_cost": 1.03,
       "net_edge": -0.03
-    },
-    {
-      "teams": [
-        "PORTL",
-        "SEA"
-      ],
-      "league": "sports",
-      "k_time": "2026-08-11T00:30:00Z",
-      "p_time": "2026-08-09 00:30:00+00",
-      "same_game_date": false,
-      "k_ref": "KXWNBAGAME-26AUG08SEAPDX",
-      "p_ref": "wnba-sea-por-2026-08-08",
-      "legs": {
-        "PORTL": {
-          "buy_on": "poly",
-          "price": 0.495,
-          "k": 0.5,
-          "p": 0.495,
-          "k_team": "Portland",
-          "p_team": "PortlandFire"
-        },
-        "SEA": {
-          "buy_on": "poly",
-          "price": 0.505,
-          "k": 0.51,
-          "p": 0.505,
-          "k_team": "Seattle",
-          "p_team": "Seattle Storm"
-        }
-      },
-      "gross_cost": 1.0,
-      "gross_edge": 0.0,
-      "net_cost": 1.03,
-      "net_edge": -0.03
     }
   ],
   "executable": [
@@ -1011,24 +1011,24 @@
         "LAA": {
           "buy_on": "poly",
           "price": 0.28,
-          "k": 0.48,
+          "k": 0.47,
           "p": 0.28,
           "k_team": "Los Angeles A",
           "p_team": "Los Angeles Angels"
         },
         "TEX": {
           "buy_on": "kalshi",
-          "price": 0.53,
-          "k": 0.53,
+          "price": 0.55,
+          "k": 0.55,
           "p": 0.72,
           "k_team": "Texas",
           "p_team": "Texas Rangers"
         }
       },
-      "gross_cost": 0.81,
-      "gross_edge": 0.19,
-      "net_cost": 0.8384,
-      "net_edge": 0.1616
+      "gross_cost": 0.83,
+      "gross_edge": 0.17,
+      "net_cost": 0.8584,
+      "net_edge": 0.1416
     },
     {
       "teams": [
@@ -1115,7 +1115,7 @@
           "buy": 0.85
         },
         "Wildcard Round": {
-          "buy": 0.17
+          "buy": 0.18
         }
       }
     },
@@ -1138,7 +1138,7 @@
       "ref": "KXNFLSTAGEOFELIM-27SF",
       "sides": {
         "Regular Season": {
-          "buy": 0.53
+          "buy": 0.54
         },
         "Wildcard Round": {
           "buy": 0.26
@@ -1164,7 +1164,7 @@
       "ref": "KXNFLSTAGEOFELIM-27PIT",
       "sides": {
         "Regular Season": {
-          "buy": 0.69
+          "buy": 0.68
         },
         "Wildcard Round": {
           "buy": 0.25
@@ -1411,10 +1411,10 @@
       "ref": "KXNFLSTAGEOFELIM-27CLE",
       "sides": {
         "Regular Season": {
-          "buy": 0.89
+          "buy": 0.9
         },
         "Wildcard Round": {
-          "buy": 0.16
+          "buy": 0.15
         }
       }
     },
@@ -1424,7 +1424,7 @@
       "ref": "KXNFLSTAGEOFELIM-27CIN",
       "sides": {
         "Regular Season": {
-          "buy": 0.42
+          "buy": 0.43
         },
         "Wildcard Round": {
           "buy": 0.32
@@ -1567,7 +1567,7 @@
       "ref": "KXNFLH2HWINS-27JACDAL",
       "sides": {
         "Jacksonville": {
-          "buy": 0.49
+          "buy": 0.5
         },
         "Dallas": {
           "buy": 0.57
@@ -1580,7 +1580,7 @@
       "ref": "KXNFLH2HWINS-27HOUDEN",
       "sides": {
         "Houston": {
-          "buy": 0.54
+          "buy": 0.53
         },
         "Denver": {
           "buy": 0.49
@@ -1596,7 +1596,7 @@
           "buy": 0.42
         },
         "Detroit": {
-          "buy": 0.59
+          "buy": 0.58
         }
       }
     },
@@ -1606,7 +1606,7 @@
       "ref": "KXNFLH2HWINS-27CHICIN",
       "sides": {
         "Chicago": {
-          "buy": 0.47
+          "buy": 0.48
         },
         "Cincinnati": {
           "buy": 0.59
@@ -1645,7 +1645,7 @@
       "ref": "KXNFLH2HWINS-27ATLNYG",
       "sides": {
         "Atlanta": {
-          "buy": 0.44
+          "buy": 0.45
         },
         "New York G": {
           "buy": 0.62
@@ -1658,7 +1658,7 @@
       "ref": "KXBOXING-26SEP19FMAYMPAC",
       "sides": {
         "Floyd Mayweather Jr.": {
-          "buy": 0.7
+          "buy": 0.69
         },
         "Manny Pacquiao": {
           "buy": 0.34
@@ -1687,7 +1687,7 @@
           "buy": 0.56
         },
         "LSU": {
-          "buy": 0.49
+          "buy": 0.48
         }
       }
     },
@@ -1736,7 +1736,7 @@
       "ref": "KXNFLGAME-26SEP13DALNYG",
       "sides": {
         "New York G": {
-          "buy": 0.44
+          "buy": 0.45
         },
         "Dallas": {
           "buy": 0.58
@@ -1788,7 +1788,7 @@
       "ref": "KXNFLGAME-26SEP13ARILAC",
       "sides": {
         "Los Angeles C": {
-          "buy": 0.82
+          "buy": 0.83
         },
         "Arizona": {
           "buy": 0.21
@@ -1908,7 +1908,7 @@
           "buy": 0.71
         },
         "Christian Mbilli": {
-          "buy": 0.31
+          "buy": 0.33
         }
       }
     },
@@ -1960,7 +1960,7 @@
           "buy": 0.52
         },
         "Oklahoma": {
-          "buy": 0.48
+          "buy": 0.49
         }
       }
     },
@@ -2009,10 +2009,10 @@
       "ref": "KXNCAAFGAME-26SEP06WISND",
       "sides": {
         "Notre Dame": {
-          "buy": 0.94
+          "buy": 0.93
         },
         "Wisconsin": {
-          "buy": 0.1
+          "buy": 0.11
         }
       }
     },
@@ -2113,10 +2113,10 @@
       "ref": "KXLIGUE1GAME-26AUG22MANSTB",
       "sides": {
         "Le Mans": {
-          "buy": 0.39
+          "buy": 0.42
         },
         "Tie": {
-          "buy": 0.27
+          "buy": 0.31
         }
       }
     },
@@ -2165,7 +2165,7 @@
       "ref": "KXWT20MATCH-26AUG220930SURWAR",
       "sides": {
         "Warwickshire": {
-          "buy": 0.9
+          "buy": 0.89
         },
         "Surrey": {
           "buy": 0.89
@@ -2181,7 +2181,7 @@
           "buy": 0.89
         },
         "Somerset": {
-          "buy": 0.9
+          "buy": 0.89
         }
       }
     },
@@ -2217,10 +2217,10 @@
       "ref": "KXDFBPOKALGAME-26AUG22HEMH96",
       "sides": {
         "Reg Time: Hemelingen": {
-          "buy": 0.81
+          "buy": 0.8
         },
         "Reg Time: Tie": {
-          "buy": 0.81
+          "buy": 0.8
         }
       }
     },
@@ -2360,7 +2360,7 @@
       "ref": "KXDFBPOKALADVANCE-26AUG21STTSGE",
       "sides": {
         "St. Tonis advances": {
-          "buy": 0.8
+          "buy": 0.78
         },
         "Frankfurt advances": {
           "buy": 0.94
@@ -2386,7 +2386,7 @@
       "ref": "KXWT20MATCH-26AUG210400EASNOR",
       "sides": {
         "North Delhi Strikers": {
-          "buy": 0.9
+          "buy": 0.89
         },
         "East Delhi Riders": {
           "buy": 0.89
@@ -2399,7 +2399,7 @@
       "ref": "KXWT20MATCH-26AUG200930CENSOU",
       "sides": {
         "South Delhi Superstars": {
-          "buy": 0.9
+          "buy": 0.89
         },
         "Central Delhi Queens": {
           "buy": 0.89
@@ -2555,7 +2555,7 @@
       "ref": "KXUFCFIGHT-26AUG15WELORO",
       "sides": {
         "Jeremiah Wells": {
-          "buy": 0.17
+          "buy": 0.18
         },
         "Myktybek Orolbay Uulu": {
           "buy": 0.86
@@ -2571,7 +2571,7 @@
           "buy": 0.29
         },
         "Joel Alvarez": {
-          "buy": 0.76
+          "buy": 0.75
         }
       }
     },
@@ -2646,7 +2646,7 @@
       "ref": "KXUFCFIGHT-26AUG15JOHMCC",
       "sides": {
         "Donte Johnson": {
-          "buy": 0.68
+          "buy": 0.67
         },
         "Eric McConico": {
           "buy": 0.35
@@ -2672,7 +2672,7 @@
       "ref": "KXBOXING-26AUG15SHIELDSCOTT",
       "sides": {
         "Claressa Shields": {
-          "buy": 0.94
+          "buy": 0.95
         },
         "Kaye Scott": {
           "buy": 0.07
@@ -2745,6 +2745,19 @@
       }
     },
     {
+      "game_time": "2026-08-22T19:00:00Z",
+      "league": "sports",
+      "ref": "KXCFLGAME-26AUG15TOREDM",
+      "sides": {
+        "Edmonton Elks": {
+          "buy": 0.75
+        },
+        "Toronto Argonauts": {
+          "buy": 0.75
+        }
+      }
+    },
+    {
       "game_time": "2026-09-12T18:45:00Z",
       "league": "sports",
       "ref": "KXCOPPAITALIAADVANCE-26AUG15VENMOD",
@@ -2766,7 +2779,7 @@
           "buy": 0.84
         },
         "Tie": {
-          "buy": 0.14
+          "buy": 0.13
         }
       }
     },
@@ -2815,10 +2828,10 @@
       "ref": "KXUAEPLGAME-26AUG15KHFSAH",
       "sides": {
         "Khor Fakkan": {
-          "buy": 0.81
+          "buy": 0.8
         },
         "Tie": {
-          "buy": 0.81
+          "buy": 0.8
         }
       }
     },
@@ -2841,10 +2854,10 @@
       "ref": "KXHNLGAME-26AUG15ISTSLA",
       "sides": {
         "Slaven Belupo": {
-          "buy": 0.81
+          "buy": 0.8
         },
         "Tie": {
-          "buy": 0.81
+          "buy": 0.79
         }
       }
     },
@@ -2857,7 +2870,7 @@
           "buy": 0.81
         },
         "Padova advances": {
-          "buy": 0.81
+          "buy": 0.8
         }
       }
     },
@@ -2867,10 +2880,10 @@
       "ref": "KXCOPPAITALIAADVANCE-26AUG15USCFCS",
       "sides": {
         "Catanzaro advances": {
-          "buy": 0.81
+          "buy": 0.8
         },
         "Sudtirol Bolzano advances": {
-          "buy": 0.81
+          "buy": 0.8
         }
       }
     },
@@ -2919,10 +2932,10 @@
       "ref": "KXCLUBFGAME-26AUG15SUNREN",
       "sides": {
         "Stade Rennais": {
-          "buy": 0.59
+          "buy": 0.54
         },
         "Tie": {
-          "buy": 0.54
+          "buy": 0.34
         }
       }
     },
@@ -2932,10 +2945,10 @@
       "ref": "KXJLEAGUEGAME-26AUG15FAGVVN",
       "sides": {
         "Fagiano O": {
-          "buy": 0.81
+          "buy": 0.8
         },
         "Tie": {
-          "buy": 0.8
+          "buy": 0.78
         }
       }
     },
@@ -2958,7 +2971,7 @@
       "ref": "KXAFLGAME-26AUG142105GCSBRI",
       "sides": {
         "Gold Coast Suns": {
-          "buy": 0.86
+          "buy": 0.85
         },
         "Brisbane Lions": {
           "buy": 0.85
@@ -2974,7 +2987,7 @@
           "buy": 0.85
         },
         "Ottawa Redblacks": {
-          "buy": 0.54
+          "buy": 0.6
         }
       }
     },
@@ -2984,10 +2997,10 @@
       "ref": "KXCPLMATCH-26AUG141900ANTSTL",
       "sides": {
         "St. Lucia Kings": {
-          "buy": 0.84
+          "buy": 0.82
         },
         "Antigua And Barbuda Falcons": {
-          "buy": 0.84
+          "buy": 0.82
         }
       }
     },
@@ -3036,10 +3049,10 @@
       "ref": "KXAPFDDHGAME-26AUG14RECMAY",
       "sides": {
         "CD Recoleta": {
-          "buy": 0.8
+          "buy": 0.78
         },
         "Tie": {
-          "buy": 0.8
+          "buy": 0.78
         }
       }
     },
@@ -3078,7 +3091,7 @@
           "buy": 0.8
         },
         "Tie": {
-          "buy": 0.8
+          "buy": 0.78
         }
       }
     },
@@ -3127,7 +3140,7 @@
       "ref": "KXNFLGAME-26AUG13TENSF",
       "sides": {
         "San Francisco": {
-          "buy": 0.41
+          "buy": 0.42
         },
         "Tennessee": {
           "buy": 0.59
@@ -3140,7 +3153,7 @@
       "ref": "KXCPLMATCH-26AUG132000GAWJAM",
       "sides": {
         "Jamaica Kingsmen": {
-          "buy": 0.78
+          "buy": 0.76
         },
         "Guyana Amazon Warriors": {
           "buy": 0.85
@@ -3156,7 +3169,7 @@
           "buy": 0.74
         },
         "British Columbia Lions": {
-          "buy": 0.35
+          "buy": 0.34
         }
       }
     },
@@ -3208,7 +3221,7 @@
           "buy": 0.58
         },
         "Green Bay": {
-          "buy": 0.43
+          "buy": 0.44
         }
       }
     },
@@ -3231,10 +3244,10 @@
       "ref": "KXUELADVANCE-26AUG13EGRSHA",
       "sides": {
         "Egnatia Rrogozhine advances": {
-          "buy": 0.25
+          "buy": 0.21
         },
         "Shamrock advances": {
-          "buy": 0.78
+          "buy": 0.83
         }
       }
     },
@@ -3244,10 +3257,10 @@
       "ref": "KXUECLADVANCE-26AUG13HAJZAL",
       "sides": {
         "Hajduk advances": {
-          "buy": 0.93
+          "buy": 0.94
         },
         "Zalgiris Vilnius advances": {
-          "buy": 0.1
+          "buy": 0.08
         }
       }
     },
@@ -3257,10 +3270,10 @@
       "ref": "KXUECLADVANCE-26AUG13DICAUD",
       "sides": {
         "Dinamo City advances": {
-          "buy": 0.74
+          "buy": 0.4
         },
         "Auda advances": {
-          "buy": 0.74
+          "buy": 0.66
         }
       }
     },
@@ -3299,7 +3312,7 @@
           "buy": 0.74
         },
         "PAOK advances": {
-          "buy": 0.3
+          "buy": 0.31
         }
       }
     },
@@ -3325,7 +3338,7 @@
           "buy": 0.74
         },
         "HJK Helsinki advances": {
-          "buy": 0.52
+          "buy": 0.47
         }
       }
     },
@@ -3351,7 +3364,7 @@
           "buy": 0.74
         },
         "Beitar Jerusalem advances": {
-          "buy": 0.44
+          "buy": 0.4
         }
       }
     },
@@ -3377,7 +3390,7 @@
           "buy": 0.92
         },
         "Maccabi Tel Aviv advances": {
-          "buy": 0.12
+          "buy": 0.16
         }
       }
     },
@@ -3387,7 +3400,7 @@
       "ref": "KXUECLADVANCE-26AUG13STGSHF",
       "sides": {
         "St. Gallen advances": {
-          "buy": 0.89
+          "buy": 0.9
         },
         "Tiraspol advances": {
           "buy": 0.16
@@ -3400,7 +3413,7 @@
       "ref": "KXUECLADVANCE-26AUG13SHKHIB",
       "sides": {
         "Shkendija Tetovo advances": {
-          "buy": 0.39
+          "buy": 0.27
         },
         "Hibernian advances": {
           "buy": 0.75
@@ -3426,10 +3439,10 @@
       "ref": "KXSAUDIPLGAME-26AUG13SHAQAD",
       "sides": {
         "Al Qadsiah": {
-          "buy": 0.8
+          "buy": 0.78
         },
         "Tie": {
-          "buy": 0.8
+          "buy": 0.78
         }
       }
     },
@@ -3478,10 +3491,10 @@
       "ref": "KXUECLADVANCE-26AUG13NSILUG",
       "sides": {
         "Runavik advances": {
-          "buy": 0.1
+          "buy": 0.08
         },
         "Lugano advances": {
-          "buy": 0.93
+          "buy": 0.94
         }
       }
     },
@@ -3491,10 +3504,10 @@
       "ref": "KXUELADVANCE-26AUG13PAFRBS",
       "sides": {
         "Pafos advances": {
-          "buy": 0.39
+          "buy": 0.26
         },
         "Salzburg advances": {
-          "buy": 0.73
+          "buy": 0.77
         }
       }
     },
@@ -3507,7 +3520,7 @@
           "buy": 0.9
         },
         "Lincoln Red Imps advances": {
-          "buy": 0.17
+          "buy": 0.16
         }
       }
     },
@@ -3517,10 +3530,10 @@
       "ref": "KXUELADVANCE-26AUG13GORFTC",
       "sides": {
         "Gornik Zabrze advances": {
-          "buy": 0.44
+          "buy": 0.31
         },
         "Ferencvarosi advances": {
-          "buy": 0.69
+          "buy": 0.73
         }
       }
     },
@@ -3533,7 +3546,7 @@
           "buy": 0.81
         },
         "Kuopion Palloseura advances": {
-          "buy": 0.19
+          "buy": 0.23
         }
       }
     },
@@ -3546,7 +3559,7 @@
           "buy": 0.9
         },
         "Hradec Kralove advances": {
-          "buy": 0.17
+          "buy": 0.15
         }
       }
     },
@@ -3569,10 +3582,10 @@
       "ref": "KXUECLADVANCE-26AUG13NJAVAL",
       "sides": {
         "Nordsjaelland advances": {
-          "buy": 0.92
+          "buy": 0.95
         },
         "Valur Reykjavik advances": {
-          "buy": 0.09
+          "buy": 0.06
         }
       }
     },
@@ -3595,10 +3608,10 @@
       "ref": "KXUECLADVANCE-26AUG13HIFCZE",
       "sides": {
         "Hammarby advances": {
-          "buy": 0.69
+          "buy": 0.74
         },
         "Czestochowa advances": {
-          "buy": 0.36
+          "buy": 0.49
         }
       }
     },
@@ -3637,7 +3650,7 @@
           "buy": 0.21
         },
         "Braga advances": {
-          "buy": 0.88
+          "buy": 0.9
         }
       }
     },
@@ -3660,10 +3673,10 @@
       "ref": "KXUECLADVANCE-26AUG13RFSFKJ",
       "sides": {
         "FC RFS advances": {
-          "buy": 0.19
+          "buy": 0.28
         },
         "Jablonec advances": {
-          "buy": 0.81
+          "buy": 0.8
         }
       }
     },
@@ -3673,10 +3686,10 @@
       "ref": "KXSAUDIPLGAME-26AUG13ABHHAZ",
       "sides": {
         "Abha": {
-          "buy": 0.8
+          "buy": 0.78
         },
         "Tie": {
-          "buy": 0.8
+          "buy": 0.78
         }
       }
     },
@@ -3790,7 +3803,7 @@
       "ref": "KXUSLCUPADVANCE-26AUG12CINHAR",
       "sides": {
         "Charlotte Ind. advances": {
-          "buy": 0.98
+          "buy": 0.97
         },
         "Hartford Athletic advances": {
           "buy": 0.91
@@ -3803,10 +3816,10 @@
       "ref": "KXUEFASCFTTS-26AUG12PSGAVL",
       "sides": {
         "Aston Villa": {
-          "buy": 0.99
+          "buy": 0.98
         },
         "No Goal": {
-          "buy": 0.99
+          "buy": 0.98
         }
       }
     },
@@ -3829,7 +3842,7 @@
       "ref": "KXHUNDREDMATCH-26AUG121330MLOBIR",
       "sides": {
         "Birmingham Phoenix": {
-          "buy": 0.73
+          "buy": 0.64
         },
         "MI London": {
           "buy": 0.74
@@ -3884,7 +3897,7 @@
           "buy": 0.55
         },
         "MI London": {
-          "buy": 0.65
+          "buy": 0.66
         }
       }
     },
@@ -3933,10 +3946,10 @@
       "ref": "KXWHUNDREDMATCH-26AUG120630LONWEL",
       "sides": {
         "Welsh Fire": {
-          "buy": 0.74
+          "buy": 0.72
         },
         "London Spirit": {
-          "buy": 0.72
+          "buy": 0.69
         }
       }
     },
@@ -3946,7 +3959,7 @@
       "ref": "KXLMBGAME-26AUG112145CALADM",
       "sides": {
         "Caliente de Durango": {
-          "buy": 0.71
+          "buy": 0.64
         },
         "Acereros de Monclova": {
           "buy": 0.74
@@ -3959,7 +3972,7 @@
       "ref": "KXLMBGAME-26AUG112130TDTALG",
       "sides": {
         "Toros de Tijuana": {
-          "buy": 0.73
+          "buy": 0.71
         },
         "Algodoneros de Union Laguna": {
           "buy": 0.73
@@ -3972,7 +3985,7 @@
       "ref": "KXLMBGAME-26AUG112130SDMCDJ",
       "sides": {
         "Sultanes de Monterrey": {
-          "buy": 0.73
+          "buy": 0.74
         },
         "Charros de Jalisco": {
           "buy": 0.73
@@ -3985,7 +3998,7 @@
       "ref": "KXLMBGAME-26AUG112130ODTBLE",
       "sides": {
         "Olmecas de Tabasco": {
-          "buy": 0.74
+          "buy": 0.64
         },
         "Bravos de Leon": {
           "buy": 0.74
@@ -3998,7 +4011,7 @@
       "ref": "KXLMBGAME-26AUG112100PDCPDP",
       "sides": {
         "Piratas de Campeche": {
-          "buy": 0.69
+          "buy": 0.67
         },
         "Pericos de Puebla": {
           "buy": 0.74
@@ -4014,7 +4027,7 @@
           "buy": 0.73
         },
         "Guerreros de Oaxaca": {
-          "buy": 0.73
+          "buy": 0.71
         }
       }
     },
@@ -4027,7 +4040,7 @@
           "buy": 0.84
         },
         "Barbados Royals": {
-          "buy": 0.78
+          "buy": 0.76
         }
       }
     },
@@ -4053,7 +4066,7 @@
           "buy": 0.4
         },
         "RMD Gaming": {
-          "buy": 0.65
+          "buy": 0.63
         }
       }
     },
@@ -4063,10 +4076,10 @@
       "ref": "KXVALORANTGAME-26AUG111800LOOKR",
       "sides": {
         "Looking For Laburo": {
-          "buy": 0.37
+          "buy": 0.26
         },
         "KR\u00dc Blaze": {
-          "buy": 0.75
+          "buy": 0.8
         }
       }
     },
@@ -4102,7 +4115,7 @@
       "ref": "KXLOLMAP-26AUG111900SDMKITS-1",
       "sides": {
         "SDM Tigres": {
-          "buy": 0.57
+          "buy": 0.56
         },
         "Kits Esports": {
           "buy": 0.45
@@ -4131,7 +4144,7 @@
           "buy": 0.42
         },
         "RMD Gaming": {
-          "buy": 0.61
+          "buy": 0.6
         }
       }
     },
@@ -4154,10 +4167,10 @@
       "ref": "KXVALORANTMAP-26AUG111800LOOKR-1",
       "sides": {
         "Looking For Laburo": {
-          "buy": 0.54
+          "buy": 0.32
         },
         "KR\u00dc Blaze": {
-          "buy": 0.73
+          "buy": 0.71
         }
       }
     },
@@ -4167,10 +4180,10 @@
       "ref": "KXLOLGAME-26AUG111430GNGBAAM",
       "sides": {
         "GnG Amazigh": {
-          "buy": 0.46
+          "buy": 0.78
         },
         "Baam Esports": {
-          "buy": 0.71
+          "buy": 0.7
         }
       }
     },
@@ -4193,10 +4206,10 @@
       "ref": "KXLOLGAME-26AUG111400SECDYN",
       "sides": {
         "Senshi Esports Club": {
-          "buy": 0.81
+          "buy": 0.42
         },
         "Dynasty": {
-          "buy": 0.81
+          "buy": 0.79
         }
       }
     },
@@ -4232,7 +4245,7 @@
       "ref": "KXLOLMAP-26AUG111430GNGBAAM-1",
       "sides": {
         "GnG Amazigh": {
-          "buy": 0.93
+          "buy": 0.89
         },
         "Baam Esports": {
           "buy": 0.93
@@ -4245,10 +4258,10 @@
       "ref": "KXHUNDREDMATCH-26AUG111330SULMSG",
       "sides": {
         "Manchester Super Giants": {
-          "buy": 0.68
+          "buy": 0.57
         },
         "Sunrisers Leeds": {
-          "buy": 0.65
+          "buy": 0.73
         }
       }
     },
@@ -4336,10 +4349,10 @@
       "ref": "KXLOLGAME-26AUG111300MCNFEC",
       "sides": {
         "mCon esports": {
-          "buy": 0.74
+          "buy": 0.79
         },
         "Frites Esports Club": {
-          "buy": 0.58
+          "buy": 0.81
         }
       }
     },
@@ -4375,10 +4388,10 @@
       "ref": "KXUCLADVANCE-26AUG11NIJOLY",
       "sides": {
         "Nijmegen advances": {
-          "buy": 0.48
+          "buy": 0.49
         },
         "Olympiacos advances": {
-          "buy": 0.55
+          "buy": 0.54
         }
       }
     },
@@ -4495,7 +4508,7 @@
           "buy": 0.72
         },
         "Larne advances": {
-          "buy": 0.44
+          "buy": 0.42
         }
       }
     },
@@ -4544,10 +4557,10 @@
       "ref": "KXAFCCLGAME-26AUG11JAZITJ",
       "sides": {
         "Reg Time: Al Jazira": {
-          "buy": 0.81
+          "buy": 0.8
         },
         "Reg Time: Tie": {
-          "buy": 0.8
+          "buy": 0.78
         }
       }
     },
@@ -4560,7 +4573,7 @@
           "buy": 0.62
         },
         "Sunrisers Leeds": {
-          "buy": 0.69
+          "buy": 0.74
         }
       }
     },
@@ -4648,10 +4661,10 @@
       "ref": "KXKBOGAME-26AUG110600LOTSSG",
       "sides": {
         "Lotte Giants": {
-          "buy": 0.66
+          "buy": 0.65
         },
         "SSG Landers": {
-          "buy": 0.5
+          "buy": 0.46
         }
       }
     },
@@ -4664,7 +4677,7 @@
           "buy": 0.53
         },
         "Kiwoom Heroes": {
-          "buy": 0.47
+          "buy": 0.54
         }
       }
     },
@@ -4674,10 +4687,10 @@
       "ref": "KXKBOGAME-26AUG110600KTWNCD",
       "sides": {
         "KT Wiz": {
-          "buy": 0.65
+          "buy": 0.64
         },
         "NC Dinos": {
-          "buy": 0.55
+          "buy": 0.57
         }
       }
     },
@@ -4690,7 +4703,7 @@
           "buy": 0.58
         },
         "Doosan Bears": {
-          "buy": 0.56
+          "buy": 0.57
         }
       }
     },
@@ -4716,7 +4729,7 @@
           "buy": 0.62
         },
         "Tohoku Rakuten Golden Eagles": {
-          "buy": 0.6
+          "buy": 0.5
         }
       }
     },
@@ -4729,7 +4742,7 @@
           "buy": 0.62
         },
         "Tokyo Yakult Swallows": {
-          "buy": 0.53
+          "buy": 0.57
         }
       }
     },
@@ -4781,7 +4794,7 @@
           "buy": 0.87
         },
         "Dyip": {
-          "buy": 0.85
+          "buy": 0.84
         }
       }
     },
@@ -4791,7 +4804,7 @@
       "ref": "KXLOLGAME-26AUG110400LGUUWI",
       "sides": {
         "L Guide Gaming": {
-          "buy": 0.56
+          "buy": 0.55
         },
         "Uwinks": {
           "buy": 0.51
@@ -4885,7 +4898,7 @@
           "buy": 0.63
         },
         "Chunichi Dragons": {
-          "buy": 0.58
+          "buy": 0.59
         }
       }
     },
@@ -4895,10 +4908,10 @@
       "ref": "KXNPBGAME-26AUG110100HANYOM",
       "sides": {
         "Hanshin Tigers": {
-          "buy": 0.63
+          "buy": 0.61
         },
         "Yomiuri Giants": {
-          "buy": 0.59
+          "buy": 0.54
         }
       }
     },
@@ -4911,7 +4924,7 @@
           "buy": 0.62
         },
         "Fukuoka Hawks": {
-          "buy": 0.54
+          "buy": 0.61
         }
       }
     },
@@ -4924,7 +4937,7 @@
           "buy": 0.87
         },
         "Fuerza Regia": {
-          "buy": 0.85
+          "buy": 0.84
         }
       }
     },
@@ -4947,10 +4960,10 @@
       "ref": "KXWNBAGAME-26AUG10CHISEA",
       "sides": {
         "Seattle": {
-          "buy": 0.53
+          "buy": 0.47
         },
         "Chicago": {
-          "buy": 0.59
+          "buy": 0.64
         }
       }
     },
@@ -4960,10 +4973,10 @@
       "ref": "KXVALORANTGAME-26AUG102100FSNXMYVGC",
       "sides": {
         "FUSION X": {
-          "buy": 0.65
+          "buy": 0.48
         },
         "MYVRA GC": {
-          "buy": 0.85
+          "buy": 0.69
         }
       }
     },
@@ -4976,7 +4989,7 @@
           "buy": 0.87
         },
         "Gambusinos De Fresnillo": {
-          "buy": 0.85
+          "buy": 0.84
         }
       }
     },
@@ -4989,7 +5002,7 @@
           "buy": 0.87
         },
         "Correcaminos UAT Victoria": {
-          "buy": 0.85
+          "buy": 0.84
         }
       }
     },
@@ -5051,10 +5064,10 @@
       "ref": "KXMLBGAME-26AUG102138TEXLAA",
       "sides": {
         "Texas": {
-          "buy": 0.53
+          "buy": 0.55
         },
         "Los Angeles A": {
-          "buy": 0.48
+          "buy": 0.47
         }
       }
     },
@@ -5067,7 +5080,7 @@
           "buy": 0.87
         },
         "Mineros de Zacatecas": {
-          "buy": 0.85
+          "buy": 0.84
         }
       }
     },
@@ -5077,10 +5090,10 @@
       "ref": "KXVALORANTMAP-26AUG102100FSNXMYVGC-2",
       "sides": {
         "FUSION X": {
-          "buy": 0.42
+          "buy": 0.44
         },
         "MYVRA GC": {
-          "buy": 0.63
+          "buy": 0.64
         }
       }
     },
@@ -5090,10 +5103,10 @@
       "ref": "KXVALORANTMAP-26AUG102100FSNXMYVGC-1",
       "sides": {
         "FUSION X": {
-          "buy": 0.41
+          "buy": 0.42
         },
         "MYVRA GC": {
-          "buy": 0.67
+          "buy": 0.64
         }
       }
     },
@@ -5103,10 +5116,10 @@
       "ref": "KXVALORANTGAME-26AUG101930ROSOSAD",
       "sides": {
         "ROSO GC": {
-          "buy": 0.65
+          "buy": 0.59
         },
         "SaD GC": {
-          "buy": 0.79
+          "buy": 0.73
         }
       }
     },
@@ -5116,10 +5129,10 @@
       "ref": "KXVALORANTGAME-26AUG101930LCDMVS",
       "sides": {
         "Los Chudeles": {
-          "buy": 0.69
+          "buy": 0.66
         },
         "MVSK Secret": {
-          "buy": 0.62
+          "buy": 0.57
         }
       }
     },
@@ -5142,7 +5155,7 @@
       "ref": "KXWNBAGAME-26AUG10TORATL",
       "sides": {
         "Atlanta": {
-          "buy": 0.8
+          "buy": 0.81
         },
         "Toronto": {
           "buy": 0.24
@@ -5158,7 +5171,7 @@
           "buy": 0.63
         },
         "Low Cortisol": {
-          "buy": 0.65
+          "buy": 0.87
         }
       }
     },
@@ -5207,10 +5220,10 @@
       "ref": "KXVALORANTMAP-26AUG101930ROSOSAD-2",
       "sides": {
         "ROSO GC": {
-          "buy": 0.74
+          "buy": 0.71
         },
         "SaD GC": {
-          "buy": 0.74
+          "buy": 0.72
         }
       }
     },
@@ -5220,10 +5233,10 @@
       "ref": "KXVALORANTMAP-26AUG101930ROSOSAD-1",
       "sides": {
         "ROSO GC": {
-          "buy": 0.72
+          "buy": 0.68
         },
         "SaD GC": {
-          "buy": 0.73
+          "buy": 0.7
         }
       }
     },
@@ -5233,10 +5246,10 @@
       "ref": "KXVALORANTMAP-26AUG101930LCDMVS-2",
       "sides": {
         "Los Chudeles": {
-          "buy": 0.75
+          "buy": 0.74
         },
         "MVSK Secret": {
-          "buy": 0.75
+          "buy": 0.74
         }
       }
     },
@@ -5246,10 +5259,10 @@
       "ref": "KXVALORANTMAP-26AUG101930LCDMVS-1",
       "sides": {
         "Los Chudeles": {
-          "buy": 0.74
+          "buy": 0.71
         },
         "MVSK Secret": {
-          "buy": 0.74
+          "buy": 0.7
         }
       }
     },
@@ -5259,10 +5272,10 @@
       "ref": "KXVALORANTMAP-26AUG101930HIMSWIM-2",
       "sides": {
         "HIMMERS": {
-          "buy": 0.67
+          "buy": 0.68
         },
         "SwimTrek Blue": {
-          "buy": 0.72
+          "buy": 0.68
         }
       }
     },
@@ -5272,7 +5285,7 @@
       "ref": "KXVALORANTMAP-26AUG101930HIMSWIM-1",
       "sides": {
         "HIMMERS": {
-          "buy": 0.72
+          "buy": 0.69
         },
         "SwimTrek Blue": {
           "buy": 0.73
@@ -5311,10 +5324,10 @@
       "ref": "KXVALORANTMAP-26AUG101900AOLC-2",
       "sides": {
         "Aogiri": {
-          "buy": 0.69
+          "buy": 0.66
         },
         "Low Cortisol": {
-          "buy": 0.72
+          "buy": 0.73
         }
       }
     },
@@ -5327,7 +5340,7 @@
           "buy": 0.74
         },
         "Low Cortisol": {
-          "buy": 0.74
+          "buy": 0.71
         }
       }
     },
@@ -5337,7 +5350,7 @@
       "ref": "KXVALORANTGAME-26AUG101800OGNPC",
       "sides": {
         "Olimpo Gold": {
-          "buy": 0.45
+          "buy": 0.44
         },
         "NPC Team": {
           "buy": 0.61
@@ -5376,10 +5389,10 @@
       "ref": "KXVALORANTMAP-26AUG101800OGNPC-2",
       "sides": {
         "Olimpo Gold": {
-          "buy": 0.74
+          "buy": 0.44
         },
         "NPC Team": {
-          "buy": 0.74
+          "buy": 0.62
         }
       }
     },
@@ -5389,10 +5402,10 @@
       "ref": "KXVALORANTMAP-26AUG101800OGNPC-1",
       "sides": {
         "Olimpo Gold": {
-          "buy": 0.74
+          "buy": 0.48
         },
         "NPC Team": {
-          "buy": 0.74
+          "buy": 0.61
         }
       }
     },
@@ -5415,10 +5428,10 @@
       "ref": "KXVALORANTGAME-26AUG101700AXOSRGC",
       "sides": {
         "Axolotl": {
-          "buy": 0.74
+          "buy": 0.63
         },
         "Shopify Rebellion GC": {
-          "buy": 0.72
+          "buy": 0.52
         }
       }
     },
@@ -5441,10 +5454,10 @@
       "ref": "KXVALORANTMAP-26AUG101700SPIORAT-2",
       "sides": {
         "The Spiders": {
-          "buy": 0.74
+          "buy": 0.72
         },
         "ORA Temper": {
-          "buy": 0.74
+          "buy": 0.71
         }
       }
     },
@@ -5454,7 +5467,7 @@
       "ref": "KXVALORANTMAP-26AUG101700SPIORAT-1",
       "sides": {
         "The Spiders": {
-          "buy": 0.74
+          "buy": 0.72
         },
         "ORA Temper": {
           "buy": 0.72
@@ -5467,10 +5480,10 @@
       "ref": "KXVALORANTMAP-26AUG101700AXOSRGC-2",
       "sides": {
         "Axolotl": {
-          "buy": 0.74
+          "buy": 0.73
         },
         "Shopify Rebellion GC": {
-          "buy": 0.73
+          "buy": 0.7
         }
       }
     },
@@ -5480,10 +5493,10 @@
       "ref": "KXVALORANTMAP-26AUG101700AXOSRGC-1",
       "sides": {
         "Axolotl": {
-          "buy": 0.73
+          "buy": 0.68
         },
         "Shopify Rebellion GC": {
-          "buy": 0.74
+          "buy": 0.73
         }
       }
     },
@@ -5493,10 +5506,10 @@
       "ref": "KXVALORANTGAME-26AUG101600GPMIBRF",
       "sides": {
         "GATO PENSANTE?": {
-          "buy": 0.47
+          "buy": 0.21
         },
         "MIBR Female": {
-          "buy": 0.93
+          "buy": 0.9
         }
       }
     },
@@ -5532,10 +5545,10 @@
       "ref": "KXVALORANTMAP-26AUG101600GPMIBRF-2",
       "sides": {
         "GATO PENSANTE?": {
-          "buy": 0.74
+          "buy": 0.7
         },
         "MIBR Female": {
-          "buy": 0.74
+          "buy": 0.7
         }
       }
     },
@@ -5545,7 +5558,7 @@
       "ref": "KXVALORANTMAP-26AUG101600GPMIBRF-1",
       "sides": {
         "GATO PENSANTE?": {
-          "buy": 0.74
+          "buy": 0.73
         },
         "MIBR Female": {
           "buy": 0.74
@@ -5558,10 +5571,10 @@
       "ref": "KXLOLGAME-26AUG101400BROAP",
       "sides": {
         "Brod n Friends": {
-          "buy": 0.46
+          "buy": 0.42
         },
         "Arctic Pandas": {
-          "buy": 0.79
+          "buy": 0.76
         }
       }
     },
@@ -5571,7 +5584,7 @@
       "ref": "KXEFLCUPADVANCE-26AUG10PAEXC",
       "sides": {
         "Plymouth advances": {
-          "buy": 0.8
+          "buy": 0.78
         },
         "Exeter advances": {
           "buy": 0.46
@@ -5587,7 +5600,7 @@
           "buy": 0.7
         },
         "Southern Brave": {
-          "buy": 0.53
+          "buy": 0.55
         }
       }
     },
@@ -5636,10 +5649,10 @@
       "ref": "KXCS2GAME-26AUG101100DMARCH",
       "sides": {
         "Dark Moon": {
-          "buy": 0.72
+          "buy": 0.78
         },
         "Arch": {
-          "buy": 0.9
+          "buy": 0.57
         }
       }
     },
@@ -5649,10 +5662,10 @@
       "ref": "KXWHUNDREDMATCH-26AUG101000SOUTRE",
       "sides": {
         "Trent Rockets": {
-          "buy": 0.69
+          "buy": 0.65
         },
         "Southern Brave": {
-          "buy": 0.53
+          "buy": 0.56
         }
       }
     },
@@ -5662,10 +5675,10 @@
       "ref": "KXT20MATCH-26AUG101000MAPSAL",
       "sides": {
         "Salem Spartans": {
-          "buy": 0.49
+          "buy": 0.48
         },
         "Madurai Panthers": {
-          "buy": 0.66
+          "buy": 0.63
         }
       }
     },
@@ -5701,10 +5714,10 @@
       "ref": "KXWODIMATCH-26AUG100545TYPDRA",
       "sides": {
         "Dragons": {
-          "buy": 0.67
+          "buy": 0.74
         },
         "Typhoons": {
-          "buy": 0.73
+          "buy": 0.75
         }
       }
     },
@@ -5714,10 +5727,10 @@
       "ref": "KXODIMATCH-26AUG100545AFGIRL",
       "sides": {
         "Ireland": {
-          "buy": 0.38
+          "buy": 0.37
         },
         "Afghanistan": {
-          "buy": 0.68
+          "buy": 0.67
         }
       }
     },
@@ -5727,7 +5740,7 @@
       "ref": "KXT20MATCH-26AUG100930GUWDIB",
       "sides": {
         "Dibrugarh Warriors": {
-          "buy": 0.69
+          "buy": 0.68
         },
         "Guwahati Royals": {
           "buy": 0.39
@@ -5766,7 +5779,7 @@
       "ref": "KXLOLGAME-26AUG100600GENGAHLE",
       "sides": {
         "Gen.G Global Academy": {
-          "buy": 0.26
+          "buy": 0.27
         },
         "Hanwha Life Esports Challengers": {
           "buy": 0.76
@@ -5779,10 +5792,10 @@
       "ref": "KXCS2GAME-26AUG100600MFGRO",
       "sides": {
         "Mindfreak": {
-          "buy": 0.25
+          "buy": 0.24
         },
         "Ground Zero": {
-          "buy": 0.84
+          "buy": 0.83
         }
       }
     },
@@ -5818,7 +5831,7 @@
       "ref": "KXCS2MAP-26AUG100630VITAEFA-1",
       "sides": {
         "Vitality Academy": {
-          "buy": 0.5
+          "buy": 0.48
         },
         "Eternal Fire Academy": {
           "buy": 0.53
@@ -5997,10 +6010,23 @@
     {
       "game_time": "2026-08-12T08:00:00Z",
       "league": "sports",
+      "ref": "KXCS2GAME-26AUG100400PHANTOMACADEMYVPP",
+      "sides": {
+        "Phantom Academy": {
+          "buy": 0.94
+        },
+        "VP.Prodigy": {
+          "buy": 0.95
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-12T08:00:00Z",
+      "league": "sports",
       "ref": "KXCS2GAME-26AUG100400BWEAC",
       "sides": {
         "Bushido Wildcats": {
-          "buy": 0.9
+          "buy": 0.83
         },
         "EAC Rising": {
           "buy": 0.35
@@ -6016,7 +6042,7 @@
           "buy": 0.71
         },
         "DN SOOPers": {
-          "buy": 0.33
+          "buy": 0.35
         }
       }
     },
@@ -6082,6 +6108,32 @@
         },
         "DN SOOPers Challengers": {
           "buy": 0.5
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-12T08:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG100400PHANTOMACADEMYVPP-2",
+      "sides": {
+        "Phantom Academy": {
+          "buy": 0.95
+        },
+        "VP.Prodigy": {
+          "buy": 0.95
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-12T08:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG100400PHANTOMACADEMYVPP-1",
+      "sides": {
+        "Phantom Academy": {
+          "buy": 0.95
+        },
+        "VP.Prodigy": {
+          "buy": 0.95
         }
       }
     },
@@ -6156,7 +6208,7 @@
       "ref": "KXLMBGAME-26AUG092015PDPPDC",
       "sides": {
         "Pericos de Puebla": {
-          "buy": 0.68
+          "buy": 0.65
         },
         "Piratas de Campeche": {
           "buy": 0.73
@@ -6185,7 +6237,7 @@
           "buy": 0.73
         },
         "Olmecas de Tabasco": {
-          "buy": 0.7
+          "buy": 0.53
         }
       }
     },
@@ -6224,7 +6276,7 @@
           "buy": 0.73
         },
         "Sultanes de Monterrey": {
-          "buy": 0.68
+          "buy": 0.72
         }
       }
     },
@@ -6234,10 +6286,10 @@
       "ref": "KXLMBGAME-26AUG091900ADMCAL",
       "sides": {
         "Acereros de Monclova": {
-          "buy": 0.73
+          "buy": 0.71
         },
         "Caliente de Durango": {
-          "buy": 0.72
+          "buy": 0.59
         }
       }
     },
@@ -6403,7 +6455,7 @@
       "ref": "KXLMBGAME-26AUG091600GUEDIA",
       "sides": {
         "Guerreros de Oaxaca": {
-          "buy": 0.53
+          "buy": 0.7
         },
         "Diablos Rojos Del Mexico": {
           "buy": 0.73
@@ -6429,10 +6481,10 @@
       "ref": "KXMLBGAME-26AUG091610LADAZ",
       "sides": {
         "Los Angeles D": {
-          "buy": 0.56
+          "buy": 0.57
         },
         "Arizona": {
-          "buy": 0.45
+          "buy": 0.44
         }
       }
     },
@@ -6442,7 +6494,7 @@
       "ref": "KXMLBGAME-26AUG091605DETSF",
       "sides": {
         "Detroit": {
-          "buy": 0.52
+          "buy": 0.53
         },
         "San Francisco": {
           "buy": 0.48
@@ -6455,7 +6507,7 @@
       "ref": "KXLOLMAP-26AUG091600LYDIG-2",
       "sides": {
         "LYON": {
-          "buy": 0.84
+          "buy": 0.86
         },
         "Dignitas": {
           "buy": 0.17
@@ -6481,10 +6533,10 @@
       "ref": "KXWNBAGAME-26AUG09DALMIN",
       "sides": {
         "Minnesota": {
-          "buy": 0.72
+          "buy": 0.73
         },
         "Dallas": {
-          "buy": 0.31
+          "buy": 0.28
         }
       }
     },
@@ -6494,10 +6546,10 @@
       "ref": "KXLEAGUESCUPFTTS-26AUG09SEAQUE",
       "sides": {
         "Queretaro FC": {
-          "buy": 0.98
+          "buy": 0.97
         },
         "No Goal": {
-          "buy": 0.98
+          "buy": 0.97
         }
       }
     },
@@ -6533,10 +6585,10 @@
       "ref": "KXVALORANTGAME-26AUG091400EPGM",
       "sides": {
         "Enterprise Esports": {
-          "buy": 0.46
+          "buy": 0.44
         },
         "Gentle Mates": {
-          "buy": 0.57
+          "buy": 0.58
         }
       }
     },
@@ -6549,7 +6601,7 @@
           "buy": 0.69
         },
         "Tie": {
-          "buy": 0.2
+          "buy": 0.19
         }
       }
     },
@@ -6562,7 +6614,7 @@
           "buy": 0.32
         },
         "RE.Arise": {
-          "buy": 0.68
+          "buy": 0.69
         }
       }
     },
@@ -6572,7 +6624,7 @@
       "ref": "KXCOPPAITALIAGAME-26AUG09BENRAV",
       "sides": {
         "Reg Time: Ravenna": {
-          "buy": 0.22
+          "buy": 0.21
         },
         "Reg Time: Tie": {
           "buy": 0.26
@@ -6588,7 +6640,7 @@
           "buy": 0.74
         },
         "Marcelo Arevalo / Mate Pavic": {
-          "buy": 0.75
+          "buy": 0.73
         }
       }
     },
@@ -6598,7 +6650,7 @@
       "ref": "KXMLBGAME-26AUG091435BALTEX",
       "sides": {
         "Baltimore": {
-          "buy": 0.44
+          "buy": 0.45
         },
         "Texas": {
           "buy": 0.56
@@ -6611,10 +6663,10 @@
       "ref": "KXMLBGAME-26AUG091415COLSTL",
       "sides": {
         "Colorado": {
-          "buy": 0.4
+          "buy": 0.41
         },
         "St. Louis": {
-          "buy": 0.62
+          "buy": 0.61
         }
       }
     },
@@ -6650,7 +6702,7 @@
       "ref": "KXMLBGAME-26AUG091410CLECWS",
       "sides": {
         "Cleveland": {
-          "buy": 0.48
+          "buy": 0.49
         },
         "Chicago WS": {
           "buy": 0.52
@@ -6715,10 +6767,23 @@
       "ref": "KXR6GAME-26AUG091300WBGVP",
       "sides": {
         "Weibo Gaming": {
-          "buy": 0.36
+          "buy": 0.35
         },
         "Virtus.pro": {
-          "buy": 0.65
+          "buy": 0.67
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T17:00:00Z",
+      "league": "sports",
+      "ref": "KXR6GAME-26AUG091300FNCFURIA",
+      "sides": {
+        "Fnatic": {
+          "buy": 0.75
+        },
+        "FURIA Esports": {
+          "buy": 0.75
         }
       }
     },
@@ -6741,7 +6806,7 @@
       "ref": "KXDOTA2MAP-26AUG091400ILLREA-2",
       "sides": {
         "Ilbirs eSports": {
-          "buy": 0.42
+          "buy": 0.4
         },
         "RE.Arise": {
           "buy": 0.64
@@ -6754,7 +6819,7 @@
       "ref": "KXDOTA2MAP-26AUG091400ILLREA-1",
       "sides": {
         "Ilbirs eSports": {
-          "buy": 0.41
+          "buy": 0.39
         },
         "RE.Arise": {
           "buy": 0.64
@@ -6770,7 +6835,7 @@
           "buy": 0.94
         },
         "Detroit Amps": {
-          "buy": 0.91
+          "buy": 0.9
         }
       }
     },
@@ -6796,7 +6861,7 @@
           "buy": 0.44
         },
         "Miami": {
-          "buy": 0.56
+          "buy": 0.57
         }
       }
     },
@@ -6806,10 +6871,10 @@
       "ref": "KXATPDOUBLES-26AUG09BHAVENARROLI",
       "sides": {
         "Yuki Bhambri / Michael Venus": {
-          "buy": 0.74
+          "buy": 0.72
         },
         "Theo Arribage / Albano Olivetti": {
-          "buy": 0.74
+          "buy": 0.72
         }
       }
     },
@@ -6897,7 +6962,7 @@
       "ref": "KXVALORANTMAP-26AUG091300FALGXGC-2",
       "sides": {
         "FALKE VENOM": {
-          "buy": 0.74
+          "buy": 0.69
         },
         "GIANTX GC": {
           "buy": 0.74
@@ -6910,10 +6975,10 @@
       "ref": "KXVALORANTMAP-26AUG091300FALGXGC-1",
       "sides": {
         "FALKE VENOM": {
-          "buy": 0.66
+          "buy": 0.67
         },
         "GIANTX GC": {
-          "buy": 0.72
+          "buy": 0.73
         }
       }
     },
@@ -6926,7 +6991,7 @@
           "buy": 0.42
         },
         "Virtus.pro": {
-          "buy": 0.63
+          "buy": 0.64
         }
       }
     },
@@ -6975,10 +7040,10 @@
       "ref": "KXWNBAGAME-26AUG09LVNY",
       "sides": {
         "New York": {
-          "buy": 0.58
+          "buy": 0.51
         },
         "Las Vegas": {
-          "buy": 0.43
+          "buy": 0.5
         }
       }
     },
@@ -6988,10 +7053,10 @@
       "ref": "KXATPSETWINNER-26AUG09VANMEN-2",
       "sides": {
         "Botic Van de Zandschulp": {
-          "buy": 0.34
+          "buy": 0.35
         },
         "Jakub Mensik": {
-          "buy": 0.67
+          "buy": 0.68
         }
       }
     },
@@ -7069,7 +7134,7 @@
           "buy": 0.29
         },
         "Jakub Mensik": {
-          "buy": 0.73
+          "buy": 0.72
         }
       }
     },
@@ -7092,7 +7157,7 @@
       "ref": "KXATPMATCH-26AUG09FONSHE",
       "sides": {
         "Joao Fonseca": {
-          "buy": 0.46
+          "buy": 0.47
         },
         "Ben Shelton": {
           "buy": 0.55
@@ -7105,7 +7170,7 @@
       "ref": "KXATPDOUBLES-26AUG09DARTABCERETC",
       "sides": {
         "Luciano Darderi / Alejandro Tabilo": {
-          "buy": 0.74
+          "buy": 0.72
         },
         "Francisco Cerundolo / Tomas Martin Etcheverry": {
           "buy": 0.74
@@ -7196,7 +7261,7 @@
       "ref": "KXWTASETWINNER-26AUG09FEROSA-1",
       "sides": {
         "Leylah Annie Fernandez": {
-          "buy": 0.37
+          "buy": 0.35
         },
         "Naomi Osaka": {
           "buy": 0.68
@@ -7209,7 +7274,7 @@
       "ref": "KXWTASETWINNER-26AUG09EALBEN-2",
       "sides": {
         "Alexandra Eala": {
-          "buy": 0.49
+          "buy": 0.48
         },
         "Belinda Bencic": {
           "buy": 0.54
@@ -7251,7 +7316,7 @@
           "buy": 0.23
         },
         "Coco Gauff": {
-          "buy": 0.77
+          "buy": 0.78
         }
       }
     },
@@ -7261,7 +7326,7 @@
       "ref": "KXWTAMATCH-26AUG09FEROSA",
       "sides": {
         "Leylah Fernandez": {
-          "buy": 0.31
+          "buy": 0.3
         },
         "Naomi Osaka": {
           "buy": 0.71
@@ -7274,7 +7339,7 @@
       "ref": "KXWTAMATCH-26AUG09EALBEN",
       "sides": {
         "Alexandra Eala": {
-          "buy": 0.47
+          "buy": 0.48
         },
         "Belinda Bencic": {
           "buy": 0.54
@@ -7300,10 +7365,10 @@
       "ref": "KXVALORANTGAME-26AUG091100MOMBAR",
       "sides": {
         "Mom Said No": {
-          "buy": 0.71
+          "buy": 0.5
         },
         "Barca eSports GC": {
-          "buy": 0.73
+          "buy": 0.54
         }
       }
     },
@@ -7342,7 +7407,7 @@
           "buy": 0.4
         },
         "Shamshad Eagles": {
-          "buy": 0.61
+          "buy": 0.62
         }
       }
     },
@@ -7378,10 +7443,10 @@
       "ref": "KXVALORANTMAP-26AUG091100MOMBAR-2",
       "sides": {
         "Mom Said No": {
-          "buy": 0.74
+          "buy": 0.7
         },
         "Barca eSports GC": {
-          "buy": 0.72
+          "buy": 0.67
         }
       }
     },
@@ -7404,7 +7469,7 @@
       "ref": "KXT20MATCH-26AUG091000NELTIR",
       "sides": {
         "Tiruppur Tamizhans": {
-          "buy": 0.53
+          "buy": 0.55
         },
         "Nellai Royal Kings": {
           "buy": 0.54
@@ -7417,10 +7482,10 @@
       "ref": "KXR6GAME-26AUG091000SECRETFLCS",
       "sides": {
         "Team Secret": {
-          "buy": 0.15
+          "buy": 0.13
         },
         "Falcons Esport": {
-          "buy": 0.88
+          "buy": 0.89
         }
       }
     },
@@ -7550,7 +7615,7 @@
           "buy": 0.58
         },
         "Birmingham Phoenix": {
-          "buy": 0.46
+          "buy": 0.44
         }
       }
     },
@@ -7573,10 +7638,10 @@
       "ref": "KXT20MATCH-26AUG090930CENSOU",
       "sides": {
         "South Delhi Superstarz": {
-          "buy": 0.46
+          "buy": 0.45
         },
         "Central Delhi Kings": {
-          "buy": 0.63
+          "buy": 0.61
         }
       }
     },
@@ -7651,7 +7716,7 @@
       "ref": "KXLOLGAME-26AUG090800KCBSAO",
       "sides": {
         "Karmine Corp Blue Stars": {
-          "buy": 0.81
+          "buy": 0.79
         },
         "Ancient Ones": {
           "buy": 0.21
@@ -7667,7 +7732,7 @@
           "buy": 0.81
         },
         "Da Nang Dragons": {
-          "buy": 0.27
+          "buy": 0.24
         }
       }
     },
@@ -7677,10 +7742,10 @@
       "ref": "KXVALORANTGAME-26AUG090700RRQNS",
       "sides": {
         "Rex Regum Qeon": {
-          "buy": 0.33
+          "buy": 0.32
         },
         "Nongshim RedForce": {
-          "buy": 0.68
+          "buy": 0.69
         }
       }
     },
@@ -7711,6 +7776,19 @@
       }
     },
     {
+      "game_time": "2026-08-11T11:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090700NXSUNITY",
+      "sides": {
+        "Nexus": {
+          "buy": 0.62
+        },
+        "UNiTY esports": {
+          "buy": 0.4
+        }
+      }
+    },
+    {
       "game_time": "2026-08-23T11:30:00Z",
       "league": "sports",
       "ref": "KXPBAGAME-26AUG090730BLEBAR",
@@ -7719,7 +7797,7 @@
           "buy": 0.68
         },
         "Blackwater Bossing": {
-          "buy": 0.34
+          "buy": 0.38
         }
       }
     },
@@ -7742,7 +7820,7 @@
       "ref": "KXBUNDESLIGA2GAME-26AUG09COTH96",
       "sides": {
         "Cottbus": {
-          "buy": 0.3
+          "buy": 0.29
         },
         "Tie": {
           "buy": 0.26
@@ -7794,10 +7872,10 @@
       "ref": "KXVALORANTGAME-26AUG090600FPXTE",
       "sides": {
         "FunPlus Phoenix": {
-          "buy": 0.58
+          "buy": 0.59
         },
         "Trace Esports": {
-          "buy": 0.44
+          "buy": 0.42
         }
       }
     },
@@ -7807,10 +7885,10 @@
       "ref": "KXT20MATCH-26AUG090600CHEGDID",
       "sides": {
         "Dindigul Dragons": {
-          "buy": 0.58
+          "buy": 0.62
         },
         "Chepauk Super Gillies": {
-          "buy": 0.46
+          "buy": 0.43
         }
       }
     },
@@ -7867,15 +7945,41 @@
       }
     },
     {
+      "game_time": "2026-08-11T11:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090700NXSUNITY-2",
+      "sides": {
+        "Nexus": {
+          "buy": 0.94
+        },
+        "UNiTY esports": {
+          "buy": 0.95
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T11:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090700NXSUNITY-1",
+      "sides": {
+        "Nexus": {
+          "buy": 0.93
+        },
+        "UNiTY esports": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
       "game_time": "2026-08-11T13:30:00Z",
       "league": "sports",
       "ref": "KXT20MATCH-26AUG090530PAMKAB",
       "sides": {
         "Kabul Zalmi": {
-          "buy": 0.51
+          "buy": 0.5
         },
         "Pamir Stars": {
-          "buy": 0.6
+          "buy": 0.59
         }
       }
     },
@@ -7885,10 +7989,10 @@
       "ref": "KXCS2MAP-26AUG090630TTBSFAZEUN-2",
       "sides": {
         "Teletubisie": {
-          "buy": 0.7
+          "buy": 0.66
         },
         "FaZe Up Next": {
-          "buy": 0.57
+          "buy": 0.56
         }
       }
     },
@@ -7940,7 +8044,7 @@
           "buy": 0.39
         },
         "Yokohama DeNA BayStars": {
-          "buy": 0.62
+          "buy": 0.63
         }
       }
     },
@@ -7953,7 +8057,7 @@
           "buy": 0.38
         },
         "Hanshin Tigers": {
-          "buy": 0.63
+          "buy": 0.62
         }
       }
     },
@@ -8006,6 +8110,201 @@
         },
         "Tie": {
           "buy": 0.31
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-23T07:00:00Z",
+      "league": "sports",
+      "ref": "KXITFWMATCH-26AUG09KULZHA",
+      "sides": {
+        "Zhibek Kulambayeva": {
+          "buy": 0.94
+        },
+        "Ying Zhang": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-23T07:00:00Z",
+      "league": "sports",
+      "ref": "KXITFWMATCH-26AUG09CIRBAR",
+      "sides": {
+        "Lucija Ciric Bagaric": {
+          "buy": 0.94
+        },
+        "Bianca Elena Barbulescu": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-23T07:00:00Z",
+      "league": "sports",
+      "ref": "KXITFWMATCH-26AUG09BERZAY",
+      "sides": {
+        "Anastasia Bertacchi": {
+          "buy": 0.94
+        },
+        "Ksenia Zaytseva": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-23T07:00:00Z",
+      "league": "sports",
+      "ref": "KXITFWDOUBLES-26AUG09IMXKIMARYDYU",
+      "sides": {
+        "Im / Kim": {
+          "buy": 0.56
+        },
+        "Arystanbekova / Dyussebay": {
+          "buy": 0.81
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500SASHIVP",
+      "sides": {
+        "Sashi Esport": {
+          "buy": 0.47
+        },
+        "Virtus.pro": {
+          "buy": 0.57
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500PHANRG",
+      "sides": {
+        "Phantom": {
+          "buy": 0.45
+        },
+        "NRG": {
+          "buy": 0.58
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500OGBCG",
+      "sides": {
+        "OG": {
+          "buy": 0.33
+        },
+        "BC.Game Esports": {
+          "buy": 0.68
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500ISICE",
+      "sides": {
+        "Iberian Soul": {
+          "buy": 0.37
+        },
+        "Inner Circle Esports": {
+          "buy": 0.7
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500G1ECH",
+      "sides": {
+        "GenOne": {
+          "buy": 0.39
+        },
+        "ECHO": {
+          "buy": 0.64
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500EYESIN",
+      "sides": {
+        "EYEBALLERS": {
+          "buy": 0.5
+        },
+        "Sinners": {
+          "buy": 0.51
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500DENJJH",
+      "sides": {
+        "DENDELE CS": {
+          "buy": 0.71
+        },
+        "JiJieHao": {
+          "buy": 0.37
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500BIGEF",
+      "sides": {
+        "BIG": {
+          "buy": 0.76
+        },
+        "Eternal Fire": {
+          "buy": 0.27
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500ASTHERO",
+      "sides": {
+        "ASTRAL": {
+          "buy": 0.11
+        },
+        "Heroic": {
+          "buy": 0.92
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500APOGEEPRE",
+      "sides": {
+        "Apogee Esports": {
+          "buy": 0.94
+        },
+        "Prestige": {
+          "buy": 0.46
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2GAME-26AUG090500ACEFOK",
+      "sides": {
+        "Acend": {
+          "buy": 0.86
+        },
+        "FOKUS": {
+          "buy": 0.95
         }
       }
     },
@@ -8067,10 +8366,10 @@
       "ref": "KXT20MATCH-26AUG090400NEWNOR",
       "sides": {
         "North Delhi Strikers": {
-          "buy": 0.45
+          "buy": 0.52
         },
         "New Delhi Tigers": {
-          "buy": 0.61
+          "buy": 0.55
         }
       }
     },
@@ -8162,6 +8461,292 @@
         },
         "Asylzhan Arystanbekova": {
           "buy": 0.32
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500SASHIVP-2",
+      "sides": {
+        "Sashi Esport": {
+          "buy": 0.94
+        },
+        "Virtus.pro": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500SASHIVP-1",
+      "sides": {
+        "Sashi Esport": {
+          "buy": 0.94
+        },
+        "Virtus.pro": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500PHANRG-2",
+      "sides": {
+        "Phantom": {
+          "buy": 0.94
+        },
+        "NRG": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500PHANRG-1",
+      "sides": {
+        "Phantom": {
+          "buy": 0.93
+        },
+        "NRG": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500OGBCG-2",
+      "sides": {
+        "OG": {
+          "buy": 0.93
+        },
+        "BC.Game Esports": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500OGBCG-1",
+      "sides": {
+        "OG": {
+          "buy": 0.93
+        },
+        "BC.Game Esports": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500ISICE-2",
+      "sides": {
+        "Iberian Soul": {
+          "buy": 0.95
+        },
+        "Inner Circle Esports": {
+          "buy": 0.95
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500ISICE-1",
+      "sides": {
+        "Iberian Soul": {
+          "buy": 0.94
+        },
+        "Inner Circle Esports": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500G1ECH-2",
+      "sides": {
+        "GenOne": {
+          "buy": 0.94
+        },
+        "ECHO": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500G1ECH-1",
+      "sides": {
+        "GenOne": {
+          "buy": 0.94
+        },
+        "ECHO": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500EYESIN-2",
+      "sides": {
+        "EYEBALLERS": {
+          "buy": 0.94
+        },
+        "Sinners": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500EYESIN-1",
+      "sides": {
+        "EYEBALLERS": {
+          "buy": 0.93
+        },
+        "Sinners": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500DENJJH-2",
+      "sides": {
+        "DENDELE CS": {
+          "buy": 0.94
+        },
+        "JiJieHao": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500DENJJH-1",
+      "sides": {
+        "DENDELE CS": {
+          "buy": 0.94
+        },
+        "JiJieHao": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500BIGEF-2",
+      "sides": {
+        "BIG": {
+          "buy": 0.94
+        },
+        "Eternal Fire": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500BIGEF-1",
+      "sides": {
+        "BIG": {
+          "buy": 0.93
+        },
+        "Eternal Fire": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500ASTHERO-2",
+      "sides": {
+        "ASTRAL": {
+          "buy": 0.94
+        },
+        "Heroic": {
+          "buy": 0.93
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500ASTHERO-1",
+      "sides": {
+        "ASTRAL": {
+          "buy": 0.93
+        },
+        "Heroic": {
+          "buy": 0.94
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500APOGEEPRE-2",
+      "sides": {
+        "Apogee Esports": {
+          "buy": 0.95
+        },
+        "Prestige": {
+          "buy": 0.95
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500APOGEEPRE-1",
+      "sides": {
+        "Apogee Esports": {
+          "buy": 0.95
+        },
+        "Prestige": {
+          "buy": 0.95
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500ACEFOK-2",
+      "sides": {
+        "Acend": {
+          "buy": 0.95
+        },
+        "FOKUS": {
+          "buy": 0.95
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-11T09:00:00Z",
+      "league": "sports",
+      "ref": "KXCS2MAP-26AUG090500ACEFOK-1",
+      "sides": {
+        "Acend": {
+          "buy": 0.95
+        },
+        "FOKUS": {
+          "buy": 0.95
         }
       }
     },
@@ -8275,10 +8860,10 @@
       "ref": "KXLOLGAME-26AUG090300LNGIG",
       "sides": {
         "LNG Esports": {
-          "buy": 0.17
+          "buy": 0.15
         },
         "Invictus Gaming": {
-          "buy": 0.83
+          "buy": 0.86
         }
       }
     },
@@ -8288,7 +8873,7 @@
       "ref": "KXITFMATCH-26AUG09MITZHA",
       "sides": {
         "Shunsuke Mitsui": {
-          "buy": 0.81
+          "buy": 0.8
         },
         "Damir Zhalgasbay": {
           "buy": 0.21
@@ -8301,10 +8886,10 @@
       "ref": "KXCS2MAP-26AUG090400ENCEPINN-2",
       "sides": {
         "ENCE Prospects": {
-          "buy": 0.56
+          "buy": 0.51
         },
         "Inner Circle Prospect": {
-          "buy": 0.64
+          "buy": 0.71
         }
       }
     },
@@ -8314,10 +8899,10 @@
       "ref": "KXCS2MAP-26AUG090400ENCEPINN-1",
       "sides": {
         "ENCE Prospects": {
-          "buy": 0.52
+          "buy": 0.56
         },
         "Inner Circle Prospect": {
-          "buy": 0.64
+          "buy": 0.63
         }
       }
     },
@@ -8353,10 +8938,10 @@
       "ref": "KXLOLMAP-26AUG090300LNGIG-2",
       "sides": {
         "LNG Esports": {
-          "buy": 0.25
+          "buy": 0.22
         },
         "Invictus Gaming": {
-          "buy": 0.78
+          "buy": 0.79
         }
       }
     },
@@ -8366,10 +8951,23 @@
       "ref": "KXLOLMAP-26AUG090300LNGIG-1",
       "sides": {
         "LNG Esports": {
-          "buy": 0.25
+          "buy": 0.23
         },
         "Invictus Gaming": {
           "buy": 0.79
+        }
+      }
+    },
+    {
+      "game_time": "2026-08-23T07:00:00Z",
+      "league": "sports",
+      "ref": "KXATPCHALLENGERMATCH-26AUG09PIRNES",
+      "sides": {
+        "Gabriele Piraino": {
+          "buy": 0.95
+        },
+        "Pyotr Nesterov": {
+          "buy": 0.95
         }
       }
     },
@@ -8379,10 +8977,10 @@
       "ref": "KXATPCHALLENGERMATCH-26AUG09TAZMUK",
       "sides": {
         "Daniel Tazabekov": {
-          "buy": 0.14
+          "buy": 0.13
         },
         "Sasikumar Mukund": {
-          "buy": 0.9
+          "buy": 0.89
         }
       }
     },
@@ -8405,10 +9003,10 @@
       "ref": "KXATPCHALLENGERMATCH-26AUG09OSTAGA",
       "sides": {
         "Daniil Ostapenkov": {
-          "buy": 0.79
+          "buy": 0.78
         },
         "Egor Agafonov": {
-          "buy": 0.24
+          "buy": 0.23
         }
       }
     },
@@ -8431,7 +9029,7 @@
       "ref": "KXNPBGAME-26AUG090100YAKYOM",
       "sides": {
         "Tokyo Yakult Swallows": {
-          "buy": 0.44
+          "buy": 0.43
         },
         "Yomiuri Giants": {
           "buy": 0.58
@@ -8457,10 +9055,10 @@
       "ref": "KXITFMATCH-26AUG08DELMOC",
       "sides": {
         "Matthew Dellavedova": {
-          "buy": 0.84
+          "buy": 0.82
         },
         "Yuki Mochizuki": {
-          "buy": 0.2
+          "buy": 0.22
         }
       }
     },
@@ -8470,7 +9068,7 @@
       "ref": "KXATPCHALLENGERMATCH-26AUG09RAKDEC",
       "sides": {
         "Danial Rakhmatullayev": {
-          "buy": 0.25
+          "buy": 0.24
         },
         "Alec Deckers": {
           "buy": 0.78
@@ -8483,10 +9081,10 @@
       "ref": "KXATPCHALLENGERMATCH-26AUG09LEOYER",
       "sides": {
         "Mitsuki Wei Kang Leong": {
-          "buy": 0.86
+          "buy": 0.88
         },
         "Yerassyl Yerdilda": {
-          "buy": 0.18
+          "buy": 0.17
         }
       }
     },
@@ -8522,10 +9120,10 @@
       "ref": "KXLMBGAME-26AUG082235ALGTDT",
       "sides": {
         "Algodoneros de Union Laguna": {
-          "buy": 0.4
+          "buy": 0.38
         },
         "Toros de Tijuana": {
-          "buy": 0.66
+          "buy": 0.65
         }
       }
     },
@@ -8590,7 +9188,7 @@
           "buy": 0.65
         },
         "Jose Montanha Da Silva": {
-          "buy": 0.35
+          "buy": 0.36
         }
       }
     },
@@ -8642,7 +9240,7 @@
           "buy": 0.57
         },
         "Piratas de Campeche": {
-          "buy": 0.47
+          "buy": 0.45
         }
       }
     },
@@ -8665,7 +9263,7 @@
       "ref": "KXLMBGAME-26AUG082000ADMCAL",
       "sides": {
         "Acereros de Monclova": {
-          "buy": 0.56
+          "buy": 0.54
         },
         "Caliente de Durango": {
           "buy": 0.5
@@ -8691,10 +9289,10 @@
       "ref": "KXUFCFIGHT-26AUG08NURLOP",
       "sides": {
         "Diyar Nurgozhay": {
-          "buy": 0.61
+          "buy": 0.6
         },
         "Bruno Lopes": {
-          "buy": 0.4
+          "buy": 0.41
         }
       }
     },
@@ -8746,7 +9344,7 @@
           "buy": 0.48
         },
         "California Redwoods": {
-          "buy": 0.54
+          "buy": 0.53
         }
       }
     },
@@ -8782,7 +9380,7 @@
       "ref": "KXCS2GAME-26AUG081900ISGMW",
       "sides": {
         "Isurus": {
-          "buy": 0.53
+          "buy": 0.52
         },
         "METANOIA WOLVES": {
           "buy": 0.51
@@ -8798,7 +9396,7 @@
           "buy": 0.45
         },
         "Trinbago Knight Riders": {
-          "buy": 0.57
+          "buy": 0.55
         }
       }
     },
@@ -8834,7 +9432,7 @@
       "ref": "KXUFCFIGHT-26AUG08MILOLI",
       "sides": {
         "Juliana Miller": {
-          "buy": 0.75
+          "buy": 0.76
         },
         "Ravena Oliveira Morais": {
           "buy": 0.26
@@ -8977,7 +9575,7 @@
       "ref": "KXLOLMAP-26AUG081900SRSEN-1",
       "sides": {
         "Shopify Rebellion": {
-          "buy": 0.32
+          "buy": 0.33
         },
         "Sentinels": {
           "buy": 0.68
@@ -8990,10 +9588,10 @@
       "ref": "KXLMBGAME-26AUG081800GUEDIA",
       "sides": {
         "Guerreros de Oaxaca": {
-          "buy": 0.38
+          "buy": 0.36
         },
         "Diablos Rojos Del Mexico": {
-          "buy": 0.69
+          "buy": 0.66
         }
       }
     },
@@ -9003,10 +9601,10 @@
       "ref": "KXCS2MAP-26AUG081900ISGMW-2",
       "sides": {
         "Isurus": {
-          "buy": 0.61
+          "buy": 0.71
         },
         "METANOIA WOLVES": {
-          "buy": 0.46
+          "buy": 0.43
         }
       }
     },
@@ -9016,7 +9614,7 @@
       "ref": "KXCS2MAP-26AUG081900ISGMW-1",
       "sides": {
         "Isurus": {
-          "buy": 0.72
+          "buy": 0.63
         },
         "METANOIA WOLVES": {
           "buy": 0.46
@@ -9042,10 +9640,10 @@
       "ref": "KXMLBGAME-26AUG081845CINWSH",
       "sides": {
         "Cincinnati": {
-          "buy": 0.58
+          "buy": 0.57
         },
         "Washington": {
-          "buy": 0.43
+          "buy": 0.44
         }
       }
     },
@@ -9055,10 +9653,10 @@
       "ref": "KXMLBGAME-26AUG081840NYMPIT",
       "sides": {
         "New York M": {
-          "buy": 0.46
+          "buy": 0.47
         },
         "Pittsburgh": {
-          "buy": 0.55
+          "buy": 0.54
         }
       }
     },
@@ -9068,10 +9666,10 @@
       "ref": "KXITFMATCH-26AUG08ALMSAN",
       "sides": {
         "Izan Almazan Valiente": {
-          "buy": 0.29
+          "buy": 0.31
         },
         "Alejo Sanchez Quilez": {
-          "buy": 0.73
+          "buy": 0.72
         }
       }
     },
@@ -9094,7 +9692,7 @@
       "ref": "KXVALORANTGAME-26AUG081700SENKRU",
       "sides": {
         "Sentinels": {
-          "buy": 0.75
+          "buy": 0.74
         },
         "KR\u00dc Esports": {
           "buy": 0.27
@@ -9136,7 +9734,7 @@
           "buy": 0.51
         },
         "Dina Thorslund": {
-          "buy": 0.51
+          "buy": 0.5
         }
       }
     },
@@ -9146,10 +9744,10 @@
       "ref": "KXITFWDOUBLES-26AUG08SCHVIGKONLAB",
       "sides": {
         "Schaedel / Vig": {
-          "buy": 0.73
+          "buy": 0.02
         },
         "Konishi Camargo Silva / Labrana": {
-          "buy": 0.8
+          "buy": 0.01
         }
       }
     },
@@ -9198,10 +9796,10 @@
       "ref": "KXCS2GAME-26AUG081600PAINAALKAA",
       "sides": {
         "paiN Academy": {
-          "buy": 0.32
+          "buy": 0.34
         },
         "ALKA": {
-          "buy": 0.67
+          "buy": 0.65
         }
       }
     },
@@ -9237,10 +9835,10 @@
       "ref": "KXWTADOUBLES-26AUG08SINZHAGAUMCC",
       "sides": {
         "Katerina Siniakova / Shuai Zhang": {
-          "buy": 0.61
+          "buy": 0.59
         },
         "Coco Gauff / Caty McNally": {
-          "buy": 0.42
+          "buy": 0.49
         }
       }
     },
@@ -9250,10 +9848,10 @@
       "ref": "KXCS2MAP-26AUG081600PAINAALKAA-2",
       "sides": {
         "paiN Academy": {
-          "buy": 0.34
+          "buy": 0.38
         },
         "ALKA": {
-          "buy": 0.67
+          "buy": 0.66
         }
       }
     },
@@ -9263,7 +9861,7 @@
       "ref": "KXCS2MAP-26AUG081600PAINAALKAA-1",
       "sides": {
         "paiN Academy": {
-          "buy": 0.41
+          "buy": 0.42
         },
         "ALKA": {
           "buy": 0.62
@@ -9276,10 +9874,10 @@
       "ref": "KXCS2GAME-26AUG081500VPPBAS",
       "sides": {
         "VP.Prodigy": {
-          "buy": 0.76
+          "buy": 0.79
         },
         "Basement Bobs": {
-          "buy": 0.38
+          "buy": 0.59
         }
       }
     },
@@ -9289,10 +9887,10 @@
       "ref": "KXWNBAGAME-26AUG08INDCHI",
       "sides": {
         "Chicago": {
-          "buy": 0.33
+          "buy": 0.19
         },
         "Indiana": {
-          "buy": 0.69
+          "buy": 0.82
         }
       }
     },
@@ -9305,7 +9903,7 @@
           "buy": 0.79
         },
         "OldBoys": {
-          "buy": 0.71
+          "buy": 0.69
         }
       }
     },
@@ -9315,10 +9913,10 @@
       "ref": "KXCEBLGAME-26AUG081530WINFRA",
       "sides": {
         "Fraser Valley Bandits": {
-          "buy": 0.69
+          "buy": 0.79
         },
         "Winnipeg Sea Bears": {
-          "buy": 0.36
+          "buy": 0.32
         }
       }
     },
@@ -9328,10 +9926,10 @@
       "ref": "KXMLBGAME-26AUG081505ATLNYY",
       "sides": {
         "Atlanta": {
-          "buy": 0.59
+          "buy": 0.41
         },
         "New York Y": {
-          "buy": 0.42
+          "buy": 0.6
         }
       }
     },
@@ -9341,10 +9939,10 @@
       "ref": "KXVALORANTGAME-26AUG081400JLEF",
       "sides": {
         "Joblife": {
-          "buy": 0.69
+          "buy": 0.1
         },
         "Eternal Fire": {
-          "buy": 0.31
+          "buy": 0.91
         }
       }
     },
@@ -9367,10 +9965,10 @@
       "ref": "KXT20MATCH-26AUG081400TURCOL",
       "sides": {
         "Colombia": {
-          "buy": 0.85
+          "buy": 0.8
         },
         "Turks And Caicos Islands": {
-          "buy": 0.17
+          "buy": 0.36
         }
       }
     },
@@ -9380,7 +9978,7 @@
       "ref": "KXT20MATCH-26AUG081400PERMEX",
       "sides": {
         "Mexico": {
-          "buy": 0.9
+          "buy": 0.96
         },
         "Peru": {
           "buy": 0.12
@@ -9393,23 +9991,10 @@
       "ref": "KXLOLGAME-26AUG081400LEVLOS",
       "sides": {
         "Leviatan Esports": {
-          "buy": 0.03
+          "buy": 0.01
         },
         "LOS": {
-          "buy": 0.99
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-22T16:00:00Z",
-      "league": "sports",
-      "ref": "KXITFWDOUBLES-26AUG08FERRODANDSAH",
-      "sides": {
-        "Fernanda Navarro / Rodriguez": {
-          "buy": 0.34
-        },
-        "Andreea Herea / Sahdiieva": {
-          "buy": 0.68
+          "buy": 0.01
         }
       }
     },
@@ -9419,10 +10004,10 @@
       "ref": "KXITFDOUBLES-26AUG08LEIANDPAGEDU",
       "sides": {
         "Leite / Andre Saraiva Dos Santos": {
-          "buy": 0.62
+          "buy": 0.01
         },
         "Pagotto / Eduardo Schiessl": {
-          "buy": 0.57
+          "buy": 0.01
         }
       }
     },
@@ -9432,10 +10017,10 @@
       "ref": "KXDOTA2GAME-26AUG081400LYNXLVLUP",
       "sides": {
         "Team Lynx": {
-          "buy": 0.15
+          "buy": 0.31
         },
         "Level UP": {
-          "buy": 0.88
+          "buy": 0.73
         }
       }
     },
@@ -9445,10 +10030,10 @@
       "ref": "KXDOTA2GAME-26AUG081400JENAMA",
       "sides": {
         "Team Jenz": {
-          "buy": 0.45
+          "buy": 0.25
         },
         "Amaru Gaming": {
-          "buy": 0.59
+          "buy": 0.88
         }
       }
     },
@@ -9484,10 +10069,10 @@
       "ref": "KXCODMAP-26AUG081400OGFAZ-2",
       "sides": {
         "OpTic Gaming": {
-          "buy": 0.54
+          "buy": 0.53
         },
         "FaZe Clan": {
-          "buy": 0.59
+          "buy": 0.58
         }
       }
     },
@@ -9500,7 +10085,7 @@
           "buy": 0.5
         },
         "FaZe Clan": {
-          "buy": 0.49
+          "buy": 0.51
         }
       }
     },
@@ -9510,10 +10095,10 @@
       "ref": "KXCODGAME-26AUG081400OGFAZ",
       "sides": {
         "OpTic Gaming": {
-          "buy": 0.52
+          "buy": 0.53
         },
         "FaZe Clan": {
-          "buy": 0.5
+          "buy": 0.49
         }
       }
     },
@@ -9523,10 +10108,10 @@
       "ref": "KXCFLGAME-26AUG08EDMMTL",
       "sides": {
         "Montreal Alouettes": {
-          "buy": 0.68
+          "buy": 0.72
         },
         "Edmonton Elks": {
-          "buy": 0.33
+          "buy": 0.3
         }
       }
     },
@@ -9536,10 +10121,10 @@
       "ref": "KXBOXING-26AUG08AZIMMARTIN",
       "sides": {
         "Hassan Azim": {
-          "buy": 0.94
+          "buy": 0.92
         },
         "Jack Martin": {
-          "buy": 0.09
+          "buy": 0.69
         }
       }
     },
@@ -9549,10 +10134,10 @@
       "ref": "KXATPCHALLENGERMATCH-26AUG08JOHILA",
       "sides": {
         "Spencer Johnson": {
-          "buy": 0.62
+          "buy": 0.56
         },
         "Andre Ilagan": {
-          "buy": 0.39
+          "buy": 0.44
         }
       }
     },
@@ -9562,10 +10147,10 @@
       "ref": "KXATPCHALLENGERMATCH-26AUG08BUTLAJ",
       "sides": {
         "Edas Butvilas": {
-          "buy": 0.55
+          "buy": 0.78
         },
         "Dusan Lajovic": {
-          "buy": 0.47
+          "buy": 0.23
         }
       }
     },
@@ -9575,7 +10160,7 @@
       "ref": "KXUCLWADVANCE-26AUG08SMYCZS",
       "sides": {
         "Spartak Myjava advances": {
-          "buy": 0.75
+          "buy": 0.2
         },
         "Czarni Sosnowiec advances": {
           "buy": 0.87
@@ -9588,10 +10173,10 @@
       "ref": "KXUCLWADVANCE-26AUG08SLABRO",
       "sides": {
         "Slavia Prague advances": {
-          "buy": 0.75
+          "buy": 0.81
         },
         "Broendby advances": {
-          "buy": 0.75
+          "buy": 0.79
         }
       }
     },
@@ -9614,23 +10199,10 @@
       "ref": "KXITFWMATCH-26AUG08HONSCO",
       "sides": {
         "Mai Hontama": {
-          "buy": 0.43
+          "buy": 0.41
         },
         "Katrina Scott": {
           "buy": 0.58
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-11T00:30:00Z",
-      "league": "sports",
-      "ref": "KXCOPPAITALIAFTTS-26AUG08ASCPOT",
-      "sides": {
-        "Potenza Calcio": {
-          "buy": 0.99
-        },
-        "No Goal": {
-          "buy": 0.99
         }
       }
     },
@@ -9640,7 +10212,7 @@
       "ref": "KXCOPPAITALIAADVANCE-26AUG08ASCPOT",
       "sides": {
         "Ascoli advances": {
-          "buy": 0.72
+          "buy": 0.81
         },
         "Potenza advances": {
           "buy": 0.49
@@ -9653,10 +10225,10 @@
       "ref": "KXITFWMATCH-26AUG08VANBRA",
       "sides": {
         "Hanne Vandewinkel": {
-          "buy": 0.69
+          "buy": 0.66
         },
         "Reese Brantmeier": {
-          "buy": 0.31
+          "buy": 0.34
         }
       }
     },
@@ -9666,23 +10238,10 @@
       "ref": "KXLOLGAME-26AUG081315GXMKOI",
       "sides": {
         "GIANTX": {
-          "buy": 0.58
+          "buy": 0.01
         },
         "Movistar KOI": {
-          "buy": 0.43
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-10T18:00:00Z",
-      "league": "sports",
-      "ref": "KXVALORANTMAP-26AUG081400JLEF-2",
-      "sides": {
-        "Joblife": {
-          "buy": 0.48
-        },
-        "Eternal Fire": {
-          "buy": 0.58
+          "buy": 0.01
         }
       }
     },
@@ -9692,10 +10251,10 @@
       "ref": "KXVALORANTGAME-26AUG081300LOSAAR",
       "sides": {
         "Lost Puppies GC": {
-          "buy": 0.24
+          "buy": 0.01
         },
         "ALTERNATE aTTaX Ruby": {
-          "buy": 0.75
+          "buy": 0.01
         }
       }
     },
@@ -9705,23 +10264,10 @@
       "ref": "KXUCLWADVANCE-26AUG08OHLFEN",
       "sides": {
         "Leuven advances": {
-          "buy": 0.71
+          "buy": 0.72
         },
         "Fenerbahce Istanbul advances": {
-          "buy": 0.89
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-10T18:00:00Z",
-      "league": "sports",
-      "ref": "KXLOLMAP-26AUG081400LEVLOS-2",
-      "sides": {
-        "Leviatan Esports": {
-          "buy": 0.09
-        },
-        "LOS": {
-          "buy": 0.95
+          "buy": 0.9
         }
       }
     },
@@ -9731,10 +10277,10 @@
       "ref": "KXHUNDREDMATCH-26AUG081300MSGSOU",
       "sides": {
         "Southern Brave": {
-          "buy": 0.26
+          "buy": 0.03
         },
         "Manchester Super Giants": {
-          "buy": 0.75
+          "buy": 0.98
         }
       }
     },
@@ -9744,10 +10290,10 @@
       "ref": "KXDOTA2MAP-26AUG081400LYNXLVLUP-2",
       "sides": {
         "Team Lynx": {
-          "buy": 0.34
+          "buy": 0.79
         },
         "Level UP": {
-          "buy": 0.7
+          "buy": 0.23
         }
       }
     },
@@ -9757,23 +10303,10 @@
       "ref": "KXDOTA2MAP-26AUG081400JENAMA-2",
       "sides": {
         "Team Jenz": {
-          "buy": 0.4
+          "buy": 0.25
         },
         "Amaru Gaming": {
-          "buy": 0.66
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-10T18:00:00Z",
-      "league": "sports",
-      "ref": "KXDOTA2MAP-26AUG081400JENAMA-1",
-      "sides": {
-        "Team Jenz": {
-          "buy": 0.3
-        },
-        "Amaru Gaming": {
-          "buy": 0.29
+          "buy": 0.91
         }
       }
     },
@@ -9783,10 +10316,10 @@
       "ref": "KXCS2GAME-26AUG081300UNOCHAMA",
       "sides": {
         "UNO MILLE": {
-          "buy": 0.21
+          "buy": 0.01
         },
         "BORRACHEIROS": {
-          "buy": 0.8
+          "buy": 0.01
         }
       }
     },
@@ -9812,7 +10345,7 @@
           "buy": 0.42
         },
         "Callum Simpson": {
-          "buy": 0.6
+          "buy": 0.59
         }
       }
     },
@@ -9822,10 +10355,10 @@
       "ref": "KXBOXING-26AUG08WARDKASPAR",
       "sides": {
         "Joseph Ward": {
-          "buy": 0.66
+          "buy": 0.68
         },
         "Artjom Kasparian": {
-          "buy": 0.36
+          "buy": 0.34
         }
       }
     },
@@ -9838,20 +10371,7 @@
           "buy": 0.89
         },
         "Tyler Denny": {
-          "buy": 0.13
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-22T18:00:00Z",
-      "league": "sports",
-      "ref": "KXBOXING-26AUG08SILVACHRIST",
-      "sides": {
-        "Mauro Silva": {
-          "buy": 0.01
-        },
-        "Tyler Christopher": {
-          "buy": 0.01
+          "buy": 0.12
         }
       }
     },
@@ -9864,7 +10384,7 @@
           "buy": 0.81
         },
         "Etinosa Oliha": {
-          "buy": 0.2
+          "buy": 0.19
         }
       }
     },
@@ -9877,7 +10397,7 @@
           "buy": 0.92
         },
         "Sean Hemphill": {
-          "buy": 0.1
+          "buy": 0.11
         }
       }
     },
@@ -9887,62 +10407,10 @@
       "ref": "KXATPDOUBLES-26AUG08ARNMUSANDGUI",
       "sides": {
         "Matteo Arnaldi / Lorenzo Musetti": {
-          "buy": 0.62
+          "buy": 0.14
         },
         "Guido Andreozzi / Manuel Guinard": {
-          "buy": 0.5
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-10T17:15:00Z",
-      "league": "sports",
-      "ref": "KXLOLMAP-26AUG081315GXMKOI-2",
-      "sides": {
-        "GIANTX": {
-          "buy": 0.39
-        },
-        "Movistar KOI": {
-          "buy": 0.64
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-10T17:00:00Z",
-      "league": "sports",
-      "ref": "KXWNBAGAME-26AUG08LVMIN",
-      "sides": {
-        "Minnesota": {
-          "buy": 0.98
-        },
-        "Las Vegas": {
-          "buy": 0.03
-        }
-      }
-    },
-    {
-      "game_time": "2026-09-05T17:00:00Z",
-      "league": "sports",
-      "ref": "KXUCLWADVANCE-26AUG08SGEMAL",
-      "sides": {
-        "Frankfurt advances": {
-          "buy": 0.25
-        },
-        "Malmo FF advances": {
-          "buy": 0.25
-        }
-      }
-    },
-    {
-      "game_time": "2026-09-05T17:00:00Z",
-      "league": "sports",
-      "ref": "KXUCLWADVANCE-26AUG08PSVHJK",
-      "sides": {
-        "Eindhoven advances": {
-          "buy": 0.01
-        },
-        "HJK Helsinki advances": {
-          "buy": 0.01
+          "buy": 0.91
         }
       }
     },
@@ -9952,23 +10420,10 @@
       "ref": "KXCEBLGAME-26AUG081300HAMNIA",
       "sides": {
         "Niagara River Lions": {
-          "buy": 0.18
+          "buy": 0.01
         },
         "Hamilton Honey Badgers": {
-          "buy": 0.85
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-22T17:00:00Z",
-      "league": "sports",
-      "ref": "KXATPCHALLENGERMATCH-26AUG08NESPAP",
-      "sides": {
-        "Pyotr Nesterov": {
-          "buy": 0.96
-        },
-        "Radu Mihai Papoe": {
-          "buy": 0.05
+          "buy": 0.01
         }
       }
     },
@@ -9978,10 +10433,10 @@
       "ref": "KXATPSETWINNER-26AUG08RINNAK-2",
       "sides": {
         "Arthur Rinderknech": {
-          "buy": 0.43
+          "buy": 0.39
         },
         "Brandon Nakashima": {
-          "buy": 0.64
+          "buy": 0.62
         }
       }
     },
@@ -9991,10 +10446,10 @@
       "ref": "KXATPSETWINNER-26AUG08RINNAK-1",
       "sides": {
         "Arthur Rinderknech": {
-          "buy": 0.4
+          "buy": 0.39
         },
         "Brandon Nakashima": {
-          "buy": 0.63
+          "buy": 0.65
         }
       }
     },
@@ -10082,10 +10537,10 @@
       "ref": "KXATPMATCH-26AUG08RINNAK",
       "sides": {
         "Arthur Rinderknech": {
-          "buy": 0.36
+          "buy": 0.34
         },
         "Brandon Nakashima": {
-          "buy": 0.66
+          "buy": 0.68
         }
       }
     },
@@ -10125,19 +10580,6 @@
         },
         "Cameron Norrie": {
           "buy": 0.3
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-22T16:30:00Z",
-      "league": "sports",
-      "ref": "KXATPMATCH-26AUG08BORDAR",
-      "sides": {
-        "Nuno Borges": {
-          "buy": 0.16
-        },
-        "Luciano Darderi": {
-          "buy": 0.85
         }
       }
     },
@@ -10212,10 +10654,10 @@
       "ref": "KXWTASETWINNER-26AUG08PEGSHN-2",
       "sides": {
         "Jessica Pegula": {
-          "buy": 0.72
+          "buy": 0.65
         },
         "Diana Shnaider": {
-          "buy": 0.35
+          "buy": 0.38
         }
       }
     },
@@ -10225,10 +10667,10 @@
       "ref": "KXWTASETWINNER-26AUG08PEGSHN-1",
       "sides": {
         "Jessica Pegula": {
-          "buy": 0.69
+          "buy": 0.09
         },
         "Diana Shnaider": {
-          "buy": 0.35
+          "buy": 0.92
         }
       }
     },
@@ -10264,23 +10706,10 @@
       "ref": "KXWTAMATCH-26AUG08PEGSHN",
       "sides": {
         "Jessica Pegula": {
-          "buy": 0.75
+          "buy": 0.48
         },
         "Diana Shnaider": {
-          "buy": 0.27
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-22T14:40:00Z",
-      "league": "sports",
-      "ref": "KXCODMAP-26AUG081040M8FAL-4",
-      "sides": {
-        "Gentle Mates": {
-          "buy": 0.51
-        },
-        "Team Falcons": {
-          "buy": 0.54
+          "buy": 0.53
         }
       }
     },
@@ -10290,10 +10719,10 @@
       "ref": "KXCODGAME-26AUG081040M8FAL",
       "sides": {
         "Gentle Mates": {
-          "buy": 0.66
+          "buy": 0.72
         },
         "Team Falcons": {
-          "buy": 0.37
+          "buy": 0.32
         }
       }
     },
@@ -10313,38 +10742,12 @@
     {
       "game_time": "2026-08-10T17:30:00Z",
       "league": "sports",
-      "ref": "KXT20MATCH-26AUG080930PERPAN",
-      "sides": {
-        "Panama": {
-          "buy": 0.01
-        },
-        "Peru": {
-          "buy": 0.01
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-10T17:30:00Z",
-      "league": "sports",
       "ref": "KXT20MATCH-26AUG080930OUTCEN",
       "sides": {
         "Central Delhi Kings": {
           "buy": 0.01
         },
         "Outer Delhi Warriors": {
-          "buy": 0.01
-        }
-      }
-    },
-    {
-      "game_time": "2026-08-10T17:00:00Z",
-      "league": "sports",
-      "ref": "KXT20MATCH-26AUG080900VCCHCC",
-      "sides": {
-        "HCC": {
-          "buy": 0.01
-        },
-        "Vcc": {
           "buy": 0.01
         }
       }
@@ -10407,10 +10810,10 @@
       "ref": "KXATPDOUBLES-26AUG07HELPATGORRUU",
       "sides": {
         "Harri Heliovaara / Henry Patten": {
-          "buy": 0.85
+          "buy": 0.81
         },
         "Andre Goransson / Casper Ruud": {
-          "buy": 0.19
+          "buy": 0.24
         }
       }
     },
@@ -10420,10 +10823,10 @@
       "ref": "KXCS2GAME-26AUG071100NEWOLD",
       "sides": {
         "NEW VISION": {
-          "buy": 0.5
+          "buy": 0.51
         },
         "OldBoys": {
-          "buy": 0.6
+          "buy": 0.51
         }
       }
     },
@@ -10433,7 +10836,7 @@
       "ref": "KXITFWDOUBLES-26AUG06CRADANBROCOL",
       "sides": {
         "Crawley / Daniel": {
-          "buy": 0.26
+          "buy": 0.25
         },
         "Broadus / Collins": {
           "buy": 0.75
@@ -10446,10 +10849,10 @@
       "ref": "KXITFWDOUBLES-26AUG06PROSHYHARHEW",
       "sides": {
         "Prozorova / Shymanovich": {
-          "buy": 0.75
+          "buy": 0.58
         },
         "Harrison / Hewitt": {
-          "buy": 0.59
+          "buy": 0.49
         }
       }
     },
@@ -10643,10 +11046,10 @@
       "ref": "mlb-stl-chc-2026-08-14",
       "sides": {
         "St. Louis Cardinals": {
-          "buy": 0.505
+          "buy": 0.5
         },
         "Chicago Cubs": {
-          "buy": 0.495
+          "buy": 0.5
         }
       }
     },
@@ -10890,10 +11293,10 @@
       "ref": "mlb-mil-sd-2026-08-12",
       "sides": {
         "Milwaukee Brewers": {
-          "buy": 0.5
+          "buy": 0.495
         },
         "San Diego Padres": {
-          "buy": 0.5
+          "buy": 0.505
         }
       }
     },
@@ -11189,10 +11592,10 @@
       "ref": "mlb-mil-sd-2026-08-10",
       "sides": {
         "Milwaukee Brewers": {
-          "buy": 0.505
+          "buy": 0.51
         },
         "San Diego Padres": {
-          "buy": 0.495
+          "buy": 0.49
         }
       }
     },
@@ -11293,10 +11696,10 @@
       "ref": "nfl-was-phi-2026-09-13",
       "sides": {
         "Commanders": {
-          "buy": 0.35
+          "buy": 0.34
         },
         "Eagles": {
-          "buy": 0.65
+          "buy": 0.66
         }
       }
     },
@@ -11410,10 +11813,10 @@
       "ref": "nfl-tb-cin-2026-09-13",
       "sides": {
         "Buccaneers": {
-          "buy": 0.375
+          "buy": 0.365
         },
         "Bengals": {
-          "buy": 0.625
+          "buy": 0.635
         }
       }
     },
@@ -11423,10 +11826,10 @@
       "ref": "nfl-dal-nyg-2026-09-14",
       "sides": {
         "Cowboys": {
-          "buy": 0.59
+          "buy": 0.595
         },
         "Giants": {
-          "buy": 0.41
+          "buy": 0.405
         }
       }
     },
@@ -11462,10 +11865,10 @@
       "ref": "nfl-chi-ten-2026-08-29",
       "sides": {
         "Bears": {
-          "buy": 0.495
+          "buy": 0.5
         },
         "Titans": {
-          "buy": 0.505
+          "buy": 0.5
         }
       }
     },
@@ -11514,10 +11917,10 @@
       "ref": "wnba-gsv-chi-2026-08-21",
       "sides": {
         "Golden State Valkyries": {
-          "buy": 0.505
+          "buy": 0.5
         },
         "Chicago Sky": {
-          "buy": 0.495
+          "buy": 0.5
         }
       }
     },
@@ -11917,10 +12320,10 @@
       "ref": "wnba-tor-atl-2026-08-10",
       "sides": {
         "Toronto Tempo": {
-          "buy": 0.235
+          "buy": 0.24
         },
         "Atlanta Dream": {
-          "buy": 0.765
+          "buy": 0.76
         }
       }
     },
@@ -11930,10 +12333,10 @@
       "ref": "wnba-dal-min-2026-08-09",
       "sides": {
         "Dallas Wings": {
-          "buy": 0.305
+          "buy": 0.27
         },
         "Minnesota Lynx": {
-          "buy": 0.695
+          "buy": 0.73
         }
       }
     },
@@ -11956,10 +12359,10 @@
       "ref": "wnba-gsv-la-2026-08-09",
       "sides": {
         "Golden State Valkyries": {
-          "buy": 0.65
+          "buy": 0.67
         },
         "Los Angeles Sparks": {
-          "buy": 0.35
+          "buy": 0.33
         }
       }
     },
@@ -11969,10 +12372,10 @@
       "ref": "wnba-las-nyl-2026-08-09",
       "sides": {
         "Las Vegas Aces": {
-          "buy": 0.455
+          "buy": 0.5
         },
         "New York Liberty": {
-          "buy": 0.545
+          "buy": 0.5
         }
       }
     },
@@ -11982,10 +12385,10 @@
       "ref": "wnba-ind-chi-2026-08-08",
       "sides": {
         "Indiana Fever": {
-          "buy": 0.675
+          "buy": 0.805
         },
         "Chicago Sky": {
-          "buy": 0.325
+          "buy": 0.195
         }
       }
     },
@@ -11995,10 +12398,10 @@
       "ref": "wnba-sea-por-2026-08-08",
       "sides": {
         "Seattle Storm": {
-          "buy": 0.505
+          "buy": 0.515
         },
         "PortlandFire": {
-          "buy": 0.495
+          "buy": 0.485
         }
       }
     },
@@ -12008,10 +12411,10 @@
       "ref": "wnba-las-min-2026-08-08",
       "sides": {
         "Las Vegas Aces": {
-          "buy": 0.0185
+          "buy": 0.0005
         },
         "Minnesota Lynx": {
-          "buy": 0.9815
+          "buy": 0.9995
         }
       }
     }
