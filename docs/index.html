@@ -30,17 +30,17 @@ table{width:100%;border-collapse:collapse;font-size:13px}
 </style></head><body><div class="wrap">
 
 <h1><span class="dot"></span>Live Arbitrage Scanner</h1>
-<div class="sub">Kalshi &harr; Polymarket &middot; all sports &middot; updated <b>2026-08-11 15:13 UTC</b> &middot; auto-refreshes every 5 min</div>
+<div class="sub">Kalshi &harr; Polymarket &middot; all sports &middot; updated <b>2026-08-11 16:12 UTC</b> &middot; auto-refreshes every 5 min</div>
 
 <div class="cards">
-  <div class="kpi"><div class="n">999</div><div class="l">Kalshi games priced</div></div>
+  <div class="kpi"><div class="n">991</div><div class="l">Kalshi games priced</div></div>
   <div class="kpi"><div class="n">110</div><div class="l">Polymarket games priced</div></div>
   <div class="kpi"><div class="n">48</div><div class="l">Same-teams matches</div></div>
-  <div class="kpi"><div class="n" style="color:var(--pos)">1</div><div class="l">Executable arbs now</div></div>
+  <div class="kpi"><div class="n" style="color:var(--warn)">0</div><div class="l">Executable arbs now</div></div>
 </div>
 
 
-<div class="note" style="border-color:var(--pos)"><b>1 executable arb(s) right now</b> — same game on both books with positive fee-adjusted edge. Verify live prices and resolution rules before acting.</div>
+<div class="note"><b>No risk-free arb executable in this snapshot.</b> Any matches below are on different game dates or have edges thinner than fees.</div>
 
 <h2>Matched markets</h2>
 <div class="match">
@@ -121,16 +121,9 @@ table{width:100%;border-collapse:collapse;font-size:13px}
     Gross edge: <span class="pos">+4.0&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="pos">+0.4&cent;</span></div>
 </div><div class="match">
-  <div class="mhead"><span class="teams">MIN/PHI</span> <span class="ok">EXECUTABLE — same game</span></div>
-  <div class="meta">Kalshi: 2026-08-16T23:30:00Z &middot; Polymarket: 2026-08-16 18:10:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Minnesota wins</td><td>0.52</td><td>0.47</td><td><b>buy poly @ 0.47</b></td></tr><tr><td>Philadelphia wins</td><td>0.50</td><td>0.54</td><td><b>buy kalshi @ 0.50</b></td></tr></table>
-  <div class="edge">Buy-both cost: <b>$0.965</b> &nbsp;|&nbsp;
-    Gross edge: <span class="pos">+3.5&cent;</span> &nbsp;|&nbsp;
-    Net of est. fees: <span class="pos">+0.1&cent;</span></div>
-</div><div class="match">
   <div class="mhead"><span class="teams">BOS/TOR</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-15T23:07:00Z &middot; Polymarket: 2026-08-13 19:07:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Boston wins</td><td>0.55</td><td>0.58</td><td><b>buy kalshi @ 0.55</b></td></tr><tr><td>Toronto wins</td><td>0.46</td><td>0.41</td><td><b>buy poly @ 0.41</b></td></tr></table>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Boston wins</td><td>0.55</td><td>0.58</td><td><b>buy kalshi @ 0.55</b></td></tr><tr><td>Toronto wins</td><td>0.47</td><td>0.41</td><td><b>buy poly @ 0.41</b></td></tr></table>
   <div class="edge">Buy-both cost: <b>$0.965</b> &nbsp;|&nbsp;
     Gross edge: <span class="pos">+3.5&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="pos">+0.3&cent;</span></div>
@@ -149,6 +142,13 @@ table{width:100%;border-collapse:collapse;font-size:13px}
     Gross edge: <span class="pos">+3.5&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="pos">+0.3&cent;</span></div>
 </div><div class="match">
+  <div class="mhead"><span class="teams">MIN/PHI</span> <span class="warn">SAME DATE — edge too thin</span></div>
+  <div class="meta">Kalshi: 2026-08-16T23:30:00Z &middot; Polymarket: 2026-08-16 18:10:00+00</div>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Minnesota wins</td><td>0.52</td><td>0.47</td><td><b>buy poly @ 0.47</b></td></tr><tr><td>Philadelphia wins</td><td>0.50</td><td>0.53</td><td><b>buy kalshi @ 0.50</b></td></tr></table>
+  <div class="edge">Buy-both cost: <b>$0.970</b> &nbsp;|&nbsp;
+    Gross edge: <span class="pos">+3.0&cent;</span> &nbsp;|&nbsp;
+    Net of est. fees: <span class="neg">-0.4&cent;</span></div>
+</div><div class="match">
   <div class="mhead"><span class="teams">MIN/PHI</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-16T23:30:00Z &middot; Polymarket: 2026-08-15 23:10:00+00</div>
   <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Minnesota wins</td><td>0.52</td><td>0.48</td><td><b>buy poly @ 0.48</b></td></tr><tr><td>Philadelphia wins</td><td>0.50</td><td>0.52</td><td><b>buy kalshi @ 0.50</b></td></tr></table>
@@ -163,9 +163,23 @@ table{width:100%;border-collapse:collapse;font-size:13px}
     Gross edge: <span class="pos">+2.0&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-1.6&cent;</span></div>
 </div><div class="match">
+  <div class="mhead"><span class="teams">CLE/DET</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
+  <div class="meta">Kalshi: 2026-08-15T22:40:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Cleveland wins</td><td>0.46</td><td>0.48</td><td><b>buy kalshi @ 0.46</b></td></tr><tr><td>Detroit wins</td><td>0.55</td><td>0.52</td><td><b>buy poly @ 0.52</b></td></tr></table>
+  <div class="edge">Buy-both cost: <b>$0.980</b> &nbsp;|&nbsp;
+    Gross edge: <span class="pos">+2.0&cent;</span> &nbsp;|&nbsp;
+    Net of est. fees: <span class="neg">-1.6&cent;</span></div>
+</div><div class="match">
   <div class="mhead"><span class="teams">NYY/SEA</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-14T23:05:00Z &middot; Polymarket: 2026-08-12 23:05:00+00</div>
   <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>New York Y wins</td><td>0.55</td><td>0.52</td><td><b>buy poly @ 0.52</b></td></tr><tr><td>Seattle wins</td><td>0.46</td><td>0.48</td><td><b>buy kalshi @ 0.46</b></td></tr></table>
+  <div class="edge">Buy-both cost: <b>$0.980</b> &nbsp;|&nbsp;
+    Gross edge: <span class="pos">+2.0&cent;</span> &nbsp;|&nbsp;
+    Net of est. fees: <span class="neg">-1.6&cent;</span></div>
+</div><div class="match">
+  <div class="mhead"><span class="teams">CLE/DET</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
+  <div class="meta">Kalshi: 2026-08-14T22:40:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Cleveland wins</td><td>0.46</td><td>0.48</td><td><b>buy kalshi @ 0.46</b></td></tr><tr><td>Detroit wins</td><td>0.55</td><td>0.52</td><td><b>buy poly @ 0.52</b></td></tr></table>
   <div class="edge">Buy-both cost: <b>$0.980</b> &nbsp;|&nbsp;
     Gross edge: <span class="pos">+2.0&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-1.6&cent;</span></div>
@@ -184,26 +198,12 @@ table{width:100%;border-collapse:collapse;font-size:13px}
     Gross edge: <span class="pos">+1.5&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-2.0&cent;</span></div>
 </div><div class="match">
-  <div class="mhead"><span class="teams">CLE/DET</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
-  <div class="meta">Kalshi: 2026-08-15T22:40:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Cleveland wins</td><td>0.46</td><td>0.47</td><td><b>buy kalshi @ 0.46</b></td></tr><tr><td>Detroit wins</td><td>0.55</td><td>0.53</td><td><b>buy poly @ 0.53</b></td></tr></table>
-  <div class="edge">Buy-both cost: <b>$0.985</b> &nbsp;|&nbsp;
-    Gross edge: <span class="pos">+1.5&cent;</span> &nbsp;|&nbsp;
-    Net of est. fees: <span class="neg">-2.1&cent;</span></div>
-</div><div class="match">
   <div class="mhead"><span class="teams">NYY/SEA</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-14T23:05:00Z &middot; Polymarket: 2026-08-13 17:35:00+00</div>
   <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>New York Y wins</td><td>0.55</td><td>0.53</td><td><b>buy poly @ 0.53</b></td></tr><tr><td>Seattle wins</td><td>0.46</td><td>0.47</td><td><b>buy kalshi @ 0.46</b></td></tr></table>
   <div class="edge">Buy-both cost: <b>$0.985</b> &nbsp;|&nbsp;
     Gross edge: <span class="pos">+1.5&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-2.1&cent;</span></div>
-</div><div class="match">
-  <div class="mhead"><span class="teams">MIN/PHI</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
-  <div class="meta">Kalshi: 2026-08-16T23:30:00Z &middot; Polymarket: 2026-08-13 23:30:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Minnesota wins</td><td>0.52</td><td>0.49</td><td><b>buy poly @ 0.49</b></td></tr><tr><td>Philadelphia wins</td><td>0.50</td><td>0.51</td><td><b>buy kalshi @ 0.50</b></td></tr></table>
-  <div class="edge">Buy-both cost: <b>$0.990</b> &nbsp;|&nbsp;
-    Gross edge: <span class="pos">+1.0&cent;</span> &nbsp;|&nbsp;
-    Net of est. fees: <span class="neg">-2.5&cent;</span></div>
 </div><div class="match">
   <div class="mhead"><span class="teams">LAA/TEX</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-16T02:10:00Z &middot; Polymarket: 2026-08-14 02:07:00+00</div>
@@ -225,6 +225,20 @@ table{width:100%;border-collapse:collapse;font-size:13px}
   <div class="edge">Buy-both cost: <b>$0.990</b> &nbsp;|&nbsp;
     Gross edge: <span class="pos">+1.0&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-2.7&cent;</span></div>
+</div><div class="match">
+  <div class="mhead"><span class="teams">MIN/PHI</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
+  <div class="meta">Kalshi: 2026-08-16T23:30:00Z &middot; Polymarket: 2026-08-13 23:30:00+00</div>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Minnesota wins</td><td>0.52</td><td>0.49</td><td><b>buy poly @ 0.49</b></td></tr><tr><td>Philadelphia wins</td><td>0.50</td><td>0.51</td><td><b>buy kalshi @ 0.50</b></td></tr></table>
+  <div class="edge">Buy-both cost: <b>$0.995</b> &nbsp;|&nbsp;
+    Gross edge: <span class="pos">+0.5&cent;</span> &nbsp;|&nbsp;
+    Net of est. fees: <span class="neg">-3.0&cent;</span></div>
+</div><div class="match">
+  <div class="mhead"><span class="teams">MIA/PIT</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
+  <div class="meta">Kalshi: 2026-08-16T17:10:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Miami wins</td><td>0.49</td><td>0.49</td><td><b>buy kalshi @ 0.49</b></td></tr><tr><td>Pittsburgh wins</td><td>0.51</td><td>0.51</td><td><b>buy poly @ 0.51</b></td></tr></table>
+  <div class="edge">Buy-both cost: <b>$0.995</b> &nbsp;|&nbsp;
+    Gross edge: <span class="pos">+0.5&cent;</span> &nbsp;|&nbsp;
+    Net of est. fees: <span class="neg">-3.0&cent;</span></div>
 </div><div class="match">
   <div class="mhead"><span class="teams">KC/LAD</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-16T02:10:00Z &middot; Polymarket: 2026-08-13 02:10:00+00</div>
@@ -271,13 +285,6 @@ table{width:100%;border-collapse:collapse;font-size:13px}
   <div class="mhead"><span class="teams">MIA/PIT</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-14T22:40:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
   <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Miami wins</td><td>0.49</td><td>0.49</td><td><b>buy kalshi @ 0.49</b></td></tr><tr><td>Pittsburgh wins</td><td>0.52</td><td>0.51</td><td><b>buy poly @ 0.51</b></td></tr></table>
-  <div class="edge">Buy-both cost: <b>$0.995</b> &nbsp;|&nbsp;
-    Gross edge: <span class="pos">+0.5&cent;</span> &nbsp;|&nbsp;
-    Net of est. fees: <span class="neg">-3.0&cent;</span></div>
-</div><div class="match">
-  <div class="mhead"><span class="teams">CLE/DET</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
-  <div class="meta">Kalshi: 2026-08-14T22:40:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Cleveland wins</td><td>0.47</td><td>0.47</td><td><b>buy kalshi @ 0.47</b></td></tr><tr><td>Detroit wins</td><td>0.55</td><td>0.53</td><td><b>buy poly @ 0.53</b></td></tr></table>
   <div class="edge">Buy-both cost: <b>$0.995</b> &nbsp;|&nbsp;
     Gross edge: <span class="pos">+0.5&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-3.0&cent;</span></div>
@@ -331,16 +338,9 @@ table{width:100%;border-collapse:collapse;font-size:13px}
     Gross edge: <span class="pos">+0.0&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-3.0&cent;</span></div>
 </div><div class="match">
-  <div class="mhead"><span class="teams">MIA/PIT</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
-  <div class="meta">Kalshi: 2026-08-16T17:10:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Miami wins</td><td>0.51</td><td>0.49</td><td><b>buy poly @ 0.49</b></td></tr><tr><td>Pittsburgh wins</td><td>0.51</td><td>0.51</td><td><b>buy poly @ 0.51</b></td></tr></table>
-  <div class="edge">Buy-both cost: <b>$1.000</b> &nbsp;|&nbsp;
-    Gross edge: <span class="pos">+0.0&cent;</span> &nbsp;|&nbsp;
-    Net of est. fees: <span class="neg">-3.0&cent;</span></div>
-</div><div class="match">
   <div class="mhead"><span class="teams">CLE/DET</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-16T17:10:00Z &middot; Polymarket: 2026-08-13 17:10:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Cleveland wins</td><td>0.48</td><td>0.47</td><td><b>buy poly @ 0.47</b></td></tr><tr><td>Detroit wins</td><td>0.54</td><td>0.53</td><td><b>buy poly @ 0.53</b></td></tr></table>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Cleveland wins</td><td>0.48</td><td>0.48</td><td><b>buy kalshi @ 0.48</b></td></tr><tr><td>Detroit wins</td><td>0.52</td><td>0.52</td><td><b>buy kalshi @ 0.52</b></td></tr></table>
   <div class="edge">Buy-both cost: <b>$1.000</b> &nbsp;|&nbsp;
     Gross edge: <span class="pos">+0.0&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-3.0&cent;</span></div>
@@ -361,7 +361,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}
 </div><div class="match">
   <div class="mhead"><span class="teams">BOS/TOR</span> <span class="warn">DIFFERENT GAME DATE — not executable</span></div>
   <div class="meta">Kalshi: 2026-08-15T23:07:00Z &middot; Polymarket: 2026-08-12 23:07:00+00</div>
-  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Boston wins</td><td>0.55</td><td>0.54</td><td><b>buy poly @ 0.54</b></td></tr><tr><td>Toronto wins</td><td>0.46</td><td>0.46</td><td><b>buy kalshi @ 0.46</b></td></tr></table>
+  <table class="legs"><tr><th>Outcome</th><th>Kalshi ask</th><th>Polymarket ask</th><th>Cheapest side</th></tr><tr><td>Boston wins</td><td>0.55</td><td>0.54</td><td><b>buy poly @ 0.54</b></td></tr><tr><td>Toronto wins</td><td>0.47</td><td>0.46</td><td><b>buy poly @ 0.46</b></td></tr></table>
   <div class="edge">Buy-both cost: <b>$1.000</b> &nbsp;|&nbsp;
     Gross edge: <span class="pos">+0.0&cent;</span> &nbsp;|&nbsp;
     Net of est. fees: <span class="neg">-3.0&cent;</span></div>
